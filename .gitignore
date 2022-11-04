@@ -1,8 +1,6 @@
-voltron.txt
-
-
 # Added by cargo
 
 /target
 
 **/voltron.txt
+**/output.txt

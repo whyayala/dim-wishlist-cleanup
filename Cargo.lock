@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "dim-wishlist-cleanup"
+name = "dim_wishlist_cleanup"
 version = "0.1.0"
