@@ -24,36 +24,55 @@ impl Config {
 
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let wishlist_file: String = fs::read_to_string(config.file_path)?;
-    let mut aggregate_wishlist: Wishlist = Wishlist::new();
+    let mut aggregate_wishlists: HashMap<String, Wishlist> = HashMap::new();
     for wishlist in search(&config.query, &wishlist_file)? {
-        if wishlist.title.contains("BxR-55 Battler (PvP first-choice roll)") {
-            aggregate_wishlist.title = String::from("BxR-55 Battler (PvP first-choice roll)");
-            aggregate_wishlist.rolls = [&aggregate_wishlist.rolls[..], &wishlist.rolls[..]].concat();
-            println!("Wishlist title {}", wishlist.title);
-            println!("    subtitle {}", wishlist.subtitle);
-            println!("    note {}", wishlist.note);
-            println!("    tags {}", wishlist.tags.join(","));
-            println!("    roll count {}", wishlist.rolls.len());
-        }
-    }
-    println!("Final aggregate wishlist:");
-    println!("    roll count: {}", aggregate_wishlist.rolls.len());
-    let mut perk_combos:HashMap<String, i32> = HashMap::new();
-    for roll in aggregate_wishlist.rolls {
-        let perk_combo: String = roll.perks.join(", ");
-        if perk_combos.contains_key(&perk_combo) {
-            perk_combos.insert(perk_combo.to_string(), perk_combos[&perk_combo] + 1)
+        // if wishlist.title.contains("BxR-55 Battler (PvP first-choice roll)") {
+        //     aggregate_wishlist.title = String::from("BxR-55 Battler (PvP first-choice roll)");
+        //     aggregate_wishlist.rolls = [&aggregate_wishlist.rolls[..], &wishlist.rolls[..]].concat();
+        //     println!("Wishlist title {}", wishlist.title);
+        //     println!("    subtitle {}", wishlist.subtitle);
+        //     println!("    note {}", wishlist.note);
+        //     println!("    tags {}", wishlist.tags.join(","));
+        //     println!("    roll count {}", wishlist.rolls.len());
+        // }
+        let borrowed_title = &wishlist.title;
+        let borrowed_tags = &wishlist.tags.join(",");
+        let aggregate_wishlist_hash = format!("{}{}", borrowed_title, borrowed_tags);
+        if aggregate_wishlists.contains_key(&aggregate_wishlist_hash) {
+            let old_wishlist = aggregate_wishlists.get(&aggregate_wishlist_hash).unwrap().to_owned();
+            let old_rolls = &old_wishlist.rolls;
+            let new_rolls = &wishlist.rolls;
+            let new_wishlist = Wishlist {
+                title: old_wishlist.title,
+                subtitle: old_wishlist.subtitle,
+                note: old_wishlist.note,
+                tags: old_wishlist.tags,
+                rolls: [&new_rolls[..], &old_rolls[..]].concat()
+            };
+            aggregate_wishlists.insert(aggregate_wishlist_hash, new_wishlist);
         }
         else {
-            perk_combos.insert(perk_combo, 1)
-        };
-        // println!("{}", roll.text);
-        println!("perks: {} tags: {}", roll.perks.join(", "), roll.tags.join(", "));
+            aggregate_wishlists.insert(aggregate_wishlist_hash, wishlist);
+        }
     }
+    println!("Total aggregate wishlists: {}", aggregate_wishlists.len());
+    // println!("    roll count: {}", aggregate_wishlist.rolls.len());
+    let mut perk_combos:HashMap<String, i32> = HashMap::new();
+    // for roll in aggregate_wishlist.rolls {
+    //     let perk_combo: String = roll.perks.join(", ");
+    //     if perk_combos.contains_key(&perk_combo) {
+    //         perk_combos.insert(perk_combo.to_string(), perk_combos[&perk_combo] + 1)
+    //     }
+    //     else {
+    //         perk_combos.insert(perk_combo, 1)
+    //     };
+    //     // println!("{}", roll.text);
+    //     println!("perks: {} tags: {}", roll.perks.join(", "), roll.tags.join(", "));
+    // }
 
-    for (perk_combo, weight) in perk_combos {
-        println!("Perk combo: {}, weight: {}", perk_combo, weight)
-    }
+    // for (perk_combo, weight) in perk_combos {
+    //     println!("Perk combo: {}, weight: {}", perk_combo, weight)
+    // }
     // println!("Final aggregate wishlist:");
     // println!("Final aggregate wishlist:");
     // println!("Final aggregate wishlist:");
@@ -104,5 +123,6 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Result<Vec<Wishlist>, Box<d
         //     items.push(WishlistItem::new(line)?)
         // }
     }
+    println!("Total valid wishlists: {}", wishlists.len());
     Ok(wishlists)
 }
