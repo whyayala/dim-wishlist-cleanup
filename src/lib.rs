@@ -26,15 +26,6 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let wishlist_file: String = fs::read_to_string(config.file_path)?;
     let mut aggregate_wishlists: HashMap<String, Wishlist> = HashMap::new();
     for wishlist in search(&config.query, &wishlist_file)? {
-        // if wishlist.title.contains("BxR-55 Battler (PvP first-choice roll)") {
-        //     aggregate_wishlist.title = String::from("BxR-55 Battler (PvP first-choice roll)");
-        //     aggregate_wishlist.rolls = [&aggregate_wishlist.rolls[..], &wishlist.rolls[..]].concat();
-        //     println!("Wishlist title {}", wishlist.title);
-        //     println!("    subtitle {}", wishlist.subtitle);
-        //     println!("    note {}", wishlist.note);
-        //     println!("    tags {}", wishlist.tags.join(","));
-        //     println!("    roll count {}", wishlist.rolls.len());
-        // }
         let borrowed_title = &wishlist.title;
         let borrowed_tags = &wishlist.tags.join(",");
         let aggregate_wishlist_hash = format!("{}{}", borrowed_title, borrowed_tags);
@@ -58,6 +49,29 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     println!("Total aggregate wishlists: {}", aggregate_wishlists.len());
     // println!("    roll count: {}", aggregate_wishlist.rolls.len());
     let mut perk_combos:HashMap<String, i32> = HashMap::new();
+    for aggregate_wishlist in aggregate_wishlists {
+        let wishlist = aggregate_wishlist.1.clone();
+        for roll in wishlist.rolls {
+            let cloned_roll = roll.clone();
+            let perk_combo_hash = format!("{}{}", cloned_roll.item_id, cloned_roll.perks.join(""));
+            if perk_combos.contains_key(&perk_combo_hash) {
+                let old_weight = perk_combos.get(&perk_combo_hash).unwrap();
+                perk_combos.insert(perk_combo_hash, old_weight + 1);
+            }
+            else {
+                perk_combos.insert(perk_combo_hash, 1);
+            }
+        }
+    }
+    let mut average_weight: i32 = 0;
+
+    for perk_combo in &perk_combos {
+        if perk_combo.1 > &1 {
+            average_weight += perk_combo.1;
+        }
+    }
+    println!("Total number of rolls: {}", average_weight);
+    println!("Total number of weighted rolls {}", perk_combos.keys().into_iter().len());
     // for roll in aggregate_wishlist.rolls {
     //     let perk_combo: String = roll.perks.join(", ");
     //     if perk_combos.contains_key(&perk_combo) {
