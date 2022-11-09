@@ -48,8 +48,8 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     }
     println!("Total aggregate wishlists: {}", aggregate_wishlists.len());
     // println!("    roll count: {}", aggregate_wishlist.rolls.len());
-    let mut perk_combos:HashMap<String, i32> = HashMap::new();
-    for aggregate_wishlist in aggregate_wishlists {
+    let mut perk_combos:HashMap<String, i128> = HashMap::new();
+    for aggregate_wishlist in &aggregate_wishlists {
         let wishlist = aggregate_wishlist.1.clone();
         for roll in wishlist.rolls {
             let cloned_roll = roll.clone();
@@ -63,33 +63,23 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
             }
         }
     }
-    let mut average_weight: i32 = 0;
+    let mut average_weight: i128 = 0;
 
     for perk_combo in &perk_combos {
-        if perk_combo.1 > &1 {
-            average_weight += perk_combo.1;
-        }
+        average_weight = average_weight + perk_combo.1;
     }
     println!("Total number of rolls: {}", average_weight);
     println!("Total number of weighted rolls {}", perk_combos.keys().into_iter().len());
-    // for roll in aggregate_wishlist.rolls {
-    //     let perk_combo: String = roll.perks.join(", ");
-    //     if perk_combos.contains_key(&perk_combo) {
-    //         perk_combos.insert(perk_combo.to_string(), perk_combos[&perk_combo] + 1)
-    //     }
-    //     else {
-    //         perk_combos.insert(perk_combo, 1)
-    //     };
-    //     // println!("{}", roll.text);
-    //     println!("perks: {} tags: {}", roll.perks.join(", "), roll.tags.join(", "));
-    // }
-
-    // for (perk_combo, weight) in perk_combos {
-    //     println!("Perk combo: {}, weight: {}", perk_combo, weight)
-    // }
-    // println!("Final aggregate wishlist:");
-    // println!("Final aggregate wishlist:");
-    // println!("Final aggregate wishlist:");
+    let mut controller_count = 0;
+    for wishlist in &aggregate_wishlists {
+        let controller_tag = String::from("controller");
+        let mkb_tag = String::from("mkb");
+        let mpluskb_tag = String::from("m+kb");
+        if wishlist.1.tags.contains(&controller_tag) && !(wishlist.1.tags.contains(&mkb_tag) || wishlist.1.tags.contains(&mpluskb_tag)) {
+            controller_count = controller_count + 1;
+        }
+    }
+    println!("Controller count {}", controller_count);
 
     Ok(())
 }
@@ -102,8 +92,8 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Result<Vec<Wishlist>, Box<d
         if line.starts_with("//") {
             let cleaned_line = line.strip_prefix("//").unwrap_or("");
             if cleaned_line.starts_with("notes:") {
-                if cleaned_line.contains("tags:") {
-                    let (notes, tags) = cleaned_line.split_once("tags:").unwrap_or(("", ""));
+                if cleaned_line.contains("|tags:") {
+                    let (notes, tags) = cleaned_line.split_once("|tags:").unwrap_or(("", ""));
                     empty_wishlist.note.push_str(notes);
                     empty_wishlist.add_tags(tags);
                 }
