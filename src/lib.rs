@@ -3,8 +3,9 @@ use std::fs;
 use std::collections::HashMap;
 
 mod structs;
+mod utils;
 use crate::structs::wishlist::*;
-
+use crate::utils::print::print_wishlist_file;
 pub struct Config {
     pub query: String,
     pub file_path: String,
@@ -46,8 +47,7 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
             aggregate_wishlists.insert(aggregate_wishlist_hash, wishlist);
         }
     }
-    println!("Total aggregate wishlists: {}", aggregate_wishlists.len());
-    // println!("    roll count: {}", aggregate_wishlist.rolls.len());
+    println!("//Total aggregate wishlists: {}", aggregate_wishlists.len());
     let mut perk_combos:HashMap<String, i128> = HashMap::new();
     for aggregate_wishlist in &aggregate_wishlists {
         let wishlist = aggregate_wishlist.1.clone();
@@ -68,19 +68,25 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     for perk_combo in &perk_combos {
         average_weight = average_weight + perk_combo.1;
     }
-    println!("Total number of rolls: {}", average_weight);
-    println!("Total number of weighted rolls {}", perk_combos.keys().into_iter().len());
-    let mut controller_count = 0;
+    println!("//Total number of rolls: {}", average_weight);
+    println!("//Total number of weighted rolls {}", perk_combos.keys().into_iter().len());
+    let mut mkb_rolls: Vec<Wishlist> = Vec::from([]);
     for wishlist in &aggregate_wishlists {
         let controller_tag = String::from("controller");
         let mkb_tag = String::from("mkb");
         let mpluskb_tag = String::from("m+kb");
-        if wishlist.1.tags.contains(&controller_tag) && !(wishlist.1.tags.contains(&mkb_tag) || wishlist.1.tags.contains(&mpluskb_tag)) {
-            controller_count = controller_count + 1;
+        if !wishlist.1.tags.contains(&controller_tag) {
+            mkb_rolls.push(wishlist.1.to_owned());
+        }
+        else {
+            if wishlist.1.tags.contains(&mkb_tag) || wishlist.1.tags.contains(&mpluskb_tag) {
+                mkb_rolls.push(wishlist.1.to_owned());
+            }
         }
     }
-    println!("Controller count {}", controller_count);
+    println!("//MKB wishlist count {}", mkb_rolls.len());
 
+    print_wishlist_file(mkb_rolls);
     Ok(())
 }
 
@@ -90,14 +96,16 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Result<Vec<Wishlist>, Box<d
 
     for line in contents.lines() {
         if line.starts_with("//") {
-            let cleaned_line = line.strip_prefix("//").unwrap_or("");
+            let cleaned_line = line.strip_prefix("//").unwrap_or("").trim();
             if cleaned_line.starts_with("notes:") {
                 if cleaned_line.contains("|tags:") {
                     let (notes, tags) = cleaned_line.split_once("|tags:").unwrap_or(("", ""));
                     empty_wishlist.note.push_str(notes);
                     empty_wishlist.add_tags(tags);
                 }
-                empty_wishlist.note.push_str(cleaned_line);
+                else {
+                    empty_wishlist.note.push_str(cleaned_line);
+                }
             }
             else {
                 if empty_wishlist.title.is_empty() {
@@ -127,6 +135,6 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Result<Vec<Wishlist>, Box<d
         //     items.push(WishlistItem::new(line)?)
         // }
     }
-    println!("Total valid wishlists: {}", wishlists.len());
+    println!("//Total valid wishlists: {}", wishlists.len());
     Ok(wishlists)
 }
