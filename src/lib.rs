@@ -6,6 +6,8 @@ mod structs;
 mod utils;
 use crate::structs::wishlist::*;
 use crate::utils::print::print_wishlist_file;
+
+// const COMMUNITY_MEMBERS: [&'static str; 3] = ["Hello", "World", "!"];
 pub struct Config {
     pub query: String,
     pub file_path: String,
