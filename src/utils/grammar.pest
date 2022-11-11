@@ -1,0 +1,17 @@
+WHITESPACE = _{ " " }
+
+id = {ASCII_DIGIT+}
+perks = {id ~ ("," ~ id)+}
+
+start_of_roll = _{"dimwishlist"}
+item_key = _{":item="}
+perks_key = _{"&perks="}
+notes_key = _{"#notes:"}
+notes_value = {ASCII_ALPHANUMERIC+ ~ ("'" ~ ASCII_ALPHANUMERIC{1})? ~ " "? ~ ASCII_ALPHANUMERIC+ ~ "."?}
+masterwork_key = _{"Recommended MW -"}
+masterwork = {ASCII_ALPHA+ ~ ("/" ~ ASCII_ALPHA+)*}
+notes = _{notes_key ~ notes_value? ~ (masterwork_key ~ masterwork)? }
+end_of_roll = _{(notes ~ NEWLINE) | NEWLINE}
+
+roll = { start_of_roll ~ item_key ~ id ~ perks_key ~ perks ~ end_of_roll?}
+rolls = {roll+}
