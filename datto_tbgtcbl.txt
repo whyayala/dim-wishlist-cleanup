@@ -1,0 +1,3 @@
+// IKELOS_SMG_V1.0.3
+//notes:Datto (PvE): https://www.youtube.com/watch?v=4oNEd8Fbbl4|tags:pve
+dimwishlist:item=2149683300&perks=2779035018,2173046394
