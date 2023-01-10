@@ -1,2 +1,2 @@
-dimwishlist:item=1903182562&perks=3809316345,3798852852
+dimwishlist:item=1903182562&perks=3809316345
 

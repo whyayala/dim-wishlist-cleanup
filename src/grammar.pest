@@ -1,0 +1,19 @@
+WHITESPACE = _{ " " }
+
+id = {ASCII_DIGIT+}
+ids = {id ~ ("," ~ id)+}
+
+start_of_roll = _{"dimwishlist"}
+
+item_key = _{":item="}
+item = _{item_key ~ id}
+
+perks_key = _{"&perks="}
+perks = {perks_key ~ ids}
+
+notes_key = _{"#notes:"}
+
+notes = {(!notes_key ~ !NEWLINE ~ ANY)* }
+
+roll = { start_of_roll ~ item ~ perks ~ (notes_key ~ notes)? ~ NEWLINE}
+rolls = {roll+}
