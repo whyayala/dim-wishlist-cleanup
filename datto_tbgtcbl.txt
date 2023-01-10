@@ -1,0 +1,18 @@
+// IKELOS_SMG_V1.0.3
+//notes:Datto (PvE): https://www.youtube.com/watch?v=4oNEd8Fbbl4|tags:pve
+dimwishlist:item=2149683300&perks=2779035018,2173046394
+
+// Calus Mini-tool
+//notes:Datto (PvE): https://www.youtube.com/watch?v=4oNEd8Fbbl4|tags:pve
+dimwishlist:item=2490988246&perks=3108830275,4293542123
+dimwishlist:item=2490988246&perks=4071163871,4293542123
+dimwishlist:item=2490988246&perks=1631667848,4293542123
+
+// Bump in the night
+//notes:Datto (PvE): If you do go for boss damage you're looking at Demolitionist and Chill Clip OR Frenzy, depending on if anyone else on your team is using chill clip ... you just want one. https://www.youtube.com/watch?v=4oNEd8Fbbl4|tags:pve
+dimwishlist:item=1959650777&perks=286956909,2978966579
+dimwishlist:item=1959650777&perks=3523296417,2978966579
+dimwishlist:item=1959650777&perks=3977735242,2978966579
+dimwishlist:item=1959650777&perks=286956909,4104185692
+dimwishlist:item=1959650777&perks=3523296417,4104185692
+dimwishlist:item=1959650777&perks=3977735242,4104185692

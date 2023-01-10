@@ -1,0 +1,17 @@
+// Stay Frosty
+//notes:Ascendant Nomad (PvE): Adaptive Munitions could be interesting for GMS but then you know new purpose exists and it hits harder|tags:pve
+dimwishlist:item=2812100428&perks=1195158366,1048183818
+dimwishlist:item=2812100428&perks=588594999,1048183818
+dimwishlist:item=2812100428&perks=2416023159,1048183818
+dimwishlist:item=2812100428&perks=2946784966,1048183818
+
+// Stay Frosty
+//notes:Ascendant Nomad (PvP): (Any), (Any), (Offhand Strike, Tunnel Vision, Moving Target, Encore), (Kill Clip, Desperado) [Kill Clip] by far and away the best damage perk here because it does turn it into a two burst. For people who can aim who can position themselves right [Desperado] is a fantastic perk [...] for everyone else [...] I think kill clip is a better perk|tags:pvp
+dimwishlist:item=2812100428&perks=1195158366,3047969693
+dimwishlist:item=2812100428&perks=588594999,3047969693
+dimwishlist:item=2812100428&perks=2416023159,3047969693
+dimwishlist:item=2812100428&perks=2946784966,3047969693
+dimwishlist:item=2812100428&perks=1195158366,1015611457
+dimwishlist:item=2812100428&perks=588594999,1015611457
+dimwishlist:item=2812100428&perks=2416023159,1015611457
+dimwishlist:item=2812100428&perks=2946784966,1015611457
