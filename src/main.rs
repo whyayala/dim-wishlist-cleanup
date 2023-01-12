@@ -5,6 +5,7 @@ extern crate pest_derive;
 use pest::Parser;
 use std::env;
 use std::process::exit;
+use std::fs;
 
 use dim_wishlist_cleanup::Config;
 
@@ -19,15 +20,26 @@ fn main() {
         exit(1);
     });
 
-    let wishlist_items = WishlistParser::parse(Rule::rolls, &config.file_path).unwrap();
-    
-    for line in wishlist_items.into_iter() {
-        print!("{}", line)
-    }
-
-
-    if let Err(e) = dim_wishlist_cleanup::run(config) {
-        println!("Application error: {e}");
+    let file_contents = fs::read_to_string(&config.file_path).unwrap_or_else(|err| {
+        println!("Problem reading file to memory: {err}");
         exit(1);
-    }
+    }).to_owned();
+
+    let wishlist= WishlistParser::parse(Rule::wishlist, &file_contents).unwrap_or_else(|err| {
+        println!("Problem parsing wishlist file: {err}");
+        exit(1);
+    });
+    
+    print!("{}", wishlist);
+
+    // for line in wishlist.into_iter() {
+    //     print!("{}", line);
+    //     print!("\n");
+    // }
+
+
+    // if let Err(e) = dim_wishlist_cleanup::run(config) {
+    //     println!("Application error: {e}");
+    //     exit(1);
+    // }
 }
