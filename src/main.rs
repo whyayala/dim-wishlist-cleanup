@@ -3,7 +3,6 @@ extern crate pest;
 extern crate pest_derive;
 
 use pest::Parser;
-use pest::iterators::Pairs;
 use std::env;
 use std::process::exit;
 use std::fs;
@@ -36,7 +35,7 @@ fn main() {
         if cloned_line.as_rule() == Rule::wishlist_title || cloned_line.as_rule() == Rule::wishlist_description {
             
         }
-        print!("{}", line.into_inner());
+        print!("{}", line.into_inner().as_str());
         print!("\n");
     }
 

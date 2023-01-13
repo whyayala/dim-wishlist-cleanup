@@ -4,8 +4,8 @@ AT = _{"@"}
 id = {ASCII_DIGIT+}
 ids = _{id ~ ("," ~ id)+}
 
-wishlist_title = {AT? ~ "title:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
-wishlist_description = {AT? ~ "description:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
+title = _{(AT | "//")? ~ "title:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
+description = _{(AT | "//")? ~ "description:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
 
 start_of_roll = _{"dimwishlist:"}
 
@@ -15,19 +15,28 @@ item = _{item_key ~ id}
 perks_key = _{"perks="}
 perks = {perks_key ~ ids}
 
-notes_key = _{"#notes:"}
+notes_key = _{("#" | "@" | "//")? ~ "notes:"}
 
 notes = {(!notes_key ~ !NEWLINE ~ ANY)* }
 
 roll = { start_of_roll ~ item ~ "&" ~ perks ~ (notes_key ~ notes)? ~ NEWLINE}
-rolls = {roll+}
+rolls = {roll*}
 
-comment = _{"//" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
-weapon_name = {comment}
+comment = _{("/" | "(") ~ (!start_of_roll ~ (!NEWLINE ~ ANY)* ~ NEWLINE)+}
+weapon_name = {comment?}
 weapon_notes = {comment*}
 
-weapon_roll = {weapon_name ~ weapon_notes ~ rolls}
+weapon_roll = {weapon_name ~ weapon_notes ~ rolls ~ NEWLINE}
 
-wishlist = {wishlist_title ~ wishlist_description ~ (NEWLINE* ~ weapon_roll)+}
+source_comment = {("//taken from" | "// taken from" | "// originally" | "// sourced from") ~ (!NEWLINE ~ ANY)* ~ NEWLINE*}
 
-voltron = {wishlist_title ~ wishlist_description ~ NEWLINE* ~ (NEWLINE* ~ wishlist ~ NEWLINE*)+}
+wishlist_title = {title}
+wishlist_description = {description}
+wishlist_notes = {notes_key ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
+start_of_wishlist = {((("//" | "decription:") ~ (!NEWLINE ~ ANY)* ~ NEWLINE{2}) | wishlist_title | wishlist_description | source_comment | wishlist_notes | NEWLINE)*}
+
+wishlist = {start_of_wishlist ~ (NEWLINE* ~ weapon_roll)+}
+
+voltron_title = _{title}
+voltron_description = _{description}
+voltron = _{SOI ~ voltron_title ~ voltron_description ~ (NEWLINE | wishlist)+ ~ EOI}
