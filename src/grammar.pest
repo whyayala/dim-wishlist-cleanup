@@ -1,10 +1,11 @@
 WHITESPACE = _{ " " }
+AT = _{"@"}
 
 id = {ASCII_DIGIT+}
 ids = _{id ~ ("," ~ id)+}
 
-wishlist_title = {"title:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
-wishlist_description = {"description:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
+wishlist_title = {AT? ~ "title:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
+wishlist_description = {AT? ~ "description:" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
 
 start_of_roll = _{"dimwishlist:"}
 
@@ -23,8 +24,10 @@ rolls = {roll+}
 
 comment = _{"//" ~ (!NEWLINE ~ ANY)* ~ NEWLINE}
 weapon_name = {comment}
-weapon_notes = {comment}
+weapon_notes = {comment*}
 
 weapon_roll = {weapon_name ~ weapon_notes ~ rolls}
 
-wishlist = {wishlist_title ~ wishlist_description ~ (NEWLINE ~ weapon_roll)*}
+wishlist = {wishlist_title ~ wishlist_description ~ (NEWLINE* ~ weapon_roll)+}
+
+voltron = {wishlist_title ~ wishlist_description ~ NEWLINE* ~ (NEWLINE* ~ wishlist ~ NEWLINE*)+}

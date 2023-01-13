@@ -3,6 +3,7 @@ extern crate pest;
 extern crate pest_derive;
 
 use pest::Parser;
+use pest::iterators::Pairs;
 use std::env;
 use std::process::exit;
 use std::fs;
@@ -25,17 +26,19 @@ fn main() {
         exit(1);
     }).to_owned();
 
-    let wishlist= WishlistParser::parse(Rule::wishlist, &file_contents).unwrap_or_else(|err| {
+    let wishlist= WishlistParser::parse(Rule::voltron, &file_contents).unwrap_or_else(|err| {
         println!("Problem parsing wishlist file: {err}");
         exit(1);
     });
     
-    print!("{}", wishlist);
-
-    // for line in wishlist.into_iter() {
-    //     print!("{}", line);
-    //     print!("\n");
-    // }
+    for line in wishlist.into_iter() {
+        let cloned_line = line.clone();
+        if cloned_line.as_rule() == Rule::wishlist_title || cloned_line.as_rule() == Rule::wishlist_description {
+            
+        }
+        print!("{}", line.into_inner());
+        print!("\n");
+    }
 
 
     // if let Err(e) = dim_wishlist_cleanup::run(config) {
