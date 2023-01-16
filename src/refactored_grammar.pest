@@ -1,0 +1,15 @@
+WHITESPACE = _{ " " | NEWLINE }
+AT = _{"@"}
+
+tokens = {title | description | perks | dimwishlist_item | notes | tags}
+
+id = {ASCII_DIGIT+}
+ids = _{id ~ ("," ~ id)+}
+
+title = {(AT | "//")? ~ "title:"}
+description = _{(AT | "//")? ~ "description:"}
+notes = _{("#" | AT | "//")? ~ "notes:"}
+perks = _{"&perks="}
+dimwishlist_item = _{"dimwishlist:item="}
+tags = _{"|tags:"}
+
