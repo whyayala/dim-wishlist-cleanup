@@ -1,4 +1,4 @@
-voltron = {voltron_title ~ voltron_description ~ (NEWLINE | wishlist)+}
+voltron = _{voltron_title ~ voltron_description ~ (NEWLINE | wishlist)+}
 wishlist = {start_of_wishlist ~ (NEWLINE* ~ weapon_roll)+}
 
 voltron_title = _{title}
@@ -35,7 +35,11 @@ weapon_roll = {weapon_notes ~ rolls ~ NEWLINE}
 
 source_comment = {("//taken from" | "// taken from" | "// originally" | "// sourced from") ~ (!NEWLINE ~ ANY)* ~ NEWLINE*}
 
-start_of_wishlist = {(wishlist_title | wishlist_description | source_comment | wishlist_notes | NEWLINE)*}
+start_of_wishlist = {
+	(
+		("decription:" ~ text) | wishlist_title | wishlist_description | source_comment | wishlist_notes | NEWLINE
+    )*
+}
 
 
 ids = _{id ~ ("," ~ id)+}

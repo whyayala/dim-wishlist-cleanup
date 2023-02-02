@@ -30,20 +30,20 @@ fn main() {
         exit(1);
     });
     
-    // for line in wishlist.into_iter() {
-    //     let cloned_line = line.clone();
-    //     if cloned_line.as_rule() == Rule::wishlist_title || cloned_line.as_rule() == Rule::wishlist_description {
+    for line in voltron.into_iter() {
+        // let cloned_line = line.clone();
+        // if cloned_line.as_rule() == Rule::wishlist_title || cloned_line.as_rule() == Rule::wishlist_description {
             
-    //     }
-    //     print!("{}", line.into_inner().as_str());
-    // }
-
-    let wishlist_line = voltron.into_iter().last().unwrap();
-    
-    for line in wishlist_line.into_inner() {
-
-        print!("{}", line.into_inner());
+        // }
+        print!("{}", line.as_str());
     }
+
+    // let wishlist_line = voltron.into_iter().last().unwrap();
+    
+    // for line in wishlist_line.into_inner() {
+
+    //     print!("{}", line.into_inner());
+    // }
 
     // if let Err(e) = dim_wishlist_cleanup::run(config) {
     //     println!("Application error: {e}");
