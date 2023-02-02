@@ -11,7 +11,7 @@ use dim_wishlist_cleanup::Config;
 
 #[derive(Parser)]
 #[grammar = "grammar.pest"]
-struct WishlistParser;    
+struct VoltronParser;    
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -25,20 +25,25 @@ fn main() {
         exit(1);
     }).to_owned();
 
-    let wishlist= WishlistParser::parse(Rule::voltron, &file_contents).unwrap_or_else(|err| {
-        println!("Problem parsing wishlist file: {err}");
+    let voltron = VoltronParser::parse(Rule::voltron, &file_contents).unwrap_or_else(|err| {
+        println!("Problem parsing voltron file: {err}");
         exit(1);
     });
     
-    for line in wishlist.into_iter() {
-        let cloned_line = line.clone();
-        if cloned_line.as_rule() == Rule::wishlist_title || cloned_line.as_rule() == Rule::wishlist_description {
+    // for line in wishlist.into_iter() {
+    //     let cloned_line = line.clone();
+    //     if cloned_line.as_rule() == Rule::wishlist_title || cloned_line.as_rule() == Rule::wishlist_description {
             
-        }
-        print!("{}", line.into_inner().as_str());
-        print!("\n");
-    }
+    //     }
+    //     print!("{}", line.into_inner().as_str());
+    // }
 
+    let wishlist_line = voltron.into_iter().last().unwrap();
+    
+    for line in wishlist_line.into_inner() {
+
+        print!("{}", line.into_inner());
+    }
 
     // if let Err(e) = dim_wishlist_cleanup::run(config) {
     //     println!("Application error: {e}");

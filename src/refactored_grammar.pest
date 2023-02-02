@@ -1,10 +1,14 @@
-WHITESPACE = _{ " " | NEWLINE }
-AT = _{"@"}
+// voltron = {}
+// wishlist = {}
 
-tokens = {title | description | perks | dimwishlist_item | notes | tags}
+weapon_roll = {dimwishlist_item ~ id ~ perks ~ ids }
+
+token = {title | description | perks | dimwishlist_item | notes | tags}
 
 id = {ASCII_DIGIT+}
 ids = _{id ~ ("," ~ id)+}
+text = {(!NEWLINE ~ ANY)* ~ NEWLINE}
+comment = _{("/" | "(") ~ (!dimwishlist_item ~ (!NEWLINE ~ ANY)* ~ NEWLINE)+}
 
 title = {(AT | "//")? ~ "title:"}
 description = _{(AT | "//")? ~ "description:"}
@@ -13,3 +17,6 @@ perks = _{"&perks="}
 dimwishlist_item = _{"dimwishlist:item="}
 tags = _{"|tags:"}
 
+
+AT = _{"@"}
+WHITESPACE = _{ " " | "\n" | "\r" | "\t" }
