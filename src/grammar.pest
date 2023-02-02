@@ -1,4 +1,4 @@
-voltron = _{voltron_title ~ voltron_description ~ (NEWLINE | wishlist)+}
+voltron = {voltron_title ~ voltron_description ~ (NEWLINE | wishlist)+}
 wishlist = {start_of_wishlist ~ (NEWLINE* ~ weapon_roll)+}
 
 voltron_title = _{title}
@@ -29,14 +29,13 @@ roll = { start_of_roll ~ item ~ "&" ~ perks ~ (notes_key ~ notes)? ~ NEWLINE}
 rolls = {roll*}
 
 comment = _{("/" | "(") ~ (!start_of_roll ~ text)+}
-weapon_name = {comment?}
 weapon_notes = {comment*}
 
-weapon_roll = {weapon_name ~ weapon_notes ~ rolls ~ NEWLINE}
+weapon_roll = {weapon_notes ~ rolls ~ NEWLINE}
 
 source_comment = {("//taken from" | "// taken from" | "// originally" | "// sourced from") ~ (!NEWLINE ~ ANY)* ~ NEWLINE*}
 
-start_of_wishlist = {((("//" | "decription:") ~ text) | wishlist_title | wishlist_description | source_comment | wishlist_notes | NEWLINE)*}
+start_of_wishlist = {(wishlist_title | wishlist_description | source_comment | wishlist_notes | NEWLINE)*}
 
 
 ids = _{id ~ ("," ~ id)+}
