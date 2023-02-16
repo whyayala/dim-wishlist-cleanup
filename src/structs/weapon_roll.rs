@@ -34,7 +34,8 @@ impl WeaponRoll {
 
     pub fn add_tags_from_text(&mut self, text: &str) -> () {
         let tag_array = Self::get_possible_tags();
-        let exploded_text = explode(text, ",");
+        let cleaned_text = text.replace(&[')', '|'], "");
+        let exploded_text = explode(&cleaned_text, ",");
         for item in exploded_text {
             if tag_array.contains(&item) && !self.tags.contains(&item){
                 self.tags.push(item)

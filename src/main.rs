@@ -23,7 +23,7 @@ fn split_weapon_notes(notes: &str) -> (&str, &str) {
 }
 
 fn is_controller_specific(tags_string: &str) -> bool {
-    tags_string.to_lowercase().contains("controller") && !tags_string.to_lowercase().contains("mkb")
+    tags_string.to_lowercase().contains("controller") && !tags_string.to_lowercase().contains("mkb") && !tags_string.to_lowercase().contains("m+kb")
 }
 
 fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Vec<WeaponRoll> {
@@ -32,6 +32,9 @@ fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Vec<WeaponRoll> {
     weapon_note_and_rolls.fold(
         Vec::from([]),
         |accumulator: Vec<WeaponRoll>, element| {
+            // if is_controller_specific(tags_string) {
+            //     print!("tags were omitted: {}\n", tags_string);
+            // }
             if element.as_rule() == Rule::weapon_notes {
                 (notes_string, tags_string) = split_weapon_notes(element.as_str());
                 accumulator
@@ -71,7 +74,6 @@ fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Vec<WeaponRoll> {
                         accumulator
                     }
                 });
-
                 [accumulator, vec!(new_roll)].concat()
             }
             else {
@@ -101,7 +103,6 @@ fn main() {
         let mut values = get_weapon_rolls(weapon_note_and_rolls);
         for value in &values {
             weapon_roll_hash_table.insert(value.get_weapon_roll_id(), 0);
-            // TODO: Add println to create new voltron.txt
         }
         parsed_weapon_rolls.append(&mut values)
     }
