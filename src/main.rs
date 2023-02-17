@@ -26,20 +26,21 @@ fn is_controller_specific(tags_string: &str) -> bool {
     tags_string.to_lowercase().contains("controller") && !tags_string.to_lowercase().contains("mkb") && !tags_string.to_lowercase().contains("m+kb")
 }
 
+fn is_first_choice(notes_string: &str) -> bool {
+    !notes_string.contains("(PvP backup roll)") && !notes_string.contains("(PvE backup roll)")
+}
+
 fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Vec<WeaponRoll> {
     let mut notes_string: &str = "";
     let mut tags_string: &str = "";
     weapon_note_and_rolls.fold(
         Vec::from([]),
         |accumulator: Vec<WeaponRoll>, element| {
-            // if is_controller_specific(tags_string) {
-            //     print!("tags were omitted: {}\n", tags_string);
-            // }
             if element.as_rule() == Rule::weapon_notes {
                 (notes_string, tags_string) = split_weapon_notes(element.as_str());
                 accumulator
             }
-            else if element.as_rule() == Rule::roll && !is_controller_specific(tags_string) {
+            else if element.as_rule() == Rule::roll && !is_controller_specific(tags_string) && is_first_choice(notes_string) {
                 let roll_id_and_perks = element.into_inner();
                 let new_roll = roll_id_and_perks.fold(
                     WeaponRoll::new(),
