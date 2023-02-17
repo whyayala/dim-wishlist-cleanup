@@ -114,7 +114,8 @@ fn main() {
         // print!("//{}", parsed_weapon_roll.note);
         // print!("tags:{}\n", parsed_weapon_roll.tags.join(", "));
         print!("dimwishlist:item={}", parsed_weapon_roll.item_id);
-        print!("&perks={}\n", parsed_weapon_roll.perks.join(","));
+        print!("&perks={}", parsed_weapon_roll.perks.join(","));
+        print!("#notes=Testing per item notes|tags:{}\n", parsed_weapon_roll.tags.join(","));
     }
     
     // if let Err(e) = dim_wishlist_cleanup::run(config) {
