@@ -9,8 +9,6 @@ fn explode(string: &str, delimiter: &str) -> Vec<String> {
 #[derive(Clone)]
 pub struct WeaponRoll {
     pub item_id: String,
-    pub note: String,
-    pub tags: Vec<String>,
     pub perks: Vec<String>,
 }
 
@@ -32,17 +30,6 @@ impl WeaponRoll {
         String::from("pve-god")
     ]}
 
-    pub fn add_tags_from_text(&mut self, text: &str) -> () {
-        let tag_array = Self::get_possible_tags();
-        let cleaned_text = text.replace(&[')', '|'], "");
-        let exploded_text = explode(&cleaned_text, ",");
-        for item in exploded_text {
-            if tag_array.contains(&item) && !self.tags.contains(&item){
-                self.tags.push(item)
-            }
-        }
-    }
-
     pub fn add_perks_from_text(&mut self, text: &str) -> () {
         let exploded_text = explode(text, ",");
         for item in exploded_text {
@@ -62,8 +49,6 @@ impl WeaponRoll {
     pub fn new() -> WeaponRoll {
         WeaponRoll { 
             item_id: String::from(""),
-            note: String::from(""),
-            tags: Vec::from([]),
             perks: Vec::from([]),
         }
     }
