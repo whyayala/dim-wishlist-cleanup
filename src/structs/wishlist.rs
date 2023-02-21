@@ -23,9 +23,9 @@ impl Wishlist {
         String::from("controller"),
         String::from("pvp-duelling"),
         String::from("pvp-killchain"),
+        String::from("pvp-god"),
         String::from("pve-endgame"),
         String::from("pve-champion"),
-        String::from("pvp-god"),
         String::from("pve-minorspec"), 
         String::from("pve-majorspec"),
         String::from("pve-bossspec"),
@@ -35,7 +35,7 @@ impl Wishlist {
 
     pub fn add_tags_from_text(&mut self, text: &str) -> () {
         let tag_array = Self::get_possible_tags();
-        let cleaned_text = text.replace(&[')', '|'], "");
+        let cleaned_text = text.replace(&[')', '|', '+', '\n'], "");
         let exploded_text = explode(&cleaned_text, ",");
         for item in exploded_text {
             if tag_array.contains(&item) && !self.tags.contains(&item){
@@ -45,10 +45,7 @@ impl Wishlist {
     }
 
     pub fn add_notes_from_text(&mut self, text: &str) -> () {
-        self.note = text
-            .strip_suffix("\n")
-            .unwrap_or(text)
-            .to_string();
+        self.note = text.to_string();
     }
 
     pub fn is_empty(&self) -> bool {

@@ -13,23 +13,6 @@ pub struct WeaponRoll {
 }
 
 impl WeaponRoll {
-    fn get_possible_tags() -> [String; 14] { [
-        String::from("pvp"),
-        String::from("pve"),
-        String::from("mkb"),
-        String::from("controller"),
-        String::from("pvp-duelling"),
-        String::from("pvp-killchain"),
-        String::from("pve-endgame"),
-        String::from("pve-champion"),
-        String::from("pvp-god"),
-        String::from("pve-minorspec"), 
-        String::from("pve-majorspec"),
-        String::from("pve-bossspec"),
-        String::from("pve-boss"),
-        String::from("pve-god")
-    ]}
-
     pub fn add_perks_from_text(&mut self, text: &str) -> () {
         let exploded_text = explode(text, ",");
         for item in exploded_text {
