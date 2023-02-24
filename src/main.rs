@@ -11,10 +11,10 @@ use std::collections::HashMap;
 use std::process::exit;
 use std::fs;
 
-use crate::structs::{weapon_roll::{*, self}, wishlist};
+use crate::structs::{weapon_roll::*};
 
 #[derive(Parser)]
-#[grammar = "grammar.pest"]
+#[grammar = "voltron.pest"]
 struct VoltronParser;    
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {

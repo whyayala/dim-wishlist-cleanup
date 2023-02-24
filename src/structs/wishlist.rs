@@ -55,7 +55,7 @@ impl Wishlist {
     }
 
     pub fn add_notes_from_text(&mut self, text: &str) -> () {
-        self.note = text.replace(&['|'], "").to_string();
+        self.note = text.replace(&['|', '(', ')'], "").to_string();
     }
 
     pub fn is_empty(&self) -> bool {
