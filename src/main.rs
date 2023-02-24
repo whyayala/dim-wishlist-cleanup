@@ -129,7 +129,7 @@ fn main() {
                 print!("\n");
             }
             else {
-                print!("tags:{}\n", parsed_wishlist.tags.join(", "));
+                print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
             }
             for weapon_roll in parsed_wishlist.weapon_rolls {
                 print!("dimwishlist:item={}", weapon_roll.item_id);
