@@ -18,7 +18,12 @@ use crate::structs::{weapon_roll::{*, self}, wishlist};
 struct VoltronParser;    
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {
-    notes.rsplit_once("tags:").unwrap_or(("", ""))
+    let (note, tags) = notes.rsplit_once("tags:").unwrap_or(("", ""));
+    if tags.is_empty() {
+        (notes, "")
+    } else {
+        (note, tags)
+    }
 }
 
 fn is_controller_specific(tags_string: &str) -> bool {
@@ -124,7 +129,7 @@ fn main() {
                 print!("\n");
             }
             else {
-                print!("|tags:{}\n", parsed_wishlist.tags.join(", "));
+                print!("tags:{}\n", parsed_wishlist.tags.join(", "));
             }
             for weapon_roll in parsed_wishlist.weapon_rolls {
                 print!("dimwishlist:item={}", weapon_roll.item_id);
