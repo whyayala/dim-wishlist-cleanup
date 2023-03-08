@@ -31,7 +31,11 @@ fn is_controller_specific(tags_string: &str) -> bool {
 }
 
 fn is_first_choice(notes_string: &str) -> bool {
-    !notes_string.contains("(PvP backup roll)") && !notes_string.contains("(PvE backup roll)")
+    !notes_string.contains("(PvP backup roll)") &&
+    !notes_string.contains("(PvE backup roll)") &&
+    !notes_string.contains("(PvE backupe roll)") &&
+    !notes_string.contains("(not great PvP)") &&
+    !notes_string.contains("(not great PvE)")
 }
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
@@ -123,10 +127,14 @@ fn main() {
     print!("title:This is a reduced wishlist pulled from 48klocs project that removes rolls tagged with controller and not mkb.\n");
     print!("description:This is still a work in progress.\n\n");
     let mut untagged_wishlists: Vec<Wishlist> = Vec::from([]);
+    let mut low_tagged_wishlists: Vec<Wishlist> = Vec::from([]);
     for parsed_wishlist in parsed_wishlists {
         if !parsed_wishlist.is_empty() {
             if parsed_wishlist.tags.is_empty() {
                 untagged_wishlists.push(parsed_wishlist);
+            }
+            else if parsed_wishlist.tags.len() <= 3 {
+                low_tagged_wishlists.push(parsed_wishlist);
             }
             else {
                 print!("\n{}", parsed_wishlist.note);
@@ -139,13 +147,20 @@ fn main() {
         }
     }
 
+    for parsed_wishlist in low_tagged_wishlists {
+        print!("\n{}", parsed_wishlist.note);
+        print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
+        for weapon_roll in parsed_wishlist.weapon_rolls {
+            print!("dimwishlist:item={}", weapon_roll.item_id);
+            print!("&perks={}\n", weapon_roll.perks.join(","));
+        }
+    }
+
+    print!("\n// Untagged roll. Use with discretion.\n");
     for parsed_wishlist in untagged_wishlists {
-        if !parsed_wishlist.is_empty() {
-            print!("\n{}\n", parsed_wishlist.note);
-            for weapon_roll in parsed_wishlist.weapon_rolls {
-                print!("dimwishlist:item={}", weapon_roll.item_id);
-                print!("&perks={}\n", weapon_roll.perks.join(","));
-            }
+        for weapon_roll in parsed_wishlist.weapon_rolls {
+            print!("dimwishlist:item={}", weapon_roll.item_id);
+            print!("&perks={}\n", weapon_roll.perks.join(","));
         }
     }
     
