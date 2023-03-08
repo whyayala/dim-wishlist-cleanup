@@ -122,15 +122,26 @@ fn main() {
 
     print!("title:This is a reduced wishlist pulled from 48klocs project that removes rolls tagged with controller and not mkb.\n");
     print!("description:This is still a work in progress.\n\n");
+    let mut untagged_wishlists: Vec<Wishlist> = Vec::from([]);
     for parsed_wishlist in parsed_wishlists {
         if !parsed_wishlist.is_empty() {
-            print!("\n{}", parsed_wishlist.note);
             if parsed_wishlist.tags.is_empty() {
-                print!("\n");
+                untagged_wishlists.push(parsed_wishlist);
             }
             else {
+                print!("\n{}", parsed_wishlist.note);
                 print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
+                for weapon_roll in parsed_wishlist.weapon_rolls {
+                    print!("dimwishlist:item={}", weapon_roll.item_id);
+                    print!("&perks={}\n", weapon_roll.perks.join(","));
+                }
             }
+        }
+    }
+
+    for parsed_wishlist in untagged_wishlists {
+        if !parsed_wishlist.is_empty() {
+            print!("\n{}\n", parsed_wishlist.note);
             for weapon_roll in parsed_wishlist.weapon_rolls {
                 print!("dimwishlist:item={}", weapon_roll.item_id);
                 print!("&perks={}\n", weapon_roll.perks.join(","));
