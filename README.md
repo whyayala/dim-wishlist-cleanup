@@ -6,6 +6,8 @@
 
 # Run
 
+`cargo run`
+
 # Grammar Testing
 
 https://pest.rs/#editor
