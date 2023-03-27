@@ -1,5 +1,5 @@
 basestat:total:>=68 
-    or (basestat:total:>=63 maxbasestatvalue:any) 
+    or (basestat:total:>=62 maxbasestatvalue:any) 
     or (basestat:total:>=65
         (
             basestat:any:>=19
