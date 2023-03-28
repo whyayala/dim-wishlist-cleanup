@@ -41,13 +41,17 @@ jobs:
 
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10' 
+          python-version: '3.10'
+      
+      - run: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip && sudo ./aws/install
 
-      - name: S3 Push
-        uses: ItsKarma/aws-cli@v1.70.0
-        with:
-          args: s3 put-object --bucket dsoif --key latest.txt
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.ADMIN_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.ADMIN_SECRET_KEY }}
-          AWS_DEFAULT_REGION: "us-east-1"
+# TODO Replace with https://github.com/marketplace/actions/configure-aws-credentials-for-github-actions#credentials
+      # - name: Set env
+      #   run: echo "GITHUB_SHA_SHORT=$(echo $GITHUB_SHA | cut -c 1-6)" >> $GITHUB_ENV
+      #   env:
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.ADMIN_ACCESS_KEY }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.ADMIN_SECRET_KEY }}
+      #     AWS_DEFAULT_REGION: "us-east-1"
+      
+      
+      - run: s3 put-object --bucket dsoif --key latest.txt
