@@ -34,16 +34,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          
       - name: Fetch the voltron file
         run: curl https://raw.githubusercontent.com/48klocs/dim-wish-list-sources/master/voltron.txt > voltron.txt
 
-      - uses: actions-rs/cargo@v1
-        with:
-          command: run > latest.txt
+      - run: cargo run > latest.txt
 
       - name: S3 Push
         uses: ItsKarma/aws-cli@v1.70.0
