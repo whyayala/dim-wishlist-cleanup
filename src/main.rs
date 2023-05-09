@@ -156,13 +156,13 @@ fn main() {
         }
     }
 
-    print!("\n// Untagged roll. Use with discretion.\n");
-    for parsed_wishlist in untagged_wishlists {
-        for weapon_roll in parsed_wishlist.weapon_rolls {
-            print!("dimwishlist:item={}", weapon_roll.item_id);
-            print!("&perks={}\n", weapon_roll.perks.join(","));
-        }
-    }
+    // print!("\n// Untagged roll. Use with discretion.\n");
+    // for parsed_wishlist in untagged_wishlists {
+    //     for weapon_roll in parsed_wishlist.weapon_rolls {
+    //         print!("dimwishlist:item={}", weapon_roll.item_id);
+    //         print!("&perks={}\n", weapon_roll.perks.join(","));
+    //     }
+    // }
     
     // if let Err(e) = dim_wishlist_cleanup::run(config) {
     //     println!("Application error: {e}");
