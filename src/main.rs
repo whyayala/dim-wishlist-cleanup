@@ -128,25 +128,45 @@ fn main() {
     print!("description:This is still a work in progress.\n\n");
     let mut untagged_wishlists: Vec<Wishlist> = Vec::from([]);
     let mut low_tagged_wishlists: Vec<Wishlist> = Vec::from([]);
+    let mut moderately_tagged_wishlists: Vec<Wishlist> = Vec::from([]);
+    let mut high_tagged_wishlists: Vec<Wishlist> = Vec::from([]);
     for parsed_wishlist in parsed_wishlists {
         if !parsed_wishlist.is_empty() {
             if parsed_wishlist.tags.is_empty() {
                 untagged_wishlists.push(parsed_wishlist);
             }
-            else if parsed_wishlist.tags.len() <= 3 {
+            else if parsed_wishlist.tags.len() <= 2 {
                 low_tagged_wishlists.push(parsed_wishlist);
             }
+            else if parsed_wishlist.tags.len() <= 4 {
+                moderately_tagged_wishlists.push(parsed_wishlist);
+            }
             else {
-                print!("\n{}", parsed_wishlist.note);
-                print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
-                for weapon_roll in parsed_wishlist.weapon_rolls {
-                    print!("dimwishlist:item={}", weapon_roll.item_id);
-                    print!("&perks={}\n", weapon_roll.perks.join(","));
-                }
+                high_tagged_wishlists.push(parsed_wishlist);
             }
         }
     }
 
+    high_tagged_wishlists.sort_by(|a, b| b.tags.len().cmp(&a.tags.len()));
+    moderately_tagged_wishlists.sort_by(|a, b| b.tags.len().cmp(&a.tags.len()));
+    low_tagged_wishlists.sort_by(|a, b| b.tags.len().cmp(&a.tags.len()));
+
+    for parsed_wishlist in high_tagged_wishlists {
+        print!("\n{}", parsed_wishlist.note);
+        print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
+        for weapon_roll in parsed_wishlist.weapon_rolls {
+            print!("dimwishlist:item={}", weapon_roll.item_id);
+            print!("&perks={}\n", weapon_roll.perks.join(","));
+        }
+    }
+    for parsed_wishlist in moderately_tagged_wishlists {
+        print!("\n{}", parsed_wishlist.note);
+        print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
+        for weapon_roll in parsed_wishlist.weapon_rolls {
+            print!("dimwishlist:item={}", weapon_roll.item_id);
+            print!("&perks={}\n", weapon_roll.perks.join(","));
+        }
+    }
     for parsed_wishlist in low_tagged_wishlists {
         print!("\n{}", parsed_wishlist.note);
         print!(" tags:{}\n", parsed_wishlist.tags.join(", "));
