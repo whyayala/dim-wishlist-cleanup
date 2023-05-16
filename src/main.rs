@@ -112,19 +112,13 @@ fn main() {
     });
 
     let mut parsed_wishlists: Vec<Wishlist> = Vec::from([]);
-    let mut weapon_roll_hash_table = HashMap::new();
 
     for weapon_roll in weapon_rolls {
-        let weapon_note_and_rolls = weapon_roll.into_inner();
-
-        let wishlist = get_weapon_rolls(weapon_note_and_rolls);
-        for weapon_roll in &wishlist.weapon_rolls {
-            weapon_roll_hash_table.insert(weapon_roll.get_weapon_roll_id(), 0);
-        }
+        let wishlist = get_weapon_rolls(weapon_roll.into_inner());
         parsed_wishlists.push(wishlist)
     }
 
-    print!("title:This is a reduced wishlist pulled from 48klocs project that removes rolls tagged with controller and not mkb.\n");
+    print!("title:This is a reduced wishlist pulled from 48klocs project that removes rolls tagged with controller and not mkb as well as backup rolls.\n");
     print!("description:This is still a work in progress.\n\n");
     let mut untagged_wishlists: Vec<Wishlist> = Vec::from([]);
     let mut low_tagged_wishlists: Vec<Wishlist> = Vec::from([]);
