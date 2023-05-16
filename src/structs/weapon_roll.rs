@@ -20,15 +20,6 @@ impl WeaponRoll {
         }
     }
 
-    pub fn get_weapon_roll_id(&self) -> String {
-        let mut concatenated_string = String::from("");
-        let cloned_perks = &mut self.perks.to_owned();
-        cloned_perks.sort();
-        concatenated_string.push_str(&self.item_id);
-        concatenated_string.push_str(cloned_perks.join("").as_str());
-        concatenated_string
-    }
-
     pub fn new() -> WeaponRoll {
         WeaponRoll { 
             item_id: String::from(""),
