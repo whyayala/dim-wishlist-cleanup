@@ -11,3 +11,19 @@ basestat:total:>=68
             or stat:warlockpvp:>=30
         )
     )
+    or (
+        modslot:artifice basestat:total:>=62
+        (
+            maxbasestatvalue:any 
+            or basestat:any:>=20
+            or stat:hunterpve:>=27 
+            or stat:hunterpvp:>=27 
+            or stat:titanpve:>=27
+            or stat:titanpvp:>=27
+            or stat:warlockpve:>=27
+            or stat:warlockpvp:>=27
+        )
+    )
+    or (
+        (source:raid or source:ironbanner or modslot:artifice) is:classitem 
+    )
