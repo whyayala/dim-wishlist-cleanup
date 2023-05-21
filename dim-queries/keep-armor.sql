@@ -12,7 +12,7 @@ basestat:total:>=68
         )
     )
     or (
-        modslot:artifice basestat:total:>=62
+        (modslot:artifice or source:raid) basestat:total:>=62
         (
             maxbasestatvalue:any 
             or basestat:any:>=20
