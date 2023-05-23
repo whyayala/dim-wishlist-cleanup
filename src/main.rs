@@ -17,9 +17,9 @@ use crate::structs::{weapon_roll::*};
 struct VoltronParser;    
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {
-    let (note, tags) = notes.rsplit_once("tags:").unwrap_or(("", ""));
+    let (note, tags) = &notes.rsplit_once("tags:").unwrap_or(("", ""));
     if tags.is_empty() {
-        (notes, "")
+        (notes, tags_from_notes(&notes))
     } else {
         (note, tags)
     }
@@ -29,16 +29,27 @@ fn is_controller_specific(tags_string: &str) -> bool {
     tags_string.to_lowercase().contains("controller") && !tags_string.to_lowercase().contains("mkb") && !tags_string.to_lowercase().contains("m+kb")
 }
 
-fn is_first_choice(notes_string: &str) -> bool {
-    !notes_string.contains("(PvP backup roll)") &&
-    !notes_string.contains("(PvE backup roll)") &&
-    !notes_string.contains("(PvE backupe roll)") &&
-    !notes_string.contains("(not great PvP)") &&
-    !notes_string.contains("(not great PvE)")
+fn tags_from_notes(notes_string: &str) -> &str {
+    if notes_string.contains("(PvP backup roll)") {
+        "pvp"
+    } else if notes_string.contains("(PvE backup roll)") || notes_string.contains("(PvE backupe roll)") {
+        "pve"
+    } else if notes_string.contains("(PvE first choice roll)") {
+        "pve,pve-god"
+    } else if notes_string.contains("(PvP first choice roll)") {
+        "pvp,pvp-god"
+    } else {
+        ""
+    }
+}
+
+fn is_not_great(notes_string: &str) -> bool {
+    notes_string.contains("(not great PvP)") ||
+    notes_string.contains("(not great PvE)")
 }
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
-    pair.as_rule() == Rule::roll && !is_controller_specific(tags_string) && is_first_choice(notes_string)
+    pair.as_rule() == Rule::roll && !is_controller_specific(tags_string) && !is_not_great(notes_string)
 }
 
 fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
@@ -64,7 +75,6 @@ fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
                 let new_roll = roll_id_and_perks.fold(
                     WeaponRoll::new(),
                     | roll_accumulator, roll_value | {
-
                         if roll_value.as_rule() == Rule::id {
                             let new_roll_accumulator = WeaponRoll {
                                 item_id: roll_value.as_str().to_string(),
