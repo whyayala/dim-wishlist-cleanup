@@ -127,25 +127,23 @@ fn main() {
         parsed_wishlists.push(wishlist)
     }
 
-    print!("title:This is a reduced wishlist pulled from 48klocs project that removes rolls tagged with controller and not mkb as well as backup rolls.\n");
-    print!("description:This is still a work in progress.\n\n");
-    let mut wishlists: Vec<Wishlist> = Vec::from([]);
-    for parsed_wishlist in parsed_wishlists {
-        if !parsed_wishlist.is_empty() {
-            wishlists.push(parsed_wishlist);
-        }
-    }
+    print!("title:Cobes-3's Reduced MNK Wishlist.\n");
+    print!("description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
 
-    wishlists.sort_by(|a, b| b.tags.len().cmp(&a.tags.len()));
+    parsed_wishlists.sort_by(
+        |current, next| next.tags.len().cmp(&current.tags.len())
+    );
 
-    for wishlist in wishlists {
-        print!("\n{}", wishlist.note);
-        if wishlist.tags.len() > 0 {
-            print!(" tags:{}\n", wishlist.tags.join(", "));
-        } else {print!{"\n"}}
-        for weapon_roll in wishlist.weapon_rolls {
-            print!("dimwishlist:item={}", weapon_roll.item_id);
-            print!("&perks={}\n", weapon_roll.perks.join(","));
+    for wishlist in parsed_wishlists {
+        if !wishlist.is_empty() {
+            print!("\n{}", wishlist.note);
+            if wishlist.tags.len() > 0 {
+                print!(" tags:{}\n", wishlist.tags.join(", "));
+            } else {print!{"\n"}}
+            for weapon_roll in wishlist.weapon_rolls {
+                print!("dimwishlist:item={}", weapon_roll.item_id);
+                print!("&perks={}\n", weapon_roll.perks.join(","));
+            }
         }
     }
     
