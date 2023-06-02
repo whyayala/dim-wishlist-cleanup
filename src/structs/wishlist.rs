@@ -62,6 +62,10 @@ impl Wishlist {
         self.weapon_rolls.is_empty()
     }
 
+    pub fn is_god_roll(&self) -> bool {
+        self.tags.contains(&String::from("pve-god")) || self.tags.contains(&String::from("pvp-god"))
+    }
+    
     pub fn new() -> Wishlist {
         Wishlist { 
             // item_id: String::from(""),

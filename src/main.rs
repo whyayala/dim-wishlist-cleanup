@@ -8,6 +8,7 @@ use pest::{Parser, iterators::{Pairs, Pair}};
 use structs::wishlist::Wishlist;
 // use std::env;
 use std::process::exit;
+use std::cmp::Ordering;
 use std::fs;
 
 use crate::structs::{weapon_roll::*};
@@ -17,7 +18,12 @@ use crate::structs::{weapon_roll::*};
 struct VoltronParser;    
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {
-    let (note, tags) = &notes.rsplit_once("tags:").unwrap_or(("", ""));
+    let (note, tags) = if notes.contains("tags:") {
+        notes.rsplit_once("tags:").unwrap_or(("", ""))
+    } else {
+        notes.rsplit_once("Tags: ").unwrap_or(("", ""))
+    };
+    
     if tags.is_empty() {
         (notes, tags_from_notes(&notes))
     } else {
@@ -50,6 +56,19 @@ fn is_not_great(notes_string: &str) -> bool {
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
     pair.as_rule() == Rule::roll && !is_controller_specific(tags_string) && !is_not_great(notes_string)
+}
+
+fn sort_by_god_rolls(current: &Wishlist, next: &Wishlist) -> std::cmp::Ordering {
+    if next.is_god_roll() ^ current.is_god_roll() {
+        if next.is_god_roll() {
+            return Ordering::Greater;
+        }
+        return Ordering::Less;
+    }
+    else if next.is_god_roll() && current.is_god_roll() {
+        return Ordering::Equal;
+    }
+    next.tags.len().cmp(&current.tags.len())
 }
 
 fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
@@ -131,7 +150,7 @@ fn main() {
     print!("description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
 
     parsed_wishlists.sort_by(
-        |current, next| next.tags.len().cmp(&current.tags.len())
+        |current, next| sort_by_god_rolls(current, next)
     );
 
     for wishlist in parsed_wishlists {
