@@ -7,6 +7,8 @@ mod structs;
 use pest::{Parser, iterators::{Pairs, Pair}};
 use structs::wishlist::Wishlist;
 // use std::env;
+use std::fs::OpenOptions;
+use std::io::Write;
 use std::process::exit;
 use std::cmp::Ordering;
 use std::fs;
@@ -129,6 +131,13 @@ fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
 }
 
 fn main() {
+    let mut mkb_wishlist = OpenOptions::new()
+        .read(true)
+        .write(true)
+        .truncate(true)
+        .open("mkb_wishlist.txt")
+        .unwrap();
+
     let file_contents = fs::read_to_string("voltron.txt").unwrap_or_else(|err| {
         println!("Problem reading file to memory: {err}");
         exit(1);
@@ -146,8 +155,8 @@ fn main() {
         parsed_wishlists.push(wishlist)
     }
 
-    print!("title:Cobes-3's Reduced MNK Wishlist.\n");
-    print!("description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
+    mkb_wishlist.write(b"title:Cobes-3's Reduced MNK Wishlist.\n");
+    mkb_wishlist.write(b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
 
     parsed_wishlists.sort_by(
         |current, next| sort_by_god_rolls(current, next)
@@ -155,13 +164,24 @@ fn main() {
 
     for wishlist in parsed_wishlists {
         if !wishlist.is_empty() {
-            print!("\n{}", wishlist.note);
+            mkb_wishlist.write(
+                format!("\n{}", wishlist.note).as_bytes()
+            );
             if wishlist.tags.len() > 0 {
-                print!(" tags:{}\n", wishlist.tags.join(", "));
-            } else {print!{"\n"}}
+                mkb_wishlist.write(
+                    format!(" tags:{}\n", wishlist.tags.join(", ")).as_bytes()
+                );
+            } else { 
+                mkb_wishlist.write(b"\n");
+            }
+
             for weapon_roll in wishlist.weapon_rolls {
-                print!("dimwishlist:item={}", weapon_roll.item_id);
-                print!("&perks={}\n", weapon_roll.perks.join(","));
+                mkb_wishlist.write(
+                    format!("dimwishlist:item={}", weapon_roll.item_id).as_bytes()
+                );
+                mkb_wishlist.write(
+                    format!("&perks={}\n", weapon_roll.perks.join(",")).as_bytes()
+                );
             }
         }
     }
