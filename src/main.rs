@@ -67,9 +67,6 @@ fn sort_by_god_rolls(current: &Wishlist, next: &Wishlist) -> std::cmp::Ordering 
         }
         return Ordering::Less;
     }
-    else if next.is_god_roll() && current.is_god_roll() {
-        return Ordering::Equal;
-    }
     next.tags.len().cmp(&current.tags.len())
 }
 
