@@ -27,7 +27,7 @@ fn split_weapon_notes(notes: &str) -> (&str, &str) {
     };
     
     if tags.is_empty() {
-        (notes, tags_from_notes(&notes))
+        (notes, tags_from_notes(notes))
     } else {
         (note, tags)
     }
@@ -127,6 +127,8 @@ fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
     )
 }
 
+
+
 fn main() {
     let mut mkb_wishlist = OpenOptions::new()
         .read(true)
@@ -138,7 +140,7 @@ fn main() {
     let file_contents = fs::read_to_string("voltron.txt").unwrap_or_else(|err| {
         println!("Problem reading file to memory: {err}");
         exit(1);
-    }).to_owned();
+    });
 
     let weapon_rolls = VoltronParser::parse(Rule::voltron, &file_contents).unwrap_or_else(|err| {
         println!("Problem parsing voltron file: {err}");
@@ -155,16 +157,14 @@ fn main() {
     mkb_wishlist.write(b"title:Cobes-3's Reduced MNK Wishlist.\n");
     mkb_wishlist.write(b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
 
-    parsed_wishlists.sort_by(
-        |current, next| sort_by_god_rolls(current, next)
-    );
+    parsed_wishlists.sort_by(sort_by_god_rolls);
 
     for wishlist in parsed_wishlists {
         if !wishlist.is_empty() {
             mkb_wishlist.write(
                 format!("\n{}", wishlist.note).as_bytes()
             );
-            if wishlist.tags.len() > 0 {
+            if !wishlist.tags.is_empty() {
                 mkb_wishlist.write(
                     format!(" tags:{}\n", wishlist.tags.join(", ")).as_bytes()
                 );
@@ -182,9 +182,4 @@ fn main() {
             }
         }
     }
-    
-    // if let Err(e) = dim_wishlist_cleanup::run(config) {
-    //     println!("Application error: {e}");
-    //     exit(1);
-    // }
 }

@@ -32,10 +32,10 @@ impl Wishlist {
         String::from("pvp-god")
     ]}
 
-    pub fn add_tags_from_text(&mut self, text: &str) -> () {
+    pub fn add_tags_from_text(&mut self, text: &str) {
         let tag_array = Self::get_possible_tags();
         let cleaned_text = text.to_lowercase()
-            .replace(&[')', '|', '+', '\n'], "")
+            .replace([')', '|', '+', '\n'], "")
             .replace("god-pve", "pve-god")
             .replace("god-pvp", "pvp-god")
             .replace("pve=endgame", "pve-endgame")
@@ -54,8 +54,8 @@ impl Wishlist {
         }
     }
 
-    pub fn add_notes_from_text(&mut self, text: &str) -> () {
-        self.note = text.replace(&['|', '(', ')'], "").trim().to_string();
+    pub fn add_notes_from_text(&mut self, text: &str) {
+        self.note = text.replace(['|', '(', ')'], "").trim().to_string();
     }
 
     pub fn is_empty(&self) -> bool {

@@ -1,7 +1,7 @@
 fn explode(string: &str, delimiter: &str) -> Vec<String> {
     let vec_of_strings: Vec<String> = string.split(delimiter)
         .map(|value| -> String {
-            value.trim().to_lowercase().to_string()
+            value.trim().to_lowercase()
         }).collect();
     vec_of_strings
 }
@@ -13,7 +13,7 @@ pub struct WeaponRoll {
 }
 
 impl WeaponRoll {
-    pub fn add_perks_from_text(&mut self, text: &str) -> () {
+    pub fn add_perks_from_text(&mut self, text: &str) {
         let exploded_text = explode(text, ",");
         for item in exploded_text {
             self.perks.push(item);
