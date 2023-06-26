@@ -13,41 +13,42 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-          
-      - name: Fetch the voltron file
-        run: curl https://raw.githubusercontent.com/48klocs/dim-wish-list-sources/master/voltron.txt > voltron.txt
-
-      - uses: actions-rs/cargo@v1
+      - name: 'Build Artifact'
+        uses: actions-rs/cargo@v1
         with:
           command: build
           args: --release --all-features
-
-  run:
-    name: Run and Push to S3
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Fetch the voltron file
-        run: curl https://raw.githubusercontent.com/48klocs/dim-wish-list-sources/master/voltron.txt > voltron.txt
-
-      - run: cargo run > latest.txt
-
-      - uses: actions/setup-python@v4
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
         with:
-          python-version: '3.10' 
+          name: dwc-artifact
+          path: target/release/dim_wishlist_cleanup
+          retention-days: 5
+#   run:
+#     name: Run and Push to S3
+#     needs: build
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
 
-      - name: S3 Push
-        uses: ItsKarma/aws-cli@v1.70.0
-        with:
-          args: s3 put-object --bucket dsoif --key latest.txt
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.ADMIN_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.ADMIN_SECRET_KEY }}
-          AWS_DEFAULT_REGION: "us-east-1"
+#       - name: Fetch the voltron file
+#         run: curl https://raw.githubusercontent.com/48klocs/dim-wish-list-sources/master/voltron.txt > voltron.txt
+
+#       - run: cargo run > latest.txt
+
+#       - uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.10' 
+
+#       - name: S3 Push
+#         uses: ItsKarma/aws-cli@v1.70.0
+#         with:
+#           args: s3 put-object --bucket dsoif --key latest.txt
+#         env:
+#           AWS_ACCESS_KEY_ID: ${{ secrets.ADMIN_ACCESS_KEY }}
+#           AWS_SECRET_ACCESS_KEY: ${{ secrets.ADMIN_SECRET_KEY }}
+#           AWS_DEFAULT_REGION: "us-east-1"
