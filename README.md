@@ -1,8 +1,9 @@
 # Tools
 
-[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-Rust
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
+- Rust
+  - Pest for parsing
 # Setup
 
 `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
@@ -10,7 +11,7 @@ Rust
 
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
-`curl https://raw.githubusercontent.com/48klocs/dim-wish-list-sources/master/voltron.txt > voltron.txt`
+`script/get_voltron.sh`
 
 # Run
 
