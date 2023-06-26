@@ -1,10 +1,10 @@
 use super::weapon_roll::WeaponRoll;
 
 fn explode(string: &str, delimiter: &str) -> Vec<String> {
-    let vec_of_strings: Vec<String> = string.split(delimiter)
-        .map(|value| -> String {
-            value.trim().to_string()
-        }).collect();
+    let vec_of_strings: Vec<String> = string
+        .split(delimiter)
+        .map(|value| -> String { value.trim().to_string() })
+        .collect();
     vec_of_strings
 }
 
@@ -16,25 +16,28 @@ pub struct Wishlist {
 }
 
 impl Wishlist {
-    fn get_possible_tags() -> [String; 13] { [
-        String::from("controller"),
-        String::from("mkb"),
-        String::from("pve"),
-        String::from("pve-endgame"),
-        String::from("pve-champion"),
-        String::from("pve-minor"), 
-        String::from("pve-major"),
-        String::from("pve-boss"),
-        String::from("pve-god"),
-        String::from("pvp"),
-        String::from("pvp-duel"),
-        String::from("pvp-chain"),
-        String::from("pvp-god")
-    ]}
+    fn get_possible_tags() -> [String; 13] {
+        [
+            String::from("controller"),
+            String::from("mkb"),
+            String::from("pve"),
+            String::from("pve-endgame"),
+            String::from("pve-champion"),
+            String::from("pve-minor"),
+            String::from("pve-major"),
+            String::from("pve-boss"),
+            String::from("pve-god"),
+            String::from("pvp"),
+            String::from("pvp-duel"),
+            String::from("pvp-chain"),
+            String::from("pvp-god"),
+        ]
+    }
 
     pub fn add_tags_from_text(&mut self, text: &str) {
         let tag_array = Self::get_possible_tags();
-        let cleaned_text = text.to_lowercase()
+        let cleaned_text = text
+            .to_lowercase()
             .replace([')', '|', '+', '\n'], "")
             .replace("god-pve", "pve-god")
             .replace("god-pvp", "pvp-god")
@@ -48,7 +51,7 @@ impl Wishlist {
             .replace("pvp-chaining", "pvp-chain");
         let exploded_text = explode(&cleaned_text, ",");
         for item in exploded_text {
-            if tag_array.contains(&item) && !self.tags.contains(&item){
+            if tag_array.contains(&item) && !self.tags.contains(&item) {
                 self.tags.push(item)
             }
         }
@@ -65,9 +68,9 @@ impl Wishlist {
     pub fn is_god_roll(&self) -> bool {
         self.tags.contains(&String::from("pve-god")) || self.tags.contains(&String::from("pvp-god"))
     }
-    
+
     pub fn new() -> Wishlist {
-        Wishlist { 
+        Wishlist {
             // item_id: String::from(""),
             note: String::from(""),
             tags: Vec::from([]),

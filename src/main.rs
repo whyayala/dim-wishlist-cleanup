@@ -4,20 +4,23 @@ extern crate pest_derive;
 
 mod structs;
 
-use pest::{Parser, iterators::{Pairs, Pair}};
+use pest::{
+    iterators::{Pair, Pairs},
+    Parser,
+};
 use structs::wishlist::Wishlist;
 // use std::env;
-use std::fs::OpenOptions;
-use std::io::Write;
-use std::process::exit;
 use std::cmp::Ordering;
 use std::fs;
+use std::fs::{File, OpenOptions};
+use std::io::Write;
+use std::process::exit;
 
-use crate::structs::{weapon_roll::*};
+use crate::structs::weapon_roll::*;
 
 #[derive(Parser)]
 #[grammar = "voltron.pest"]
-struct VoltronParser;    
+struct VoltronParser;
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {
     let (note, tags) = if notes.contains("tags:") {
@@ -25,7 +28,7 @@ fn split_weapon_notes(notes: &str) -> (&str, &str) {
     } else {
         notes.rsplit_once("Tags: ").unwrap_or(("", ""))
     };
-    
+
     if tags.is_empty() {
         (notes, tags_from_notes(notes))
     } else {
@@ -34,13 +37,17 @@ fn split_weapon_notes(notes: &str) -> (&str, &str) {
 }
 
 fn is_controller_specific(tags_string: &str) -> bool {
-    tags_string.to_lowercase().contains("controller") && !tags_string.to_lowercase().contains("mkb") && !tags_string.to_lowercase().contains("m+kb")
+    tags_string.to_lowercase().contains("controller")
+        && !tags_string.to_lowercase().contains("mkb")
+        && !tags_string.to_lowercase().contains("m+kb")
 }
 
 fn tags_from_notes(notes_string: &str) -> &str {
     if notes_string.contains("(PvP backup roll)") {
         "pvp"
-    } else if notes_string.contains("(PvE backup roll)") || notes_string.contains("(PvE backupe roll)") {
+    } else if notes_string.contains("(PvE backup roll)")
+        || notes_string.contains("(PvE backupe roll)")
+    {
         "pve"
     } else if notes_string.contains("(PvE first choice roll)") {
         "pve,pve-god"
@@ -52,12 +59,13 @@ fn tags_from_notes(notes_string: &str) -> &str {
 }
 
 fn is_not_great(notes_string: &str) -> bool {
-    notes_string.contains("(not great PvP)") ||
-    notes_string.contains("(not great PvE)")
+    notes_string.contains("(not great PvP)") || notes_string.contains("(not great PvE)")
 }
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
-    pair.as_rule() == Rule::roll && !is_controller_specific(tags_string) && !is_not_great(notes_string)
+    pair.as_rule() == Rule::roll
+        && !is_controller_specific(tags_string)
+        && !is_not_great(notes_string)
 }
 
 fn sort_by_god_rolls(current: &Wishlist, next: &Wishlist) -> std::cmp::Ordering {
@@ -84,53 +92,56 @@ fn get_weapon_rolls(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
                 new_wishlist_accumulator.add_notes_from_text(notes_string);
                 new_wishlist_accumulator.add_tags_from_text(tags_string);
                 new_wishlist_accumulator
-            }
-            else if is_desirable_roll(tags_string, notes_string, &element) {
+            } else if is_desirable_roll(tags_string, notes_string, &element) {
                 let mut new_wishlist_accumulator = Wishlist {
                     ..wishlist_accumulator
                 };
                 let roll_id_and_perks = element.into_inner();
-                let new_roll = roll_id_and_perks.fold(
-                    WeaponRoll::new(),
-                    | roll_accumulator, roll_value | {
+                let new_roll =
+                    roll_id_and_perks.fold(WeaponRoll::new(), |roll_accumulator, roll_value| {
                         if roll_value.as_rule() == Rule::id {
                             let new_roll_accumulator = WeaponRoll {
                                 item_id: roll_value.as_str().to_string(),
                                 ..roll_accumulator
                             };
                             new_roll_accumulator
-                        }
-                        else if roll_value.as_rule() == Rule::perks {
-                            let mut new_roll_accumulator = WeaponRoll {
-                                ..roll_accumulator
-                            };
-                            new_roll_accumulator.add_perks_from_text(roll_value.into_inner().as_str());
+                        } else if roll_value.as_rule() == Rule::perks {
+                            let mut new_roll_accumulator = WeaponRoll { ..roll_accumulator };
                             new_roll_accumulator
-                        }
-                        else if roll_value.as_rule() == Rule::notes {
+                                .add_perks_from_text(roll_value.into_inner().as_str());
+                            new_roll_accumulator
+                        } else if roll_value.as_rule() == Rule::notes {
                             (notes_string, tags_string) = split_weapon_notes(roll_value.as_str());
                             new_wishlist_accumulator.add_tags_from_text(tags_string);
                             roll_accumulator
-                        }
-                        else {
+                        } else {
                             roll_accumulator
                         }
-                    }
-                );
+                    });
                 new_wishlist_accumulator.weapon_rolls.push(new_roll);
                 new_wishlist_accumulator
-            }
-            else {
+            } else {
                 wishlist_accumulator
             }
-        }
+        },
     )
 }
 
-
+fn handle_write_to_file(mut file: &File, bytes: &[u8]) {
+    let bytes_written_success = file.write(bytes).unwrap_or_else(|err| {
+        print!(
+            "Problem writing the following bytes: {:?}, error: {}",
+            bytes, err
+        );
+        0
+    }) as u32;
+    if bytes_written_success == 0 {
+        exit(1);
+    }
+}
 
 fn main() {
-    let mut mkb_wishlist = OpenOptions::new()
+    let mkb_wishlist: File = OpenOptions::new()
         .read(true)
         .write(true)
         .truncate(true)
@@ -154,30 +165,32 @@ fn main() {
         parsed_wishlists.push(wishlist)
     }
 
-    mkb_wishlist.write(b"title:Cobes-3's Reduced MNK Wishlist.\n");
-    mkb_wishlist.write(b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
+    handle_write_to_file(&mkb_wishlist, b"title:Cobes-3's Reduced MNK Wishlist.\n");
+    handle_write_to_file(&mkb_wishlist, b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
 
     parsed_wishlists.sort_by(sort_by_god_rolls);
 
     for wishlist in parsed_wishlists {
         if !wishlist.is_empty() {
-            mkb_wishlist.write(
-                format!("\n{}", wishlist.note).as_bytes()
-            );
+            handle_write_to_file(&mkb_wishlist, format!("\n{}", wishlist.note).as_bytes());
             if !wishlist.tags.is_empty() {
-                mkb_wishlist.write(
-                    format!(" tags:{}\n", wishlist.tags.join(", ")).as_bytes()
+                handle_write_to_file(
+                    &mkb_wishlist,
+                    format!(" tags:{}\n", wishlist.tags.join(", ")).as_bytes(),
                 );
-            } else { 
-                mkb_wishlist.write(b"\n");
+            } else {
+                handle_write_to_file(&mkb_wishlist, b"\n");
             }
 
             for weapon_roll in wishlist.weapon_rolls {
-                mkb_wishlist.write(
-                    format!("dimwishlist:item={}", weapon_roll.item_id).as_bytes()
-                );
-                mkb_wishlist.write(
-                    format!("&perks={}\n", weapon_roll.perks.join(",")).as_bytes()
+                handle_write_to_file(
+                    &mkb_wishlist,
+                    format!(
+                        "dimwishlist:item={}&perks={}\n",
+                        weapon_roll.item_id,
+                        weapon_roll.perks.join(",")
+                    )
+                    .as_bytes(),
                 );
             }
         }

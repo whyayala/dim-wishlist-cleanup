@@ -1,8 +1,8 @@
 fn explode(string: &str, delimiter: &str) -> Vec<String> {
-    let vec_of_strings: Vec<String> = string.split(delimiter)
-        .map(|value| -> String {
-            value.trim().to_lowercase()
-        }).collect();
+    let vec_of_strings: Vec<String> = string
+        .split(delimiter)
+        .map(|value| -> String { value.trim().to_lowercase() })
+        .collect();
     vec_of_strings
 }
 
@@ -21,7 +21,7 @@ impl WeaponRoll {
     }
 
     pub fn new() -> WeaponRoll {
-        WeaponRoll { 
+        WeaponRoll {
             item_id: String::from(""),
             perks: Vec::from([]),
         }
