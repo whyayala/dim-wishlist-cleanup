@@ -1,4 +1,4 @@
-[Build](https://github.com/whyayala/dim-wishlist-cleanup/actions/workflows/main.yml/badge.svg)
+!(https://github.com/whyayala/dim-wishlist-cleanup/actions/workflows/main.yml/badge.svg)
 
 # Tools
 
