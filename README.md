@@ -1,3 +1,5 @@
+[Build](https://github.com/whyayala/dim-wishlist-cleanup/actions/workflows/main.yml/badge.svg)
+
 # Tools
 
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
