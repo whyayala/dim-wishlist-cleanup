@@ -5,7 +5,6 @@ extern crate pest_derive;
 mod structs;
 
 use pest::{
-    iterators::{Pair, Pairs},
     Parser,
 };
 use structs::wishlist::Wishlist;
@@ -14,8 +13,6 @@ use std::fs;
 use std::fs::{File, OpenOptions};
 use std::io::Write;
 use std::process::exit;
-
-use crate::structs::weapon_roll::*;
 
 #[derive(Parser)]
 #[grammar = "voltron.pest"]
