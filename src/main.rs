@@ -66,6 +66,7 @@ fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -
     pair.as_rule() == Rule::roll
         && !is_controller_specific(tags_string)
         && !is_not_great(notes_string)
+        && !notes_string.to_lowercase().contains("pandapaxxy")
 }
 
 fn sort_by_god_rolls(current: &Wishlist, next: &Wishlist) -> std::cmp::Ordering {
