@@ -969,6 +969,28 @@ dimwishlist:item=1389546626&perks=1482024992,3230963543,1365187766,3038247973
 dimwishlist:item=1389546626&perks=1482024992,106909392,1365187766,3038247973
 
 
+// Revision Zero - Boss and Champion Damage (god-pve,pve,mnk,controller)
+//notes: With the effects of 4-Timer Refit and Vorpal Weapon, you can keep sustained damage on a Champion or Boss without being reliant on Heavy. I wouldn't take away from Stability, but I also don't think it needs investment. Nor does range. Even if you try to top it out with Barrel and Mag, you're only getting two more meters of ADS distance. So that leaves Reload and Handling. I think Reload needs more help at base, then you can focus on Handling. You don't want to ignore Handling altogether because when you get Hunter's Trace up, you want to get scoped in fast. tags:god-pve,pve,mnk,controller
+dimwishlist:item=1473821207&perks=839105230,3230963543,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=839105230,679225683,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=839105230,1968497646,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=839105230,1561002382,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=839105230,1087426260,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=1840239774,3230963543,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=1840239774,679225683,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=1840239774,1968497646,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=1840239774,1561002382,1546637391,4259401308,2206869417,1266037486
+dimwishlist:item=1473821207&perks=1840239774,1087426260,1546637391,4259401308,2206869417,1266037486
+
+
+// Revision Zero - 3v3 (god-pvp,pvp,mnk)
+//notes: 100 Range intrinsically. Enough said. tags:god-pvp,pvp,mnk
+dimwishlist:item=1473821207&perks=3661387068,1885400500,588594999,3465198467,4152458172,1266037484
+dimwishlist:item=1473821207&perks=839105230,1885400500,588594999,3465198467,4152458172,1266037484
+dimwishlist:item=1473821207&perks=1840239774,1885400500,588594999,3465198467,4152458172,1266037484
+dimwishlist:item=1473821207&perks=1392496348,1885400500,588594999,3465198467,4152458172,1266037484
+
+
 // Warden's Law - The Lucky Pants Roll (god-pve,pve,mnk,controller)
 //notes: FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. If you can't get that, Enlightened Action is a good alternative for bumping your reload speed. I would avoid any mags or chambers that boost recoil direction as it really does not need the boost with having near perfect recoil pattern already. I would NOT go with Extended Mag as the reload stat is already a full 3 seconds at base and even with full stacks of enlightened action you're looking at ~2.4 seconds to reload. Unless you have some other way to proc a reload scaler, or you lean all the way into reload, it just doesn't seem worth it to me tags:god-pve,pve,mnk,controller
 dimwishlist:item=1821529912&perks=4090651448,1087426260,3828510309,1546637391

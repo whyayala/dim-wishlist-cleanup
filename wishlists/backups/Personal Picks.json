@@ -667,6 +667,75 @@
                 "Mouse",
                 "Controller"
             ]
+        },
+        {
+            "description": "With the effects of 4-Timer Refit and Vorpal Weapon, you can keep sustained damage on a Champion or Boss without being reliant on Heavy. I wouldn't take away from Stability, but I also don't think it needs investment. Nor does range. Even if you try to top it out with Barrel and Mag, you're only getting two more meters of ADS distance. So that leaves Reload and Handling. I think Reload needs more help at base, then you can focus on Handling. You don't want to ignore Handling altogether because when you get Hunter's Trace up, you want to get scoped in fast.",
+            "hash": 1473821207,
+            "name": "Boss and Champion Damage",
+            "plugs": [
+                [
+                    839105230,
+                    1840239774
+                ],
+                [
+                    3230963543,
+                    679225683,
+                    1968497646,
+                    1561002382,
+                    1087426260
+                ],
+                [
+                    1546637391
+                ],
+                [
+                    4259401308
+                ],
+                [
+                    2206869417
+                ],
+                [
+                    1266037486
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "100 Range intrinsically. Enough said.",
+            "hash": 1473821207,
+            "name": "3v3",
+            "plugs": [
+                [
+                    3661387068,
+                    839105230,
+                    1840239774,
+                    1392496348
+                ],
+                [
+                    1885400500
+                ],
+                [
+                    588594999
+                ],
+                [
+                    3465198467
+                ],
+                [
+                    4152458172
+                ],
+                [
+                    1266037484
+                ]
+            ],
+            "tags": [
+                "GodPVP",
+                "PVP",
+                "Mouse"
+            ]
         }
     ]
 }
