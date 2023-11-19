@@ -182,24 +182,23 @@
             ]
         },
         {
-            "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. If you can't get that, Enlightened Action is a good alternative for bumping your reload speed. I would avoid any mags or chambers that boost recoil direction as it really does not need the boost with having near perfect recoil pattern already. I would NOT go with Extended Mag as the reload stat is already a full 3 seconds at base and even with full stacks of enlightened action you're looking at ~2.4 seconds to reload. Unless you have some other way to proc a reload scaler, or you lean all the way into reload, it just doesn't seem worth it to me",
+            "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. This paired with Lucky Pants makes it a Boss DPS and Champion stunning option. You will get the effect of 100 Handling for your ready time. Add a Dexterity and Loader mod and you are now free to invest into Mag size, Stability, and Range.",
             "hash": 267089201,
-            "name": "The Lucky Pants Roll",
+            "name": "The Lucky Pants Boss DPS Roll",
             "plugs": [
                 [
                     1392496348,
-                    4090651448,
-                    1840239774,
-                    1482024992
+                    1482024992,
+                    3661387068
                 ],
                 [
                     1087426260,
                     106909392,
-                    3230963543
+                    3230963543,
+                    2420895100
                 ],
                 [
-                    1354429876,
-                    3828510309
+                    1354429876
                 ],
                 [
                     1546637391
@@ -213,28 +212,24 @@
             ]
         },
         {
-            "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. If you can't get that, Enlightened Action is a good alternative for bumping your reload speed. If you get Discord going you will get a free reload on kill. I would avoid any mags or chambers that boost recoil direction as it really does not need the boost with having near perfect recoil pattern already. I would NOT go with Extended Mag as the reload stat is already a full 3 seconds at base and even with full stacks of enlightened action you're looking at ~2.4 seconds to reload. Unless you have some other way to proc a reload scaler, or you lean all the way into reload, it just doesn't seem worth it to me",
+            "description": "Frenzy gives 100 Handling and Reload. Discord or FTTC to keep the mag topped.",
             "hash": 267089201,
-            "name": "The General Roll",
+            "name": "The Frenzy Roll",
             "plugs": [
                 [
+                    3661387068,
                     1392496348,
-                    4090651448,
-                    1840239774,
                     1482024992
                 ],
                 [
                     1087426260,
-                    106909392,
-                    3230963543
+                    2420895100
                 ],
                 [
                     1354429876,
-                    3828510309,
                     3978468247
                 ],
                 [
-                    3425386926,
                     4104185692
                 ]
             ],
@@ -251,18 +246,17 @@
             "name": "The Lucky Pants Roll",
             "plugs": [
                 [
-                    4090651448,
-                    1840239774,
                     1392496348,
-                    1482024992
+                    1482024992,
+                    3661387068
                 ],
                 [
                     1087426260,
                     106909392,
-                    3230963543
+                    3230963543,
+                    2420895100
                 ],
                 [
-                    3828510309,
                     1354429876
                 ],
                 [
@@ -279,18 +273,21 @@
         {
             "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. If you can't get that, Enlightened Action is a good alternative for bumping your reload speed. If you get Discord going you will get a free reload on kill. I would avoid any mags or chambers that boost recoil direction as it really does not need the boost with having near perfect recoil pattern already. I would NOT go with Extended Mag as the reload stat is already a full 3 seconds at base and even with full stacks of enlightened action you're looking at ~2.4 seconds to reload. Unless you have some other way to proc a reload scaler, or you lean all the way into reload, it just doesn't seem worth it to me",
             "hash": 1821529912,
-            "name": "The General Roll",
+            "name": "The Rampage Roll",
             "plugs": [
                 [
-                    4090651448,
                     1840239774,
                     1392496348,
-                    1482024992
+                    1482024992,
+                    4090651448,
+                    3661387068
                 ],
                 [
                     1087426260,
                     106909392,
-                    3230963543
+                    3230963543,
+                    3177308360,
+                    2420895100
                 ],
                 [
                     3828510309,
@@ -298,7 +295,6 @@
                     3978468247
                 ],
                 [
-                    4104185692,
                     3425386926
                 ]
             ],
@@ -735,6 +731,598 @@
                 "GodPVP",
                 "PVP",
                 "Mouse"
+            ]
+        },
+        {
+            "description": "I had one of these on Day 1 KF and it was a life saver for stunning champs and clearing adds. Don't need to focus on Reload very much since Bitterspite will provide a significant buff just from taking damage, but Feeding Frenzy and Perpetual Motion can also help when it's not procced.",
+            "hash": 1780464822,
+            "name": "Add Clear Roll",
+            "plugs": [
+                [
+                    839105230,
+                    1840239774,
+                    4090651448
+                ],
+                [
+                    1561002382,
+                    1968497646,
+                    1885400500
+                ],
+                [
+                    2779035018,
+                    1428297954
+                ],
+                [
+                    3047969693,
+                    124408337
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "I had one of these on Day 1 KF and it was a life saver for stunning champs and clearing adds. Don't need to focus on Reload very much since Bitterspite will provide a significant buff just from taking damage, but Feeding Frenzy and Perpetual Motion can also help when it's not procced.",
+            "hash": 1780464822,
+            "name": "Boss and Champion Roll",
+            "plugs": [
+                [
+                    839105230,
+                    1840239774,
+                    4090651448
+                ],
+                [
+                    1561002382,
+                    1968497646,
+                    1885400500
+                ],
+                [
+                    2779035018,
+                    1428297954
+                ],
+                [
+                    1546637391,
+                    2896038713
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "I had one of these on Day 1 KF and it was a life saver for stunning champs and clearing adds. Don't need to focus on Reload very much since Bitterspite will provide a significant buff just from taking damage, but Feeding Frenzy and Perpetual Motion can also help when it's not procced.",
+            "hash": 1780464822,
+            "name": "Swapper Roll",
+            "plugs": [
+                [
+                    1840239774,
+                    4090651448
+                ],
+                [
+                    1561002382,
+                    1968497646,
+                    1885400500,
+                    3230963543,
+                    679225683
+                ],
+                [
+                    509074078
+                ],
+                [
+                    438098033
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "For slaying out. Handling and Range are not worth investing into. Go all in on Stability and Reload. Let third column keep your stats buffed or mag topped.",
+            "hash": 267089201,
+            "name": "The Rampage Roll",
+            "plugs": [
+                [
+                    1482024992,
+                    1392496348,
+                    1840239774,
+                    4090651448,
+                    3661387068
+                ],
+                [
+                    3230963543,
+                    1087426260,
+                    106909392,
+                    2420895100,
+                    3177308360
+                ],
+                [
+                    1354429876,
+                    3978468247,
+                    3828510309
+                ],
+                [
+                    3425386926
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. If you can't get that, Enlightened Action is a good alternative for bumping your reload speed. If you get Discord going you will get a free reload on kill. I would avoid any mags or chambers that boost recoil direction as it really does not need the boost with having near perfect recoil pattern already. I would NOT go with Extended Mag as the reload stat is already a full 3 seconds at base and even with full stacks of enlightened action you're looking at ~2.4 seconds to reload. Unless you have some other way to proc a reload scaler, or you lean all the way into reload, it just doesn't seem worth it to me",
+            "hash": 1821529912,
+            "name": "The Frenzy Roll",
+            "plugs": [
+                [
+                    4090651448,
+                    1840239774,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    1087426260,
+                    2420895100
+                ],
+                [
+                    1354429876,
+                    3978468247
+                ],
+                [
+                    4104185692
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Despite popular opinions, Auto Rifles can be very effective Champion breakers with the right roll. Target Lock + FTTC allows you to focus a champ and get the max damage stack. To keep your aim true and maintain Target Lock's buff, I would focus on Stability and Mag size. Frenzy is a good backup option if you can't get Target Lock. I am not a supporter of Reconstruction on primary weapons but you could make it work here as well.",
+            "hash": 4070357005,
+            "name": "Target Lock Roll",
+            "plugs": [
+                [
+                    3661387068,
+                    1392496348,
+                    1482024992,
+                    4090651448,
+                    1840239774
+                ],
+                [
+                    1140096971,
+                    106909392,
+                    3177308360,
+                    3230963543,
+                    2420895100,
+                    1087426260
+                ],
+                [
+                    1354429876,
+                    1523832109
+                ],
+                [
+                    365154968,
+                    4104185692
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Swashbuckler is very good if you have a build where you are able to exploit melee kills.",
+            "hash": 4070357005,
+            "name": "Melee Build Roll",
+            "plugs": [
+                [
+                    3661387068,
+                    1392496348,
+                    1482024992,
+                    4090651448,
+                    1840239774
+                ],
+                [
+                    1140096971,
+                    106909392,
+                    3177308360,
+                    3230963543,
+                    2420895100,
+                    1087426260
+                ],
+                [
+                    4071163871,
+                    1354429876,
+                    1523832109,
+                    1359896290,
+                    691659142
+                ],
+                [
+                    4082225868
+                ]
+            ],
+            "tags": [
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "3v3 Rolls. Invest in Range then Recoil Direction/Stability. Any barrel will work, really.",
+            "hash": 4070357005,
+            "name": "3v3",
+            "plugs": [
+                [
+                    1140096971,
+                    3142289711
+                ],
+                [
+                    1359896290
+                ],
+                [
+                    2846385770,
+                    588594999,
+                    3511092054
+                ]
+            ],
+            "tags": [
+                "GodPVP",
+                "PVP",
+                "Mouse"
+            ]
+        },
+        {
+            "description": "Rolls for 6v6.",
+            "hash": 4070357005,
+            "name": "6v6",
+            "plugs": [
+                [
+                    1140096971,
+                    3142289711
+                ],
+                [
+                    1359896290,
+                    4071163871
+                ],
+                [
+                    365154968,
+                    4082225868
+                ]
+            ],
+            "tags": [
+                "GodPVP",
+                "PVP",
+                "Mouse"
+            ]
+        },
+        {
+            "description": "Range is already pretty high so focus on Stability or Reload/Mag size.",
+            "hash": 2328531378,
+            "name": "Target Lock Roll",
+            "plugs": [
+                [
+                    3661387068,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    1968497646,
+                    1561002382,
+                    1087426260,
+                    2420895100,
+                    1885400500,
+                    3230963543,
+                    679225683
+                ],
+                [
+                    1354429876
+                ],
+                [
+                    365154968
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Range is already pretty high so focus on Stability or Reload/Mag size.",
+            "hash": 2328531378,
+            "name": "Grenade Build Roll",
+            "plugs": [
+                [
+                    3661387068,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    1968497646,
+                    1561002382,
+                    1087426260,
+                    2420895100,
+                    1885400500,
+                    3230963543,
+                    679225683
+                ],
+                [
+                    1354429876,
+                    3523296417,
+                    1774574192,
+                    1359896290
+                ],
+                [
+                    11612903
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "6v6 Rolls",
+            "hash": 2328531378,
+            "name": "6v6",
+            "plugs": [
+                [
+                    4090651448,
+                    1467527085,
+                    3250034553,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    1968497646,
+                    1561002382,
+                    1885400500
+                ],
+                [
+                    1359896290,
+                    2451262963,
+                    1428297954,
+                    3523296417
+                ],
+                [
+                    1015611457,
+                    11612903,
+                    365154968
+                ]
+            ],
+            "tags": [
+                "GodPVP",
+                "PVP",
+                "Mouse"
+            ]
+        },
+        {
+            "description": "3v3 Rolls",
+            "hash": 2328531378,
+            "name": "3v3",
+            "plugs": [
+                [
+                    4090651448,
+                    1467527085,
+                    3250034553,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    1968497646,
+                    1561002382,
+                    1885400500
+                ],
+                [
+                    1359896290,
+                    2451262963,
+                    1428297954,
+                    3523296417
+                ],
+                [
+                    365154968,
+                    1890422124
+                ]
+            ],
+            "tags": [
+                "GodPVP",
+                "PVP",
+                "Mouse"
+            ]
+        },
+        {
+            "description": "Mag Size > Range. As far as scouts go, you can't go wrong with this and any of the following combos. The Omolon trait gives it a ton of free Stability and Reload.",
+            "hash": 2883684343,
+            "name": "Work Horse Roll",
+            "plugs": [
+                [
+                    1467527085,
+                    202670084,
+                    3250034553,
+                    1482024992,
+                    4090651448
+                ],
+                [
+                    3142289711,
+                    1087426260,
+                    2420895100
+                ],
+                [
+                    247725512,
+                    1820235745,
+                    3436462433,
+                    3700496672
+                ],
+                [
+                    3824105627,
+                    4104185692,
+                    3891536761
+                ],
+                [
+                    2839173408
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "If you opt to not use Omolon and instead go for Stunning Recovery (25% Mag refill, 60 HP and 40 Recovery when stunning a Champion) you can still make up the stats with very passive traits like Surplus, Rapid Hit and Frenzy. Because of that, I don't think Barrel really matters here. Just pick the one you like.",
+            "hash": 2883684343,
+            "name": "Champion Stunning Roll",
+            "plugs": [
+                [
+                    3142289711,
+                    1087426260,
+                    106909392,
+                    2420895100,
+                    3177308360
+                ],
+                [
+                    247725512,
+                    3436462433
+                ],
+                [
+                    3891536761,
+                    4104185692
+                ],
+                [
+                    1281216113
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Rolls that play well with stasis builds, grenade builds, and general builds. Lean into Stability for truer shots.",
+            "hash": 2510526114,
+            "name": "General Rolls",
+            "plugs": [
+                [
+                    3661387068,
+                    4090651448,
+                    1840239774,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    106909392,
+                    3177308360,
+                    3230963543
+                ],
+                [
+                    3523296417,
+                    3828510309,
+                    1820235745,
+                    1359896290
+                ],
+                [
+                    3324494224,
+                    124408337,
+                    11612903,
+                    365154968,
+                    3708227201
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Enlightened Action is entirely Redundant when Frenzy is procced. You can go into Stability, Range and Mag size a bit.",
+            "hash": 2510526114,
+            "name": "Frenzy Rolls",
+            "plugs": [
+                [
+                    3661387068,
+                    4090651448,
+                    1392496348,
+                    1482024992,
+                    1467527085
+                ],
+                [
+                    106909392,
+                    3177308360,
+                    2420895100
+                ],
+                [
+                    3523296417,
+                    1820235745,
+                    3978468247
+                ],
+                [
+                    4104185692
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Weapon swapping rolls. Aims for highish handling and getting kills with a different weapon to then swap to this and then back again. Lean into Stability for truer shots.",
+            "hash": 2510526114,
+            "name": "Swapper Rolls",
+            "plugs": [
+                [
+                    3661387068,
+                    4090651448,
+                    1840239774,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    106909392,
+                    3177308360,
+                    3230963543
+                ],
+                [
+                    3978468247,
+                    2586829431,
+                    3828510309,
+                    2450788523
+                ],
+                [
+                    3751912585,
+                    438098033
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
             ]
         }
     ]
