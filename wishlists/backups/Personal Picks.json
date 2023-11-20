@@ -127,14 +127,22 @@
             ]
         },
         {
-            "description": "Everything in third column is serviceable in pvp in some way.",
+            "description": "Everything in third column is serviceable in pvp in some way. Almost everything in fourth column is serviceable as well.",
             "hash": 358788212,
-            "name": "6v6 Roll",
+            "name": "PvP Roll",
             "plugs": [
                 [
-                    3177308360,
-                    3142289711,
-                    3230963543
+                    1467527085,
+                    3250034553,
+                    1482024992,
+                    202670084,
+                    3661387068,
+                    839105230,
+                    1392496348,
+                    4090651448
+                ],
+                [
+                    3142289711
                 ],
                 [
                     1168162263,
@@ -146,33 +154,10 @@
                 ],
                 [
                     1015611457,
-                    2610012052
-                ]
-            ],
-            "tags": [
-                "GodPVP",
-                "PVP",
-                "Mouse"
-            ]
-        },
-        {
-            "description": "More focused on neutral game perks for 3s.",
-            "hash": 358788212,
-            "name": "3v3 Roll",
-            "plugs": [
-                [
-                    3177308360,
-                    3142289711,
-                    3230963543
-                ],
-                [
-                    3828510309,
-                    588594999,
-                    3511092054
-                ],
-                [
+                    2610012052,
                     460017080,
-                    1428297954
+                    1428297954,
+                    124408337
                 ]
             ],
             "tags": [
@@ -182,26 +167,25 @@
             ]
         },
         {
-            "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. This paired with Lucky Pants makes it a Boss DPS and Champion stunning option. You will get the effect of 100 Handling for your ready time. Add a Dexterity and Loader mod and you are now free to invest into Mag size, Stability, and Range.",
+            "description": "FTTC pairs well with Warden's Law since it fires two burst shots allowing you to proc the mag refill more frequently. This paired with Lucky Pants makes it a Boss DPS and Champion stunning option. You will get the effect of 100 Handling for your ready time. Add a Dexterity and Loader mod and you are now free to invest into Mag size. For the most part, barrel doesn't matter. Take your pick.",
             "hash": 267089201,
             "name": "The Lucky Pants Boss DPS Roll",
             "plugs": [
                 [
-                    1392496348,
-                    1482024992,
-                    3661387068
-                ],
-                [
                     1087426260,
                     106909392,
                     3230963543,
-                    2420895100
+                    2420895100,
+                    1431678320
                 ],
                 [
                     1354429876
                 ],
                 [
                     1546637391
+                ],
+                [
+                    1281216113
                 ]
             ],
             "tags": [
@@ -246,21 +230,20 @@
             "name": "The Lucky Pants Roll",
             "plugs": [
                 [
-                    1392496348,
-                    1482024992,
-                    3661387068
-                ],
-                [
                     1087426260,
                     106909392,
                     3230963543,
-                    2420895100
+                    2420895100,
+                    1431678320
                 ],
                 [
                     1354429876
                 ],
                 [
                     1546637391
+                ],
+                [
+                    1281216113
                 ]
             ],
             "tags": [
@@ -339,7 +322,9 @@
             "plugs": [
                 [
                     839105230,
-                    1840239774
+                    3661387068,
+                    1392496348,
+                    1482024992
                 ],
                 [
                     1687452232,
@@ -371,7 +356,9 @@
             "plugs": [
                 [
                     839105230,
-                    1840239774
+                    3661387068,
+                    1392496348,
+                    1482024992
                 ],
                 [
                     1687452232,
@@ -426,25 +413,22 @@
             ]
         },
         {
-            "description": "Not all of these combos are optimal, but the main thing to try and focus is high Handling and high Reload/high Mag.",
+            "description": "The only thing you should care about is maxing out Handling for quick swaps, maxing out the Mag, then hitting Reload. This is for focusing a single enemy with a melee build.",
             "hash": 1296429091,
             "name": "One-Two Punch Rolls",
             "plugs": [
                 [
                     1300023272,
-                    4090651448,
-                    1332244541
+                    4090651448
                 ],
                 [
                     1087426260,
-                    106909392,
                     2420895100,
-                    3142289711,
+                    106909392,
                     679225683
                 ],
                 [
                     3643424744,
-                    1821614984,
                     3436462433,
                     3511092054
                 ],
@@ -460,18 +444,19 @@
             ]
         },
         {
-            "description": "Trench Barrel, Frenzy and Collective Action are easy to proc (depending on build). I would focus on Range since you're not necessarily up close all the time like you would be with One-Two Punch",
+            "description": "Trench Barrel, Frenzy and Collective Action are easy to proc (depending on build). I would focus on Range since you're not necessarily up close all the time like you would be with One-Two Punch, then Reload.",
             "hash": 1296429091,
             "name": "Slay Out Roll",
             "plugs": [
                 [
                     466087222,
-                    1332244541
+                    1332244541,
+                    1482024992
                 ],
                 [
-                    2420895100,
                     3142289711,
-                    1087426260
+                    679225683,
+                    106909392
                 ],
                 [
                     3643424744,
@@ -630,15 +615,14 @@
             ]
         },
         {
-            "description": "Stability on mnk feels like its a must because sidearms bounce a ton. Handling would come next since this is a Tex Mechanica gun and they get a stat boost for landing hip fire shots.",
+            "description": "Stability on mnk feels like its a must because sidearms bounce a ton. The return on Handling and Reload investment is negligible, especially since the Tex Mechanica origin trait can buff those stats with just 4 hip-fire shots.",
             "hash": 3138208275,
             "name": "",
             "plugs": [
                 [
-                    1482024992,
+                    3661387068,
                     1392496348,
-                    1840239774,
-                    4090651448
+                    1482024992
                 ],
                 [
                     1968497646,
@@ -734,23 +718,26 @@
             ]
         },
         {
-            "description": "I had one of these on Day 1 KF and it was a life saver for stunning champs and clearing adds. Don't need to focus on Reload very much since Bitterspite will provide a significant buff just from taking damage, but Feeding Frenzy and Perpetual Motion can also help when it's not procced.",
+            "description": "I had one of these on Day 1 KF and it was a life saver for stunning champs and clearing adds. Between Bitterspite and Feeding Frenzy, your Reload will likely bet 80-100 most of the time. Recoil and Mag should be the focus. Recoil because it has one of the most unfortunate values for Recoil. If you can't get Arrowhead, you can settle for something else and slap a Counterbalance Stock on it. Improve Mag to provide plenty of ammo to keep Feeding Frenzy active.",
             "hash": 1780464822,
             "name": "Add Clear Roll",
             "plugs": [
                 [
                     839105230,
-                    1840239774,
-                    4090651448
+                    3661387068,
+                    1467527085,
+                    1392496348,
+                    1482024992
                 ],
                 [
                     1561002382,
                     1968497646,
-                    1885400500
+                    1885400500,
+                    2420895100,
+                    1087426260
                 ],
                 [
-                    2779035018,
-                    1428297954
+                    2779035018
                 ],
                 [
                     3047969693,
@@ -765,23 +752,26 @@
             ]
         },
         {
-            "description": "I had one of these on Day 1 KF and it was a life saver for stunning champs and clearing adds. Don't need to focus on Reload very much since Bitterspite will provide a significant buff just from taking damage, but Feeding Frenzy and Perpetual Motion can also help when it's not procced.",
+            "description": "Use Well-Rounded to proc some stat buffs before focusing a Champion or boss.",
             "hash": 1780464822,
             "name": "Boss and Champion Roll",
             "plugs": [
                 [
                     839105230,
-                    1840239774,
-                    4090651448
+                    3661387068,
+                    1467527085,
+                    1392496348,
+                    1482024992
                 ],
                 [
                     1561002382,
-                    1968497646,
-                    1885400500
+                    1087426260,
+                    3230963543,
+                    1885400500,
+                    1968497646
                 ],
                 [
-                    2779035018,
-                    1428297954
+                    744594675
                 ],
                 [
                     1546637391,
@@ -897,26 +887,23 @@
             "plugs": [
                 [
                     3661387068,
+                    839105230,
                     1392496348,
-                    1482024992,
-                    4090651448,
-                    1840239774
+                    1467527085,
+                    1482024992
                 ],
                 [
                     1140096971,
                     106909392,
+                    1087426260,
                     3177308360,
-                    3230963543,
-                    2420895100,
-                    1087426260
+                    2420895100
                 ],
                 [
-                    1354429876,
-                    1523832109
+                    1354429876
                 ],
                 [
-                    365154968,
-                    4104185692
+                    365154968
                 ]
             ],
             "tags": [
@@ -932,7 +919,9 @@
             "name": "Melee Build Roll",
             "plugs": [
                 [
+                    839105230,
                     3661387068,
+                    1467527085,
                     1392496348,
                     1482024992,
                     4090651448,
@@ -940,16 +929,12 @@
                 ],
                 [
                     1140096971,
-                    106909392,
                     3177308360,
                     3230963543,
-                    2420895100,
-                    1087426260
+                    106909392
                 ],
                 [
-                    4071163871,
                     1354429876,
-                    1523832109,
                     1359896290,
                     691659142
                 ],
@@ -1012,23 +997,25 @@
             ]
         },
         {
-            "description": "Range is already pretty high so focus on Stability or Reload/Mag size.",
+            "description": "Armor-Piercing Rounds and High-Caliber Rounds are best in slot for PvE as they offer more damage to shields and higher chance to stagger, respectively. Range is already pretty high so focus on Stability/Recoil then Reload/Mag size.",
             "hash": 2328531378,
             "name": "Target Lock Roll",
             "plugs": [
                 [
                     3661387068,
+                    839105230,
                     1392496348,
+                    1467527085,
                     1482024992
                 ],
                 [
                     1968497646,
                     1561002382,
-                    1087426260,
-                    2420895100,
                     1885400500,
                     3230963543,
-                    679225683
+                    1087426260,
+                    679225683,
+                    2420895100
                 ],
                 [
                     1354429876
@@ -1045,29 +1032,28 @@
             ]
         },
         {
-            "description": "Range is already pretty high so focus on Stability or Reload/Mag size.",
+            "description": "For grenade builds. Armor-Piercing and High-Caliber are best in slot for PvE. Range is already pretty high so focus on Stability/Recoil then Reload.",
             "hash": 2328531378,
             "name": "Grenade Build Roll",
             "plugs": [
                 [
                     3661387068,
+                    839105230,
                     1392496348,
+                    1467527085,
                     1482024992
                 ],
                 [
                     1968497646,
                     1561002382,
-                    1087426260,
-                    2420895100,
                     1885400500,
-                    3230963543,
-                    679225683
+                    3230963543
                 ],
                 [
-                    1354429876,
                     3523296417,
-                    1774574192,
-                    1359896290
+                    1359896290,
+                    1428297954,
+                    1354429876
                 ],
                 [
                     11612903
@@ -1316,6 +1302,60 @@
                 [
                     3751912585,
                     438098033
+                ]
+            ],
+            "tags": [
+                "GodPVE",
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Since you're getting max Handling and Reload from Frenzy, anything not invested into Stability or Recoil is a wasted stat.",
+            "hash": 4070357005,
+            "name": "Frenzy Build Roll",
+            "plugs": [
+                [
+                    3661387068,
+                    1467527085,
+                    1392496348,
+                    1482024992
+                ],
+                [
+                    1140096971,
+                    3177308360
+                ],
+                [
+                    1354429876,
+                    1359896290
+                ],
+                [
+                    4104185692
+                ]
+            ],
+            "tags": [
+                "PVE",
+                "Mouse",
+                "Controller"
+            ]
+        },
+        {
+            "description": "Barrel really doesn't matter, but Full Choke should be your last choice since it reduces precision damage. The only thing you should care about is maxing out the Mag, then hitting Reload. This is for focusing a single enemy with a melee build.",
+            "hash": 1296429091,
+            "name": "Slickdraw One-Two Punch Rolls",
+            "plugs": [
+                [
+                    106909392,
+                    1087426260,
+                    2420895100,
+                    679225683
+                ],
+                [
+                    1821614984
+                ],
+                [
+                    2679249093
                 ]
             ],
             "tags": [
