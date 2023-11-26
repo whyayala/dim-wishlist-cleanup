@@ -1035,3 +1035,7 @@ dimwishlist:item=4255586669&perks=3525010810,3301904089,3300816228,3523296417
 dimwishlist:item=4255586669&perks=3525010810,3301904089,3300816228,1546637391
 
 
+// Divinity - Divinity (god-pve,pve,mnk,controller)
+//notes: 15% debuff with crit bubble. Intrinsic overload. GMs. tags:god-pve,pve,mnk,controller
+dimwishlist:item=4103414242&perks=1392496348,3868766766,1185480639,3465198467
+
