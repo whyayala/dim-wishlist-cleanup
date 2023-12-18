@@ -56,3 +56,13 @@ Mid Range (Hand Cannons, Pulse Rifles)
 1. Rapid Fire Pulse Rifle [429]
 1. Adaptive Pulse Rifle [410]
 
+Primary weapons with the highest damage scaler for Firefly/Dragonfly
+
+1. Hand Cannons
+2. Bows
+
+Special weapons with the highest damage scaler for Firefly/Dragonfly
+
+1. Machine Guns
+2. Shotguns
+3. Sniper Rifles
