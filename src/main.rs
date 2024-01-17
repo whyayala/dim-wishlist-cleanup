@@ -63,12 +63,12 @@ fn main() {
 
     for weapon_roll in weapon_rolls {
         let wishlist = Wishlist::new(weapon_roll.into_inner());
-        parsed_wishlists.push(wishlist)
+        parsed_wishlists.push(wishlist);
     }
 
     handle_write_to_file(&mkb_wishlist, b"title:Cobes-3's Reduced MNK Wishlist.\n");
     handle_write_to_file(&mkb_wishlist, b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
-
+    
     parsed_wishlists.sort_by(sort_by_god_rolls);
 
     for wishlist in parsed_wishlists {
