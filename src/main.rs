@@ -63,7 +63,7 @@ fn main() {
 
     for weapon_roll in weapon_rolls {
         let wishlist = Wishlist::new(weapon_roll.into_inner());
-        parsed_wishlists.push(wishlist);
+        parsed_wishlists.push(wishlist)
     }
 
     handle_write_to_file(&mkb_wishlist, b"title:Cobes-3's Reduced MNK Wishlist.\n");
