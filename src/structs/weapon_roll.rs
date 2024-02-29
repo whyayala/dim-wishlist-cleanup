@@ -6,21 +6,34 @@ fn explode(string: &str, delimiter: &str) -> Vec<String> {
     vec_of_strings
 }
 
-fn filter_redundant_frenzy_combos(weapon_rolls: Vec<WeaponRoll>) -> Vec<WeaponRoll> {
-    let filtered_weapon_rolls = weapon_rolls
-        .into_iter()
-        .filter(|weapon_roll| is_redundant_frenzy_combo(&weapon_roll.perks))
-        .collect();
-    filtered_weapon_rolls
-}
-
 fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let frenzy_id = &"4104185692".to_string();
+    
     let surplus_id = &"3436462433".to_string();
+    let outlaw_id = &"1168162263".to_string();
+    let perpetual_motion_id = &"1428297954".to_string();
+    let enlightened_acton_id = &"3828510309".to_string();
+    let rapid_hit_id = &"247725512".to_string();
+    let threat_detector_id = &"4071163871".to_string();
+
     let flared_magwell_id = &"3230963543".to_string();
     let tactical_mag_id = &"106909392".to_string();
+    let light_mag_id = &"679225683".to_string();
+    
+    let fluted_barrell_id = &"1840239774".to_string();
     perks.contains(frenzy_id) 
-        && (perks.contains(surplus_id) || perks.contains(flared_magwell_id) || perks.contains(tactical_mag_id))
+        && (
+            perks.contains(surplus_id) 
+            || perks.contains(outlaw_id) 
+            || perks.contains(perpetual_motion_id)
+            || perks.contains(enlightened_acton_id)
+            || perks.contains(rapid_hit_id)
+            || perks.contains(threat_detector_id)
+            || perks.contains(flared_magwell_id) 
+            || perks.contains(tactical_mag_id)
+            || perks.contains(light_mag_id)
+            || perks.contains(fluted_barrell_id)
+        )
 
 }
 

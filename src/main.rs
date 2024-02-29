@@ -8,7 +8,6 @@ use pest::{
     Parser,
 };
 use structs::wishlist::Wishlist;
-use structs::weapon_roll::WeaponRoll;
 use std::cmp::Ordering;
 use std::fs;
 use std::fs::{File, OpenOptions};
@@ -64,12 +63,6 @@ fn main() {
 
     for weapon_roll in weapon_rolls {
         let wishlist = Wishlist::new(weapon_roll.into_inner());
-        for mut weapon_roll in wishlist.clone().weapon_rolls {
-            if weapon_roll.is_bad_perk_combo() {
-                println!("found bad perk combo");
-                println!("-----{}", weapon_roll.item_id);
-            }
-        }
         parsed_wishlists.push(wishlist)
     }
 
