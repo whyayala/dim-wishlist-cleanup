@@ -26,6 +26,8 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let flared_magwell_id = &"3230963543".to_string();
     let tactical_mag_id = &"106909392".to_string();
     let light_mag_id = &"679225683".to_string();
+    let light_battery_id = &"2749775325".to_string();
+    let alloy_casing_id = &"2985827016".to_string();
     
     let fluted_barrell_id = &"1840239774".to_string();
     perks.contains(frenzy_id) || perks.contains(enhanced_frenzy_id)
@@ -45,6 +47,8 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
             || perks.contains(flared_magwell_id) 
             || perks.contains(tactical_mag_id)
             || perks.contains(light_mag_id)
+            || perks.contains(light_battery_id)
+            || perks.contains(alloy_casing_id)
             || perks.contains(fluted_barrell_id)
         )
 
