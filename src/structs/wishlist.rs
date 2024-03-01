@@ -35,9 +35,7 @@ fn is_controller_specific(tags_string: &str) -> bool {
 fn tags_from_notes(notes_string: &str) -> &str {
     if notes_string.contains("(PvP backup roll)") {
         "pvp"
-    } else if notes_string.contains("(PvE backup roll)")
-        || notes_string.contains("(PvE backupe roll)")
-    {
+    } else if notes_string.contains("(PvE backup roll)") || notes_string.contains("(PvE backupe roll)") {
         "pve"
     } else if notes_string.contains("(PvE first choice roll)") {
         "pve,pve-god"
