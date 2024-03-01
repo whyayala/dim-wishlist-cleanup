@@ -165,8 +165,12 @@ impl Wishlist {
                                 roll_accumulator
                             }
                         });
-                    new_wishlist_accumulator.weapon_rolls.push(new_roll);
-                    new_wishlist_accumulator
+                    if !new_roll.clone().is_bad_perk_combo() {
+                        new_wishlist_accumulator.weapon_rolls.push(new_roll);
+                        new_wishlist_accumulator
+                    } else {
+                        new_wishlist_accumulator
+                    }
                 } else {
                     wishlist_accumulator
                 }
