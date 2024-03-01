@@ -22,6 +22,12 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let enhanced_rapid_hit_id = &"2938480696".to_string();
     let threat_detector_id = &"4071163871".to_string();
     let enhanced_threat_detector_id = &"494941759".to_string();
+    let ensemble_id = &"2621346526".to_string();
+    let enhanced_ensemble_id = &"2495011826".to_string();
+    let compulsive_reloader_id = &"671806388".to_string();
+    let enhanced_compulsive_reloader_id = &"595108252".to_string();
+    let feeding_frenzy_id = &"2779035018".to_string();
+    let enhanced_feeding_frenzy_id = &"1171147302".to_string();
 
     let flared_magwell_id = &"3230963543".to_string();
     let tactical_mag_id = &"106909392".to_string();
@@ -31,6 +37,9 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let mini_frags_id = &"332133599".to_string();
     
     let fluted_barrell_id = &"1840239774".to_string();
+    let counter_mass_id = &"3809316345".to_string();
+    let quick_launch_id = &"3525010810".to_string();
+
     perks.contains(frenzy_id) || perks.contains(enhanced_frenzy_id)
         && (
             perks.contains(surplus_id) 
@@ -45,6 +54,12 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
             || perks.contains(enhanced_rapid_hit_id)
             || perks.contains(threat_detector_id)
             || perks.contains(enhanced_threat_detector_id)
+            || perks.contains(ensemble_id)
+            || perks.contains(enhanced_ensemble_id)
+            || perks.contains(compulsive_reloader_id)
+            || perks.contains(enhanced_compulsive_reloader_id)
+            || perks.contains(feeding_frenzy_id)
+            || perks.contains(enhanced_feeding_frenzy_id)
             || perks.contains(flared_magwell_id) 
             || perks.contains(tactical_mag_id)
             || perks.contains(light_mag_id)
@@ -52,6 +67,8 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
             || perks.contains(alloy_casing_id)
             || perks.contains(mini_frags_id)
             || perks.contains(fluted_barrell_id)
+            || perks.contains(counter_mass_id)
+            || perks.contains(quick_launch_id)
         )
 
 }
