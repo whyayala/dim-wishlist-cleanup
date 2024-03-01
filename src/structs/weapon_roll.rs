@@ -40,7 +40,7 @@ fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let counter_mass_id = &"3809316345".to_string();
     let quick_launch_id = &"3525010810".to_string();
 
-    perks.contains(frenzy_id) || perks.contains(enhanced_frenzy_id)
+    (perks.contains(frenzy_id) || perks.contains(enhanced_frenzy_id))
         && (
             perks.contains(surplus_id) 
             || perks.contains(enhanced_surplus_id) 
