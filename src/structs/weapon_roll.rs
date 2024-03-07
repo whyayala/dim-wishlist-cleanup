@@ -1,3 +1,5 @@
+use arbitrary::Arbitrary;
+
 fn explode(string: &str, delimiter: &str) -> Vec<String> {
     let vec_of_strings: Vec<String> = string
         .split(delimiter)
@@ -101,7 +103,7 @@ fn is_redundant_outlaw_combo(perks: &Vec<String>) -> bool {
         )
 }
 
-#[derive(Clone)]
+#[derive(Clone, Arbitrary)]
 pub struct WeaponRoll {
     pub item_id: String,
     pub perks: Vec<String>,
