@@ -1,23 +1,26 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/rust
 {
-	"name": "Codespaces Rust Starter",
+	"name": "Rust",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"cschleiden.vscode-github-actions",
-				"ms-vsliveshare.vsliveshare",
-				"matklad.rust-analyzer",
-				"serayuzgur.crates",
-				"vadimcn.vscode-lldb"
+				"1YiB.rust-bundle"
 			],
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh",
-				"editor.formatOnSave": true,
-				"files.exclude": {
-					"**/CODE_OF_CONDUCT.md": true,
-					"**/LICENSE": true
-				}
+				"editor.formatOnSave": true
 			}
 		}
 	},
-	"dockerFile": "Dockerfile"
+
+	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
+	"mounts": [
+		{
+			"source": "devcontainer-cargo-cache-${devcontainerId}",
+			"target": "/usr/local/cargo",
+			"type": "volume"
+		}
+	]
 }
