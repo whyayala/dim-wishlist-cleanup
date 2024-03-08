@@ -1,1 +1,2 @@
 curl https://raw.githubusercontent.com/48klocs/dim-wish-list-sources/master/voltron.txt > voltron.txt
+curl https://raw.githubusercontent.com/dsf000z/JAT-wishlists-bundler/main/bundles/DIM-strict/just-another-team-mnk.txt > jat.txt
