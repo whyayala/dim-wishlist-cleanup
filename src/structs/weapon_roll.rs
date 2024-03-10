@@ -122,10 +122,6 @@ fn is_redundant_grenade_launcher_combo(perks: &Vec<String>) -> bool {
         )
 }
 
-fn is_redundant_voltshot_combo() {
-    // no overflow mag before procced
-}
-
 #[derive(Clone)]
 pub struct WeaponRoll {
     pub item_id: String,
