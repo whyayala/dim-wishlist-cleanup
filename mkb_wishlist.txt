@@ -987,11 +987,6 @@ dimwishlist:item=3591141932&perks=839105230,2680121939,968510818,2610012052
 dimwishlist:item=1851777734&perks=981914802,3796465595,3523296417,3194351027
 dimwishlist:item=1851777734&perks=981914802,3796465595,1523832109,3194351027
 
-// Apex Predator PvE first-choice roll
-// Confined Launch, Impact Casing, Tracking Module, Explosive Light
-//notes:Inspired by @DestinyMBP Podcast vs Enemies episode 69 https://open.spotify.com/episode/3ZIEMYfNzOu5TyLlLhU7hH?si=90ffff909a2e40f2 with @Saint_Kabr and @CourtProjects - @ImpetusAlways is on holiday. Backup PvE pick for burst damage against majors and bosses with short damage windows in end-game activities. Shapeable. Apex Predator has gone from the insta-shard class when it dropped, to pretty much the best rocket launcher option for putting out damage. Even though the stats are only middling, and you can't get to 10 shots - the maximum is 9, with two reserve mods, it's already in the highest subfamily for damage along with Aggressives, and is the best craftable rocket launcher in the game, as at S21. For a guided rocket, you want to velocity as low as possible, to give the shot plenty of time for course correction if your target jinks, and Confined Launch is the barrel to do that. Impact Casing adds 2.2% multiplicative damage in the magazine perk slot. In the first trait column Tracking Module is very useful for hitting more mobile majors and bosses, while in the second slot as the signature perk, Enhanced Explosive Light lets you shoot seven rockets with a 25% damage boost, just for picking up orbs. Recommended MW: Reload Speed, Velocity or Handling, with a damage-boosting Major, Boss or Taken Spec mod. tags:pve, pve-boss, pve-major, pve-god, pve-endgame, mkb, controller
-dimwishlist:item=1851777734&perks=1844523823,3796465595,3977735242,3194351027
-
 // Compass Rose PvE first-choice roll
 // Corkscrew Rifling, Barrel Shroud, Assault Mag, Tactical Mag, Lead From Gold, Grave Robber, Trench Barrel
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 72 https://open.spotify.com/episode/5vRI9hBynq3jq712XCu7oc?si=c87cbb8036254e4a with @ImpetusAlways, @Saint_Kabr and @CourtProjects. ???  ???: First-choice PvE pick for burst damage against Major spec enemies in end-game content. First thing to say, if you already have a rapid hit or lightweight Trench Barrel shotgun then just shard this. If you haven't, then Compass Rose can be your stopgap until you do. The stats are a bit of a mixed bag, but Handling is usually the play with shotguns anyway, so Corkscrew Rifling or Barrel Shroud improve that, as well as other useful gunfeel stats, and Assault Mag increases your rate of fire, and hence DPS, or Tactical Mag takes the mag size to six to let you get two full bursts of three shots off without reloading, and then helps with reload speed. Grave Robber can be useful, if you're near a crowd of minors to keep Trench Barrel procced, but if you're doing damage against a single target it's not much use, so Lead From Gold is more reliably useful. The Dream Works origin trait is useful in a fireteam to get the occasional overflowed magazine in a firefight too. Recommended MW: Handling or Reload Speed, with a damage-boosting Major or Taken Spec mod. tags:pve, pve-boss, pve-major, pve-god, pve-endgame, mkb, controller
@@ -3517,7 +3512,6 @@ dimwishlist:item=2738601016&perks=1441682018,1771897777,968510818,3078487919
 dimwishlist:item=2738601016&perks=3525010810,3301904089,968510818,3078487919
 dimwishlist:item=2738601016&perks=981914802,3301904089,968510818,3078487919
 dimwishlist:item=2738601016&perks=3798852852,3301904089,968510818,3078487919
-dimwishlist:item=2738601016&perks=1441682018,3301904089,968510818,3078487919
 
 // Cataphract GL3 PvE first-choice roll
 // Volatile Launch, High-Explosive Ordnance, Demolitionist, Auto-Loading Holster, Field Prep, Hatchling, Chain Reaction
@@ -3539,7 +3533,6 @@ dimwishlist:item=874623537&perks=1441682018,1771897777,968510818,3078487919
 dimwishlist:item=874623537&perks=3525010810,3301904089,968510818,3078487919
 dimwishlist:item=874623537&perks=981914802,3301904089,968510818,3078487919
 dimwishlist:item=874623537&perks=3798852852,3301904089,968510818,3078487919
-dimwishlist:item=874623537&perks=1441682018,3301904089,968510818,3078487919
 
 // Cataphract GL3 Adept PvE first-choice roll
 // Volatile Launch, High-Explosive Ordnance, Demolitionist, Auto-Loading Holster, Field Prep, Hatchling, Chain Reaction
@@ -4469,7 +4462,6 @@ dimwishlist:item=3493494807&perks=3250034553,3868766766,1523832109,4293542123
 // Koraxis's Distress PvE first-choice roll
 // Linear Compensator, Quick Launch, Spike Grenades, Chain Reactions, Hatchling
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 57 https://open.spotify.com/episode/3LOWj7jLe0eiacDYwEbK22 with @CourtProjects, @ImpetusAlways and @Saint_Kabr. First-choice PvE roll for Strand subclass synergy for Minor add-clear in end-game content. Most Raid weapons boast excellent stat packages, and Koraxis's Distress is no different. Rapid fire power grenade launchers are more suited to add clear, so to lean into that role, Linear Compensator adds a little extra Blast Radius let's face it, you'll want to catch as many adds as possible in an explosion, or Quick Launch just goes all in for velocity in the barrel. If you do catch a chunkier enemy, Spike Grenades is nice for a little extra impact damage, and then the unique combination of Chain Reaction as your first trait column support perk - let's face it, it's unusual to have it as a support perk - and Hatchling as the signature perk in the second trait column. Chain Reaction kills count towards proccing Hatchling, so you should see plenty of Threadlings spawning. Explosions and a small army of Threadlings together should clear a room pretty fast. The Harmonic Resonance origin trait can boost damage still further by a stacking 3.33% with one other RoN Raid weapon or 10% with two. Recommended MW: Blast Radius or Velocity - just go with your preference, with a damage-boosting Minor or Taken Spec or Backup Mag mod tags:pve, pve-minor, pve-god, pve-endgame, controller, mkb
-dimwishlist:item=2972949637&perks=1441682018,3301904089,2396489472,831391274
 dimwishlist:item=2972949637&perks=3525010810,3301904089,2396489472,831391274
 
 // Koraxis's Distress PvE first-choice roll
@@ -4480,7 +4472,6 @@ dimwishlist:item=2972949637&perks=1478423395,1380253176,2396489472,831391274
 // Koraxis's Distress Adept PvE first-choice roll
 // Linear Compensator, Quick Launch, Spike Grenades, Chain Reaction, Hatchling
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 57 https://open.spotify.com/episode/3LOWj7jLe0eiacDYwEbK22 with @CourtProjects, @ImpetusAlways and @Saint_Kabr. First-choice PvE roll for Strand subclass synergy for Minor add-clear in end-game content. Most Raid weapons boast excellent stat packages, and Koraxis's Distress is no different. Rapid fire power grenade launchers are more suited to add clear, so to lean into that role, Linear Compensator adds a little extra Blast Radius let's face it, you'll want to catch as many adds as possible in an explosion, or Quick Launch just goes all in for velocity in the barrel. If you do catch a chunkier enemy, Spike Grenades is nice for a little extra impact damage, and then the unique combination of Chain Reaction as your first trait column support perk - let's face it, it's unusual to have it as a support perk - and Hatchling as the signature perk in the second trait column. Chain Reaction kills count towards proccing Hatchling, so you should see plenty of Threadlings spawning. Explosions and a small army of Threadlings together should clear a room pretty fast. The Harmonic Resonance origin trait can boost damage still further by a stacking 3.33% with one other RoN Raid weapon or 10% with two. Recommended MW: Blast Radius or Velocity - just go with your preference, with a damage-boosting Minor or Taken Spec or Backup Mag mod tags:pve, pve-minor, pve-god, pve-endgame, controller, mkb
-dimwishlist:item=495442100&perks=1441682018,3301904089,2396489472,831391274
 dimwishlist:item=495442100&perks=3525010810,3301904089,2396489472,831391274
 
 // Koraxis's Distress Adept PvE first-choice roll
@@ -4664,7 +4655,6 @@ dimwishlist:item=1720503118&perks=839105230,689005463,1556840489,4293542123
 // Quick Launch, Smart Drift Control, Disorienting Grenades, Envious Assassin, Disruption Break
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 55 https://open.spotify.com/show/36OTFinErCUBrCzu6BaYbo with @Saint_Kabr, @CourtProjects and @ImpetusAlways. First-choice PvE roll for add suppression in end-game activities. Shapeable. This drops into a very competitive field of arc lightweight grenade launchers, although it does have decent stats except for handling. The usual play is to look for velocity, to get the grenade to its target as fast as possible, and handling, for speedy swaps, and it'll be no different this time. Fortunately, the Noble Deeds origin trait helps with Handling and Reload Speed, so fits in really well. Quick Launch is the best barrel, but Smart Drift Control isn't far behind. For add control, Disorienting Grenades give you breathing space in a firefight. Pair that with Envious Assassin, which can give you up to three in the barrel! as your support perk in the first trait column, and Disruption Break, for 50% bonus kinetic damage to burst down chunkier red bar Minors and the occasional Major while they stumble around as the signature perk, and you probably have the perfect add control breach-loading GL. Recommended MW: Velocity, with a Quick Access Sling for faster swaps or Backup Mag mod tags:pve, pve-minor, pve-god, pve-endgame, controller, mkb
 dimwishlist:item=268260373&perks=3525010810,3032599245,968510818,1683379515
-dimwishlist:item=268260373&perks=1441682018,3032599245,968510818,1683379515
 
 // Prodigal Return PvE first-choice roll
 // Quick Launch, Smart Drift Control, High-Velocity Rounds, Threadt Detector, Field Prep, Voltshot
@@ -6283,11 +6273,9 @@ dimwishlist:item=1679868061&perks=1047830412,791862061,3161816588,2679249093
 dimwishlist:item=3849810018&perks=981914802,3301904089,2010801679,1546637391
 dimwishlist:item=3849810018&perks=3525010810,3301904089,2010801679,1546637391
 dimwishlist:item=3849810018&perks=3798852852,3301904089,2010801679,1546637391
-dimwishlist:item=3849810018&perks=1441682018,3301904089,2010801679,1546637391
 dimwishlist:item=3849810018&perks=981914802,3301904089,3300816228,1546637391
 dimwishlist:item=3849810018&perks=3525010810,3301904089,3300816228,1546637391
 dimwishlist:item=3849810018&perks=3798852852,3301904089,3300816228,1546637391
-dimwishlist:item=3849810018&perks=1441682018,3301904089,3300816228,1546637391
 
 // BxR-55 Battler PvE first-choice roll
 // Arrowhead Brake, Fluted Barrel, Corkscrew Rifling, Ricochet Rounds, Flared Magewll, Light Mag, Perpetual Motion, Blunt Execution Rounds
@@ -6559,6 +6547,11 @@ dimwishlist:item=2534546147&perks=1263609309,3142289711,2172504645,3708227201
 // Ballistic Tuning, Accurized Rounds, Sleight of Hand, Surrounded
 //notes:Inspired by DMB Podcast 266 conversation with @legoleflash. PvP first-choice roll for duelling and chaining. Get the range up to 80 with Haft, Mag and Masterwork to improve the bolt speed. There's no Impulse Amplifier in the trait pool but Sleight of Hand works for a blinting build and Surrounded with the Spec mod provides a 40% CQC damage boost. Crafting with a Surrounded Enhanced and Spec mod gives a 47% CQC damage boost which means that, if you're radiant, you can 1-tap. . Masterwork: Range, with a Freehand Grip mod - this pairs well with a Glaive Targeting mod on your helmet. tags:pvp, pvp-god, pvp-chain, pvp-duel, controller, mkb
 dimwishlist:item=1466006054&perks=1263609309,3142289711,2172504645,3708227201
+
+// taken from https://github.com/Adamsdown-Boy/destiny-rolls/blob/main/player-versus-enemies-rolls/ep94-world-drop-weapons.txt
+
+@title:Season 23 World Drop weapons
+@description:Season of the Wish world weapon drops 
 
 // Ros Arago IV PvE first-choice roll
 // Arrowhead Brake, Smallbore, Tactical Mag, Flared Magwell, Rewind Rounds, Subsistence, Onslaught
@@ -8040,16 +8033,12 @@ dimwishlist:item=2563012876&perks=1047830412,791862061,4071163871,47981717
 //notes:Inspired by DMB Podcast 279 with @Saint_Kabr. First-choice PvP pick for duelling. Shapeable. The Hot Swap origin trait works well for PvP, boosting handling when swapping to the weapon while damaged for quick swaps and ADS speed. For direct, one-hit kills, you'll need Spike Grenades, paired with a barrel that boosts velocity. In the first trait column, Auto-Loading Holster means you can carry on about your business and have a shot ready when you need it, or Steady Hands provide a boost to handling when you swap back to your primary. In the second trait column Demolitionist or Pugilist grant a hefty 20% ability energy on a kill. Recommended MW: Handling or Velocity, with a Quick Access Sling or Sprint Grip mod depending on your preference. tags:pvp, pvp-duel, pvp-god, mkb, controller
 dimwishlist:item=3849810018&perks=3525010810,3301904089,3300816228,3523296417
 dimwishlist:item=3849810018&perks=3798852852,3301904089,3300816228,3523296417
-dimwishlist:item=3849810018&perks=1441682018,3301904089,3300816228,3523296417
 dimwishlist:item=3849810018&perks=3525010810,3301904089,509074078,3523296417
 dimwishlist:item=3849810018&perks=3798852852,3301904089,509074078,3523296417
-dimwishlist:item=3849810018&perks=1441682018,3301904089,509074078,3523296417
 dimwishlist:item=3849810018&perks=3525010810,3301904089,3300816228,691659142
 dimwishlist:item=3849810018&perks=3798852852,3301904089,3300816228,691659142
-dimwishlist:item=3849810018&perks=1441682018,3301904089,3300816228,691659142
 dimwishlist:item=3849810018&perks=3525010810,3301904089,509074078,691659142
 dimwishlist:item=3849810018&perks=3798852852,3301904089,509074078,691659142
-dimwishlist:item=3849810018&perks=1441682018,3301904089,509074078,691659142
 
 // Pardon Our Dust PvP first-choice roll
 // Quick Launch, Linear Compensator, Smart Drift Control, Spike Grenades, Auto-Loading Holster, Demolitionist, Pugilist
@@ -11263,11 +11252,9 @@ dimwishlist:item=2443900757&perks=4090651448,791862061,2621346526,1546637391
 //notes:Inspired by DMB Player Versus Enemies Podcast 2. PvE first choice roll for end game content. Ideal to use in a fireteam that contains one Gjallerhorn, where you get the benefit of Wolfpack Rounds, where Impact Casing and Explosive Light can get you the best boss damage per shot. Recommended MW: Reload Speed or Velocity with damage boosting Major, Boss, or Taken Spec mod. tags:pve, pve-god
 dimwishlist:item=4255171531&perks=981914802,3796465595,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3525010810,3796465595,3523296417,3194351027
-dimwishlist:item=4255171531&perks=1441682018,3796465595,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3798852852,3796465595,3523296417,3194351027
 dimwishlist:item=4255171531&perks=981914802,3796465595,2869569095,3194351027
 dimwishlist:item=4255171531&perks=3525010810,3796465595,2869569095,3194351027
-dimwishlist:item=4255171531&perks=1441682018,3796465595,2869569095,3194351027
 dimwishlist:item=4255171531&perks=3798852852,3796465595,2869569095,3194351027
 
 // The Hothead PvE first choice roll
@@ -11287,11 +11274,9 @@ dimwishlist:item=4255171531&perks=3798852852,2985827016,2869569095,2284787283
 //notes:Inspired by DMB Player Versus Enemies Podcast 2. PvE first choice roll for end game content. Ideal to use in a fireteam that contains one Gjallerhorn, where you get the benefit of Wolfpack Rounds, where Impact Casing and Explosive Light can get you the best boss damage per shot. Recommended MW: Reload Speed or Velocity with damage boosting Adept Big Ones or Taken Spec mod. tags:pve, pve-god
 dimwishlist:item=1866778462&perks=981914802,3796465595,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3523296417,3194351027
-dimwishlist:item=1866778462&perks=1441682018,3796465595,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3798852852,3796465595,3523296417,3194351027
 dimwishlist:item=1866778462&perks=981914802,3796465595,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3525010810,3796465595,2869569095,3194351027
-dimwishlist:item=1866778462&perks=1441682018,3796465595,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3798852852,3796465595,2869569095,3194351027
 
 // The Hothead Adept PvE first choice roll
@@ -12922,11 +12907,6 @@ dimwishlist:item=2453357042&perks=1441682018,1380253176,2284787283,2396489472
 dimwishlist:item=2453357042&perks=1478423395,2822142346,2284787283,2396489472
 dimwishlist:item=2453357042&perks=1441682018,2822142346,2284787283,2396489472
 
-// Blast Battue PvE first choice roll
-//notes:Inspired by Destiny Massive Breakdowns Podcast 187. PvE first choice roll for boss DPS. Recommended MW: Blast Radius tags:pve, pve-god
-dimwishlist:item=2453357042&perks=1478423395,3301904089,2284787283,3300816228
-dimwishlist:item=2453357042&perks=1441682018,3301904089,2284787283,3300816228
-
 // Corsair's Wrath PvP first choice roll
 //notes:Inspired by Destiny Massive Breakdowns Podcast 187. PvP first choice roll. tags:pvp, pvp-god
 dimwishlist:item=2714022207&perks=3250034553,2969185026,2450788523,706527188
@@ -13162,13 +13142,10 @@ dimwishlist:item=2891672170&perks=1300023272,791862061,1631667848,4082225868
 //notes:Inspired by Destiny Massive Breakdowns Podcast 190. PvP first choice roll. Recommended MW: Blast Radius. tags:pvp, pvp-god
 dimwishlist:item=3565520715&perks=1478423395,1380253176,2450788523,2396489472
 dimwishlist:item=3565520715&perks=1844523823,1380253176,2450788523,2396489472
-dimwishlist:item=3565520715&perks=1478423395,3301904089,2450788523,2396489472
-dimwishlist:item=3565520715&perks=1844523823,3301904089,2450788523,2396489472
 
 // Crowd Pleaser PvE first choice roll
 //notes:Inspired by Destiny Massive Breakdowns Podcast 190. PvE first choice roll for boss damage. Recommended MW: Blast Radius with Boss Spec mod. tags:pve, pve-god
 dimwishlist:item=3565520715&perks=3525010810,3301904089,2284787283,3523296417
-dimwishlist:item=3565520715&perks=1441682018,3301904089,2284787283,3523296417
 dimwishlist:item=3565520715&perks=3798852852,3301904089,2284787283,3523296417
 
 // Crowd Pleaser PvE first choice roll
@@ -16559,7 +16536,6 @@ dimwishlist:item=1125217994&perks=3798852852,2822142346,3108830275,3324494224
 // Hard Launch, Linear Compensator, Smart Drift Control, Impact Casing, Envious Assassin, Explosive Light, Bait and Switch, Bipod
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 67 https://open.spotify.com/episode/3wGaXiUGMNodLkPkGFdBd3?si=42e0db2e63a443b7 with @CourtProjects, @ImpetusAlways and @Saint_Kabr. Backup PvE pick for burst damage against Majors and Bosses in end-game activities. Cold Comfort has decent stats, including ammo reserves so you can get to 10 host with three reserve mods. This could be a sleeper pick for burst damage against Major enemies, and against boss enemies with short damage windows. Aggressives are the fastest-firing subfamily, in the group with the highest damage per shot. First, a velocity-boosting perk is the usual play for the barrel. Impact Casing boosts overall damage by 2.2% doesn't sound much but remember, any mutilplicative damage starts adding up. Envious Assassin, in the first trait slot as the support perk, can get you 3 in the mag from six rapid kills - let's just say they just all fit in the barrel paracausally - and if you have the Restoration Ritual origin trait procced, that'll be four shots without reloading. Bait and Switch provides the highest damage boost - 35% when procced, but needs some setup, or Explosive Light is a 25% damage boost just for picking up some orbs. As a left-field pick though, don't throw away a bipod roll - it'll only take a small change to the perk to make it extremely competitive, doubling the barrel capacity and adding 5 to your reserves. That could mean seven shots without reloading, if you include the origin trait... Recommended MW: Velocity, with a damage-boosting Major, Boss or Taken Spec. tags:pve, pve-boss, pve-major, controller, mkb
 dimwishlist:item=839786290&perks=981914802,3525010810,968510818,3194351027
-dimwishlist:item=839786290&perks=1441682018,3525010810,968510818,3194351027
 dimwishlist:item=839786290&perks=3798852852,3525010810,968510818,3194351027
 dimwishlist:item=839786290&perks=981914802,3525010810,968510818,3078487919
 dimwishlist:item=839786290&perks=1441682018,3525010810,968510818,3078487919
@@ -18336,6 +18312,30 @@ dimwishlist:item=4023807721&perks=202670084,3142289711,1570042021,438098033
 dimwishlist:item=4023807721&perks=3250034553,3142289711,1570042021,438098033
 dimwishlist:item=4023807721&perks=1482024992,3142289711,1570042021,438098033
 
+// Taraxippos
+//notes:SirStallion PvE / M+KB / Controller: "Scouts are weird. Lets just start there. I like the idea of scouts, but in practice.. Theyre just strange. BUT, they do one thing quite well.. Precision kills. So, between Enlightened Action keeping your reload up and making the gun feel snappy, and then Hatchling helping you dispatch groups of enemies at the same time, I think this roll has a lot of low end potential for fun. Which lets be honest.. Isn't that what we all want?" Recommended MW: Stability. tags:pve, mkb, controller
+dimwishlist:item=3007479950&perks=839105230,1087426260,3828510309,831391274
+
+// Taraxippos
+//notes:SirStallion PvP / M+KB / Controller: "Okay, heres my thought process.. EotS helps secure a kill.. Which leads into Kill Clip helping you secure another.. And another. And another. Next thing you know, you're making Shaxx proud and it's all because you've become a dueling monster and all the bonus Stability makes you unflinchable. That's the theory anyway, but in my hands? No way that works in practice." Recommended MW: Stability. tags:pvp, mkb, controller
+dimwishlist:item=3007479950&perks=839105230,3230963543,699525795,1015611457
+
+// The Title
+//notes:SirStallion PvE / M+KB / Controller: "Pugilist / Swash is going to have a lot of fun potential on my void Titan, and that makes the combo worth hunting for. Titans can already get plenty of overshields, and being able to keep a steady flow of disc throws in is always a good time. I want both rolls, and I won't apologise for it. Gonna melee the world." Recommended MW: Reload. tags:pve, mkb, controller
+dimwishlist:item=655712834&perks=1482024992,3230963543,691659142,4082225868
+
+// The Title
+//notes:SirStallion PvP / M+KB / Controller: "Cards on the table, I picked rangefinder because it was the best "neutral" perk in that 4th column, but it can absolutely be any other perk there you want. The rest of the roll is all about making your weapon a stat monster for 1v1s. I like 720s for 3v3 gamemodes, I think they're fun as heck. So giving my weapon a stat package that would make Banshee blush is always my goal. With 85 base Recoil Direction, the bonus handling and stability felt like a no brainer for me, Perp Motion is gonna bump that stab even further and anything else is just icing on the cake." Recommended MW: Range. tags:pvp, mkb, controller
+dimwishlist:item=655712834&perks=1840239774,1885400500,1428297954,2846385770
+
+// Hullabaloo
+//notes:SirStallion PvE / M+KB / Controller: "This is a heavy GL.. So a pick like Chain Reaction might seem strange. However, with a base 28 grenades in the reserves, I will not be using this bad boy exclusively on bosses. Cascade point is a lot of fun too, but you don't get to finish out your 10 mag after Envious has kicked in. For champs and minibosses, the fight is often going to have plenty of adds to explode." Recommended MW: Velocity. tags:pve, mkb, controller
+dimwishlist:item=657927352&perks=3525010810,2822142346,968510818,2396489472
+
+// Hullabaloo
+//notes:SirStallion PvP / M+KB / Controller: "This weapon for PvP is tricky.. Wave frames are fun, but a heavy wave frame? Who knows, it might be a blast. And I intend to find out, by creating additional blasts and trying to utilise Chain Reaction to net some fun triple kills.. Or more. Imagine more.. It seems that Blast Radius really doesn't bring much to the table for wave frames, and I would assume that the heavy variant is much the same, so Im focusing on velocity to get my nades where they need to be ASAP." Recommended MW: Velocity. tags:pvp, mkb, controller
+dimwishlist:item=657927352&perks=3525010810,2822142346,951095735,2396489472
+
 // Stay Frosty PvE backup roll
 // Full Bore, Hammer-Forged Rifling, Smallbore, Tactical Mag, Accurized Rounds, Appended Mag, Enlightened Action, Headstone
 //notes: Inspired by @DestinyMBP Podcast vs Enemies episode 91 https://open.spotify.com/episode/50NPk7xF3Tt6X3DVucE9jU?si=44d2b7d44a5a4aec with @CourtProjects and @ImpetusAlways. Backup PvE pick for add-clear of Minor Spec enemies in general content, particularly with a Stasis subclass. Like most world-drop weapons, Stay Frosty has pretty low stats by comparison to its subtype peers, so only keep a roll if it fills a gap in your vault. The recoil direction is directly up if a bit loose at 55, and if you're comfortable with this - p[articularly with M+KB, you could look to boost the range with your barrel perk. For the mag perk, choose between Tactical Mag, Accurized Rounds and Appended Mag for additional stat boosts. There's not much for PvE in the first trait column - Enlightened Action provides some nice reload speed and handling boosts is the best support perk available. If you've not already got a Stasis pulse rifle with Headstone, this can provide you with an option - if you have, then you can pass. The Dawning Surprise origin trait is very useful in PvE - when the behind the scenes counter hits 100, the surprise is spawned on the ground for 10s and grants 10% energy to all abilities, grants 20HP and starts shield/health regeneration. Recommended MW: Stability, with a damage boosting Minor or Taken Spec mod. tags:pve, pve-minor, mkb
@@ -19532,22 +19532,6 @@ dimwishlist:item=268260372&perks=3525010810,3301904089,968510818,3194351027
 dimwishlist:item=268260372&perks=3525010810,3301904089,968510818,2275087323
 dimwishlist:item=268260372&perks=3525010810,3301904089,968510818,1926441324
 dimwishlist:item=268260372&perks=3525010810,3301904089,968510818,2048641572
-dimwishlist:item=268260372&perks=1441682018,3301904089,424370782,3194351027
-dimwishlist:item=268260372&perks=1441682018,3301904089,424370782,2275087323
-dimwishlist:item=268260372&perks=1441682018,3301904089,424370782,1926441324
-dimwishlist:item=268260372&perks=1441682018,3301904089,424370782,2048641572
-dimwishlist:item=268260372&perks=1441682018,3301904089,3528046508,3194351027
-dimwishlist:item=268260372&perks=1441682018,3301904089,3528046508,2275087323
-dimwishlist:item=268260372&perks=1441682018,3301904089,3528046508,1926441324
-dimwishlist:item=268260372&perks=1441682018,3301904089,3528046508,2048641572
-dimwishlist:item=268260372&perks=1441682018,3301904089,3300816228,3194351027
-dimwishlist:item=268260372&perks=1441682018,3301904089,3300816228,2275087323
-dimwishlist:item=268260372&perks=1441682018,3301904089,3300816228,1926441324
-dimwishlist:item=268260372&perks=1441682018,3301904089,3300816228,2048641572
-dimwishlist:item=268260372&perks=1441682018,3301904089,968510818,3194351027
-dimwishlist:item=268260372&perks=1441682018,3301904089,968510818,2275087323
-dimwishlist:item=268260372&perks=1441682018,3301904089,968510818,1926441324
-dimwishlist:item=268260372&perks=1441682018,3301904089,968510818,2048641572
 dimwishlist:item=268260372&perks=3798852852,3301904089,424370782,3194351027
 dimwishlist:item=268260372&perks=3798852852,3301904089,424370782,2275087323
 dimwishlist:item=268260372&perks=3798852852,3301904089,424370782,1926441324
@@ -20530,19 +20514,15 @@ dimwishlist:item=4255171531&perks=981914802,3796465595,3977735242,3194351027
 dimwishlist:item=4255171531&perks=981914802,3796465595,3977735242,1546637391
 dimwishlist:item=4255171531&perks=981914802,3796465595,3977735242,2284787283
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3300816228,3927722942
-dimwishlist:item=4255171531&perks=1478423395,3796465595,3300816228,3194351027
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3300816228,1546637391
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3300816228,2284787283
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3523296417,3927722942
-dimwishlist:item=4255171531&perks=1478423395,3796465595,3523296417,3194351027
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3523296417,1546637391
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3523296417,2284787283
 dimwishlist:item=4255171531&perks=1478423395,3796465595,2869569095,3927722942
-dimwishlist:item=4255171531&perks=1478423395,3796465595,2869569095,3194351027
 dimwishlist:item=4255171531&perks=1478423395,3796465595,2869569095,1546637391
 dimwishlist:item=4255171531&perks=1478423395,3796465595,2869569095,2284787283
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3977735242,3927722942
-dimwishlist:item=4255171531&perks=1478423395,3796465595,3977735242,3194351027
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3977735242,1546637391
 dimwishlist:item=4255171531&perks=1478423395,3796465595,3977735242,2284787283
 
@@ -21218,13 +21198,6 @@ dimwishlist:item=1645386487&perks=1840239774,1087426260,3300816228,3523296417
 dimwishlist:item=1645386487&perks=1840239774,2420895100,3300816228,1771339417
 dimwishlist:item=1645386487&perks=1840239774,2420895100,3300816228,1774574192
 dimwishlist:item=1645386487&perks=1840239774,2420895100,3300816228,3523296417
-
-// Canis Major MKB,PvE
-//notes: Chevy's S15 Super Pog PvE Loot List. Recommended MW - Reload/Handling tags:mkb, pve
-dimwishlist:item=2066434718&perks=1478423395,3301904089,2869569095,1546637391
-dimwishlist:item=2066434718&perks=1478423395,3301904089,2869569095,2396489472
-dimwishlist:item=2066434718&perks=1478423395,3301904089,2284787283,1546637391
-dimwishlist:item=2066434718&perks=1478423395,3301904089,2284787283,2396489472
 
 // Darkest Before MKB,PvE
 //notes: Chevy's S15 Super Pog PvE Loot List. Recommended MW - Reload/Range tags:mkb, pve
@@ -24932,10 +24905,6 @@ dimwishlist:item=4225322581&perks=4245865861,2422968039
 // Palmyra-B PvE first choice roll
 // Volatile Launch, Confined Launch, Impact Casing Auto-Loading Holster, Auto-Loading Holster Enhanced, Explosive Light, Lasting Impression, Lasting Impression Enhanced
 //notes:Inspired by DMB Player Versus Enemies Podcast 11. PvE first roll for boss damage. Shapeable weapon. Volatile Launch or Confined Launch keep the velocity down, which is good in an auto-tracking launcher, and Impact Casing ups damage slightly. For Boss DPS, Auto-Loading Holster is the best option, with Explosive Light but not the enhanced version which adds velocity the best if you're in a fireteam and generating orbs, and for Champions with an instant detonation. If you're looking for straight boss damage, or soloing, Lasting Impression is easier to use. Recommended MW: Blast Radius or Handling, with damage-boosting Major, Boss or Taken Spec mod. tags:pve
-dimwishlist:item=3489657138&perks=1478423395,3796465595,3300816228,3194351027
-dimwishlist:item=3489657138&perks=1844523823,3796465595,3300816228,3194351027
-dimwishlist:item=3489657138&perks=1478423395,3796465595,3528046508,3194351027
-dimwishlist:item=3489657138&perks=1844523823,3796465595,3528046508,3194351027
 dimwishlist:item=3489657138&perks=1478423395,3796465595,3300816228,3927722942
 dimwishlist:item=3489657138&perks=1844523823,3796465595,3300816228,3927722942
 dimwishlist:item=3489657138&perks=1478423395,3796465595,3528046508,3927722942
@@ -25079,7 +25048,6 @@ dimwishlist:item=2443900757&perks=1820235745,2360754333
 //notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE first-choice roll for burst and sustained Boss DPS. Great for pairing with a Gjallerhorn in a fireteam, and worth tucking a roll away for Arc 3.0. Now that adaptive rocket launchers do additional damage than other subtypes, they're a very good choice for Boss DPS. Improve velocity and reload speed with your barrel and mag, and then use Auto-Loading Holster and a damage-boosting trait, and pair with a sniper to continue damage while it reloads in its holster. Recommended MW: Stability, Handling or Reload Speed, with a damage-boosting Minor, Major or Taken Spec mod. tags:pve
 dimwishlist:item=4255171531&perks=981914802,3796465595,3300816228,3194351027
 dimwishlist:item=4255171531&perks=3525010810,3796465595,3300816228,3194351027
-dimwishlist:item=4255171531&perks=1441682018,3796465595,3300816228,3194351027
 dimwishlist:item=4255171531&perks=3798852852,3796465595,3300816228,3194351027
 dimwishlist:item=4255171531&perks=981914802,3796465595,3300816228,3927722942
 dimwishlist:item=4255171531&perks=3525010810,3796465595,3300816228,3927722942
@@ -25123,7 +25091,6 @@ dimwishlist:item=4255171531&perks=2621346526,2284787283
 //notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE first-choice roll for burst and sustained Boss DPS. Great for pairing with a Gjallerhorn in a fireteam, and worth tucking a roll away for Arc 3.0. Now that adaptive rocket launchers do additional damage than other subtypes, they're a very good choice for Boss DPS. Improve velocity and reload speed with your barrel and mag, and then use Auto-Loading Holster and a damage-boosting trait, and pair with a sniper to continue damage while it reloads in its holster. Recommended MW: Stability, Handling or Reload Speed, with a damage-boosting Minor, Major or Taken Spec mod. tags:pve
 dimwishlist:item=1866778462&perks=981914802,3796465595,3300816228,3194351027
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3300816228,3194351027
-dimwishlist:item=1866778462&perks=1441682018,3796465595,3300816228,3194351027
 dimwishlist:item=1866778462&perks=3798852852,3796465595,3300816228,3194351027
 dimwishlist:item=1866778462&perks=981914802,3796465595,3300816228,3927722942
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3300816228,3927722942
@@ -26519,20 +26486,16 @@ dimwishlist:item=534775659&perks=4090651448,689005463,1570042021,2726471870
 dimwishlist:item=4255171531&perks=3798852852,3796465595,3523296417,3194351027
 dimwishlist:item=4255171531&perks=981914802,2985827016,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3525010810,2985827016,3523296417,3194351027
-dimwishlist:item=4255171531&perks=1441682018,2985827016,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3798852852,2985827016,3523296417,3194351027
 dimwishlist:item=4255171531&perks=981914802,2822142346,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3525010810,2822142346,3523296417,3194351027
-dimwishlist:item=4255171531&perks=1441682018,2822142346,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3798852852,2822142346,3523296417,3194351027
 dimwishlist:item=4255171531&perks=3798852852,3796465595,2869569095,3194351027
 dimwishlist:item=4255171531&perks=981914802,2985827016,2869569095,3194351027
 dimwishlist:item=4255171531&perks=3525010810,2985827016,2869569095,3194351027
-dimwishlist:item=4255171531&perks=1441682018,2985827016,2869569095,3194351027
 dimwishlist:item=4255171531&perks=3798852852,2985827016,2869569095,3194351027
 dimwishlist:item=4255171531&perks=981914802,2822142346,2869569095,3194351027
 dimwishlist:item=4255171531&perks=3525010810,2822142346,2869569095,3194351027
-dimwishlist:item=4255171531&perks=1441682018,2822142346,2869569095,3194351027
 dimwishlist:item=4255171531&perks=3798852852,2822142346,2869569095,3194351027
 dimwishlist:item=4255171531&perks=981914802,3796465595,3523296417,2284787283
 dimwishlist:item=4255171531&perks=3525010810,3796465595,3523296417,2284787283
@@ -26582,20 +26545,16 @@ dimwishlist:item=4255171531&perks=3798852852,2822142346,2869569095,1546637391
 dimwishlist:item=1866778462&perks=3798852852,3796465595,3523296417,3194351027
 dimwishlist:item=1866778462&perks=981914802,2985827016,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3525010810,2985827016,3523296417,3194351027
-dimwishlist:item=1866778462&perks=1441682018,2985827016,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3798852852,2985827016,3523296417,3194351027
 dimwishlist:item=1866778462&perks=981914802,2822142346,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3525010810,2822142346,3523296417,3194351027
-dimwishlist:item=1866778462&perks=1441682018,2822142346,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3798852852,2822142346,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3798852852,3796465595,2869569095,3194351027
 dimwishlist:item=1866778462&perks=981914802,2985827016,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3525010810,2985827016,2869569095,3194351027
-dimwishlist:item=1866778462&perks=1441682018,2985827016,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3798852852,2985827016,2869569095,3194351027
 dimwishlist:item=1866778462&perks=981914802,2822142346,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3525010810,2822142346,2869569095,3194351027
-dimwishlist:item=1866778462&perks=1441682018,2822142346,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3798852852,2822142346,2869569095,3194351027
 dimwishlist:item=1866778462&perks=981914802,3796465595,3523296417,2284787283
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3523296417,2284787283
@@ -30721,23 +30680,18 @@ dimwishlist:item=3184681056&perks=1047830412,679225683,3161816588,3673922083
 // Canis Major PvE backup roll
 //notes:Inspired by Destiny Massive Breakdowns Podcast 228. PvE backup roll for boss DPS. Recommended MW: Velocity with Boss Spec mod. tags:pve
 dimwishlist:item=2066434718&perks=981914802,3301904089,951095735,1546637391
-dimwishlist:item=2066434718&perks=1441682018,3301904089,951095735,1546637391
 dimwishlist:item=2066434718&perks=3525010810,3301904089,951095735,1546637391
 dimwishlist:item=2066434718&perks=3798852852,3301904089,951095735,1546637391
 dimwishlist:item=2066434718&perks=981914802,3301904089,2621346526,1546637391
-dimwishlist:item=2066434718&perks=1441682018,3301904089,2621346526,1546637391
 dimwishlist:item=2066434718&perks=3525010810,3301904089,2621346526,1546637391
 dimwishlist:item=2066434718&perks=3798852852,3301904089,2621346526,1546637391
 dimwishlist:item=2066434718&perks=981914802,3301904089,3436462433,1546637391
-dimwishlist:item=2066434718&perks=1441682018,3301904089,3436462433,1546637391
 dimwishlist:item=2066434718&perks=3525010810,3301904089,3436462433,1546637391
 dimwishlist:item=2066434718&perks=3798852852,3301904089,3436462433,1546637391
 dimwishlist:item=2066434718&perks=981914802,3301904089,2869569095,1546637391
-dimwishlist:item=2066434718&perks=1441682018,3301904089,2869569095,1546637391
 dimwishlist:item=2066434718&perks=3525010810,3301904089,2869569095,1546637391
 dimwishlist:item=2066434718&perks=3798852852,3301904089,2869569095,1546637391
 dimwishlist:item=2066434718&perks=981914802,3301904089,2284787283,1546637391
-dimwishlist:item=2066434718&perks=1441682018,3301904089,2284787283,1546637391
 dimwishlist:item=2066434718&perks=3525010810,3301904089,2284787283,1546637391
 dimwishlist:item=2066434718&perks=3798852852,3301904089,2284787283,1546637391
 
@@ -31763,14 +31717,6 @@ dimwishlist:item=1621558458&perks=1840239774,3230963543,2946784966,2458213969
 dimwishlist:item=1621558458&perks=839105230,1561002382,588594999,2458213969
 dimwishlist:item=1621558458&perks=839105230,1561002382,1570042021,2458213969
 
-// Ignition Code
-//notes:jarv PvE: A-Tier Strong. Recommended MW: Velocity. tags:pve
-dimwishlist:item=304659313&perks=1478423395,3301904089,2010801679,1546637391
-
-// Ignition Code
-//notes:jarv PvP: A-Tier Strong. Recommended MW: Blast Radius. tags:pvp
-dimwishlist:item=304659313&perks=1844523823,3032599245,3161816588,4104185692
-
 // Shayura's Wrath
 //notes:Pattycakes PvE: A-Tier Strong. Recommended MW: Range. tags:pve
 dimwishlist:item=3682803680&perks=1482024992,3230963543,1570042021,1015611457
@@ -31900,20 +31846,6 @@ dimwishlist:item=108221785&perks=4090651448,3142289711,2039302152,2450788523
 dimwishlist:item=108221785&perks=1482024992,791862061,2039302152,2450788523
 dimwishlist:item=108221785&perks=4090651448,791862061,2039302152,2450788523
 
-// Empty Vessel
-//notes:demonjoefrance PvE: A-Tier Strong. Recommended MW: Blast Radius / Velocity. tags:pve
-dimwishlist:item=4255586669&perks=1478423395,3301904089,2010801679,2458213969
-dimwishlist:item=4255586669&perks=1478423395,3301904089,2779035018,2458213969
-dimwishlist:item=4255586669&perks=1478423395,3301904089,2010801679,4082225868
-dimwishlist:item=4255586669&perks=1478423395,3301904089,2779035018,4082225868
-dimwishlist:item=4255586669&perks=1478423395,3301904089,2010801679,1546637391
-dimwishlist:item=4255586669&perks=1478423395,3301904089,2779035018,1546637391
-
-// Empty Vessel
-//notes:demonjoefrance PvP: A-Tier Strong. Recommended MW: Blast Radius / Velocity. tags:pvp
-dimwishlist:item=4255586669&perks=1478423395,3301904089,706527188,1546637391
-dimwishlist:item=4255586669&perks=1478423395,3301904089,706527188,2726471870
-
 // Shattered Cipher
 //notes:Ascendant Nomad PvE: A-Tier Strong. Recommended MW: Stability. tags:pve
 dimwishlist:item=2434225986&perks=4090651448,106909392,1570042021,3425386926
@@ -31979,30 +31911,22 @@ dimwishlist:item=875848769&perks=839105230,1885400500,1359896290,3523296417
 // Memory Interdict
 //notes:light.gg PvE: B-Tier Average. Recommended MW: Blast Radius. tags:pve
 dimwishlist:item=3165547384&perks=981914802,3301904089,3300816228,3592538738
-dimwishlist:item=3165547384&perks=1478423395,3301904089,3300816228,3592538738
 dimwishlist:item=3165547384&perks=981914802,3301904089,2284787283,3592538738
-dimwishlist:item=3165547384&perks=1478423395,3301904089,2284787283,3592538738
 dimwishlist:item=3165547384&perks=981914802,3301904089,3300816228,2396489472
-dimwishlist:item=3165547384&perks=1478423395,3301904089,3300816228,2396489472
 dimwishlist:item=3165547384&perks=981914802,3301904089,2284787283,2396489472
-dimwishlist:item=3165547384&perks=1478423395,3301904089,2284787283,2396489472
 
 // Memory Interdict
 //notes:light.gg PvP: B-Tier Average. Recommended MW: Handling. tags:pvp
 dimwishlist:item=3165547384&perks=981914802,3301904089,706527188,960810156
-dimwishlist:item=3165547384&perks=1478423395,3301904089,706527188,960810156
 dimwishlist:item=3165547384&perks=981914802,3373736292,706527188,960810156
 dimwishlist:item=3165547384&perks=1478423395,3373736292,706527188,960810156
 dimwishlist:item=3165547384&perks=981914802,3301904089,951095735,960810156
-dimwishlist:item=3165547384&perks=1478423395,3301904089,951095735,960810156
 dimwishlist:item=3165547384&perks=981914802,3373736292,951095735,960810156
 dimwishlist:item=3165547384&perks=1478423395,3373736292,951095735,960810156
 dimwishlist:item=3165547384&perks=981914802,3301904089,706527188,2396489472
-dimwishlist:item=3165547384&perks=1478423395,3301904089,706527188,2396489472
 dimwishlist:item=3165547384&perks=981914802,3373736292,706527188,2396489472
 dimwishlist:item=3165547384&perks=1478423395,3373736292,706527188,2396489472
 dimwishlist:item=3165547384&perks=981914802,3301904089,951095735,2396489472
-dimwishlist:item=3165547384&perks=1478423395,3301904089,951095735,2396489472
 dimwishlist:item=3165547384&perks=981914802,3373736292,951095735,2396489472
 dimwishlist:item=3165547384&perks=1478423395,3373736292,951095735,2396489472
 

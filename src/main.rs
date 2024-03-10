@@ -4,9 +4,7 @@ extern crate pest_derive;
 
 mod structs;
 
-use pest::{
-    Parser,
-};
+use pest::Parser;
 use structs::wishlist::Wishlist;
 use std::cmp::Ordering;
 use std::fs;

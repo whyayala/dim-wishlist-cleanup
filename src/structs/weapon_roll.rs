@@ -101,6 +101,31 @@ fn is_redundant_outlaw_combo(perks: &Vec<String>) -> bool {
         )
 }
 
+fn is_redundant_grenade_launcher_combo(perks: &Vec<String>) -> bool {
+    // 3032599245
+    let disorienting_grenades_id = &"3032599245".to_string();
+    let spike_grenades_id = &"3301904089".to_string();
+    let explosive_light_id = &"3194351027".to_string();
+    let enhanced_explosive_light_id = &"2275087323".to_string();
+
+
+    //no blast radius pls
+    let confined_launch_id = &"1844523823".to_string();
+    let volatile_launch_id = &"1478423395".to_string();
+    let linear_compensator_id = &"1441682018".to_string();
+
+    (perks.contains(disorienting_grenades_id) || perks.contains(spike_grenades_id) || perks.contains(explosive_light_id) || perks.contains(enhanced_explosive_light_id))
+        && (
+            perks.contains(confined_launch_id)
+            || perks.contains(volatile_launch_id)
+            || perks.contains(linear_compensator_id)
+        )
+}
+
+fn is_redundant_voltshot_combo() {
+    // no overflow mag before procced
+}
+
 #[derive(Clone)]
 pub struct WeaponRoll {
     pub item_id: String,
@@ -116,7 +141,7 @@ impl WeaponRoll {
     }
 
     pub fn is_bad_perk_combo(&mut self) -> bool {
-        is_redundant_frenzy_combo(&self.perks) || is_redundant_outlaw_combo(&self.perks)
+        is_redundant_frenzy_combo(&self.perks) || is_redundant_outlaw_combo(&self.perks) || is_redundant_grenade_launcher_combo(&self.perks)
     }
 
     pub fn new() -> WeaponRoll {
