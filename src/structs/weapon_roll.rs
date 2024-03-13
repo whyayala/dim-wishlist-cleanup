@@ -124,7 +124,7 @@ fn is_redundant_grenade_launcher_combo(perks: &Vec<String>) -> bool {
         )
 }
 
-#[derive(Clone)]
+#[derive(Clone, Arbitrary)]
 pub struct WeaponRoll {
     pub item_id: String,
     pub perks: Vec<String>,
