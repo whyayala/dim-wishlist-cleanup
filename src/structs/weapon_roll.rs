@@ -122,6 +122,14 @@ fn is_redundant_grenade_launcher_combo(perks: &Vec<String>) -> bool {
         )
 }
 
+fn is_vorpal_weapon(perks: &Vec<String>) -> bool {
+    // 3032599245
+    let vorpal_weapon_id = &"1546637391".to_string();
+    let enhanced_vorpal_weapon_id = &"3418165135".to_string();
+
+    perks.contains(vorpal_weapon_id) || perks.contains(enhanced_vorpal_weapon_id)
+}
+
 #[derive(Clone)]
 pub struct WeaponRoll {
     pub item_id: String,
@@ -137,7 +145,10 @@ impl WeaponRoll {
     }
 
     pub fn is_bad_perk_combo(&mut self) -> bool {
-        is_redundant_frenzy_combo(&self.perks) || is_redundant_outlaw_combo(&self.perks) || is_redundant_grenade_launcher_combo(&self.perks)
+        is_redundant_frenzy_combo(&self.perks)
+        || is_redundant_outlaw_combo(&self.perks)
+        || is_redundant_grenade_launcher_combo(&self.perks)
+        || is_vorpal_weapon(&self.perks)
     }
 
     pub fn new() -> WeaponRoll {
