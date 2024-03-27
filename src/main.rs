@@ -3,8 +3,10 @@ extern crate pest;
 extern crate pest_derive;
 
 mod structs;
+mod services;
 
 use pest::Parser;
+use services::wishlist_service::get_wishlist;
 use structs::wishlist::Wishlist;
 use std::cmp::Ordering;
 use std::fs;
@@ -70,12 +72,12 @@ fn main() {
     let mut parsed_wishlists: Vec<Wishlist> = Vec::from([]);
 
     for weapon_roll in voltron_weapon_rolls {
-        let wishlist = Wishlist::new(weapon_roll.into_inner());
+        let wishlist = get_wishlist(weapon_roll.into_inner());
         parsed_wishlists.push(wishlist)
     }
 
     for weapon_roll in jat_weapon_rolls {
-        let wishlist = Wishlist::new(weapon_roll.into_inner());
+        let wishlist = get_wishlist(weapon_roll.into_inner());
         parsed_wishlists.push(wishlist)
     }
 
