@@ -52,7 +52,7 @@ fn main() {
         exit(1);
     });
     
-    let jat_file_contents = fs::read_to_string("voltron.txt").unwrap_or_else(|err| {
+    let jat_file_contents = fs::read_to_string("jat.txt").unwrap_or_else(|err| {
         println!("Problem reading file to memory: {err}");
         exit(1);
     });
