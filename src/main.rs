@@ -48,25 +48,40 @@ fn main() {
         .open("mkb_wishlist.txt")
         .unwrap();
 
-    let file_contents = fs::read_to_string("voltron.txt").unwrap_or_else(|err| {
+    let voltron_file_contents = fs::read_to_string("voltron.txt").unwrap_or_else(|err| {
+        println!("Problem reading file to memory: {err}");
+        exit(1);
+    });
+    
+    let jat_file_contents = fs::read_to_string("jat.txt").unwrap_or_else(|err| {
         println!("Problem reading file to memory: {err}");
         exit(1);
     });
 
-    let weapon_rolls = VoltronParser::parse(Rule::voltron, &file_contents).unwrap_or_else(|err| {
+    let voltron_weapon_rolls = VoltronParser::parse(Rule::voltron, &voltron_file_contents).unwrap_or_else(|err| {
         println!("Problem parsing voltron file: {err}");
+        exit(1);
+    });
+   
+    let jat_weapon_rolls = VoltronParser::parse(Rule::voltron, &jat_file_contents).unwrap_or_else(|err| {
+        println!("Problem parsing jat file: {err}");
         exit(1);
     });
 
     let mut parsed_wishlists: Vec<Wishlist> = Vec::from([]);
 
-    for weapon_roll in weapon_rolls {
+    for weapon_roll in voltron_weapon_rolls {
+        let wishlist = Wishlist::new(weapon_roll.into_inner());
+        parsed_wishlists.push(wishlist)
+    }
+
+    for weapon_roll in jat_weapon_rolls {
         let wishlist = Wishlist::new(weapon_roll.into_inner());
         parsed_wishlists.push(wishlist)
     }
 
     handle_write_to_file(&mkb_wishlist, b"title:Cobes-3's Reduced MNK Wishlist.\n");
-    handle_write_to_file(&mkb_wishlist, b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file. It also sorts rolls with tags to the top.\n\n");
+    handle_write_to_file(&mkb_wishlist, b"description:This is a reduced wishlist that removes controller specific rolls from 48klocs voltron file and JustAnotherTeam's wishlist. It also sorts rolls with tags to the top.\n\n");
     
     parsed_wishlists.sort_by(sort_by_god_rolls);
 
