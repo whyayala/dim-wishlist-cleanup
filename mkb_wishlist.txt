@@ -2953,23 +2953,6 @@ dimwishlist:item=3103255595&perks=839105230,3142289711,3017780555,4104185692
 dimwishlist:item=413901114&perks=1478423395,1380253176,1119449540,2048641572
 dimwishlist:item=413901114&perks=1844523823,1380253176,1119449540,2048641572
 
-// originally found at https://github.com/Adamsdown-Boy/destiny-rolls/blob/main/player-versus-enemies-rolls/ep79-crota's-end-weapons.txt
-
-@title:Crota's End weapons
-@description:Reprised weapons from the Crota's End Raid, with the Cursed Thrall origin trait
-
-// Fang of Ir Yût PvE first-choice roll
-// Arrowhead Brake, Fluted Barrel, High-Caliber Rounds, Armor-Piercing Rounds, Ricochet Rounds, Flared Magwell, Shoot to Loot, Golden Tricorn
-//notes:Inspired by @DestinyMBP Podcast vs Enemies episode 79 https://open.spotify.com/episode/1qz5FD88RfmGHDjedV6nGo?si=7e1c1558ecea4f1c with @ImpetusAlways, @Saint_Kabr and @CourtProjects. First-choice PvE pick for add clearing Minor Spec enemies in end-game content. Shapeable. This is the first rapid-fire Strand scout rifle so you get an Alloy Mag-like 20% quicker reload animation when the magazine is empty, with best-in-class stats compared to other RFs in the kinetic slot. The recoil direction is a bit shonky, so Arrowhead Brake cleans that up a bit, but if you feel able to control it, Fluted Barrel adds to handling for general snappiness. You can choose from any of the combat effect rounds as the mag perk, depending on your preference, or Flared Magwell for better reload speed. For end-game use, Shoot to Loot as the first trait column support perk lets you gather ammo and orbs of power from a distance and Golden Tricorn can boost damage by 50% when the second stack kicks in - even if Strand is more difficult to proc, especially at the distance you'll be engaging at with a scout rifle. The Cursed Thrall origin perk synergises well with melee builds and is a lot of fun for helping soften up groups of enemies when active. Recommended MW: Handling or Reload Speed, with a damage boosting Minor or Taken Spec mod. tags:pve, pve-minor, pve-god, pve-endgame, mkb, controller
-dimwishlist:item=1432682459&perks=839105230,1561002382,3700496672,2610012052
-dimwishlist:item=1432682459&perks=1840239774,1561002382,3700496672,2610012052
-dimwishlist:item=1432682459&perks=839105230,1968497646,3700496672,2610012052
-dimwishlist:item=1432682459&perks=1840239774,1968497646,3700496672,2610012052
-dimwishlist:item=1432682459&perks=839105230,1885400500,3700496672,2610012052
-dimwishlist:item=1432682459&perks=1840239774,1885400500,3700496672,2610012052
-dimwishlist:item=1432682459&perks=839105230,3230963543,3700496672,2610012052
-dimwishlist:item=1432682459&perks=1840239774,3230963543,3700496672,2610012052
-
 // Fang of Ir Yût PvE first-choice roll
 // Arrowhead Brake, Fluted Barrel, High-Caliber Rounds, Armor-Piercing Rounds, Ricochet Rounds, Rapid Hit, Rewind Rounds, Hatchling
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 79 https://open.spotify.com/episode/1qz5FD88RfmGHDjedV6nGo?si=7e1c1558ecea4f1c with @ImpetusAlways, @Saint_Kabr and @CourtProjects. First-choice PvE pick for Strand synergy and add clearing Minor Spec enemies in general content. Shapeable. This is the first rapid-fire Strand scout rifle so you get an Alloy Mag-like 20% quicker reload animation when the magazine is empty, with best-in-class stats compared to other RFs in the kinetic slot. The recoil direction is a bit shonky, so Arrowhead Brake cleans that up a bit, but if you feel able to control it, Fluted Barrel adds to handling for general snappiness. You can choose from any of the combat effect rounds as the mag perk, depending on your preference. For your Strand Synergy, Rapid Hit helps with reload speed and stability, or Rewind Rounds extends your magazine in the first trait column as the support park, while Hatchling is the Strand option-de-jour in the second column as the signature perk. The Cursed Thrall origin perk synergises well with melee builds and is a lot of fun for helping soften up groups of enemies when active. Recommended MW: Handling or Reload Speed, with a damage boosting Minor or Taken Spec mod. tags:pve, pve-minor, pve-endgame, pve-god, mkb, controller
@@ -2985,18 +2968,6 @@ dimwishlist:item=1432682459&perks=839105230,1968497646,3418782618,831391274
 dimwishlist:item=1432682459&perks=1840239774,1968497646,3418782618,831391274
 dimwishlist:item=1432682459&perks=839105230,1885400500,3418782618,831391274
 dimwishlist:item=1432682459&perks=1840239774,1885400500,3418782618,831391274
-
-// Fang of Ir Yût Adept PvE first-choice roll
-// Arrowhead Brake, Fluted Barrel, High-Caliber Rounds, Armor-Piercing Rounds, Ricochet Rounds, Flared Magwell, Shoot to Loot, Golden Tricorn
-//notes:Inspired by @DestinyMBP Podcast vs Enemies episode 79 https://open.spotify.com/episode/1qz5FD88RfmGHDjedV6nGo?si=7e1c1558ecea4f1c with @ImpetusAlways, @Saint_Kabr and @CourtProjects. First-choice PvE pick for add clearing Minor Spec enemies in end-game content. Barrel and Mag re-shapeable. This is the first rapid-fire Strand scout rifle so you get an Alloy Mag-like 20% quicker reload animation when the magazine is empty, with best-in-class stats compared to other RFs in the kinetic slot. The recoil direction is a bit shonky, so Arrowhead Brake cleans that up a bit, but if you feel able to control it, Fluted Barrel adds to handling for general snappiness. You can choose from any of the combat effect rounds as the mag perk, depending on your preference, or Flared Magwell for better reload speed. For end-game use, Shoot to Loot as the first trait column support perk lets you gather ammo and orbs of power from a distance and Golden Tricorn can boost damage by 50% when the second stack kicks in - even if Strand is more difficult to proc, especially at the distance you'll be engaging at with a scout rifle. The Cursed Thrall origin perk synergises well with melee builds and is a lot of fun for helping soften up groups of enemies when active. Recommended MW: Handling or Reload Speed, with a damage boosting Minor or Taken Spec mod. tags:pve, pve-minor, pve-endgame, pve-god, mkb, controller
-dimwishlist:item=128782990&perks=839105230,1561002382,3700496672,2610012052
-dimwishlist:item=128782990&perks=1840239774,1561002382,3700496672,2610012052
-dimwishlist:item=128782990&perks=839105230,1968497646,3700496672,2610012052
-dimwishlist:item=128782990&perks=1840239774,1968497646,3700496672,2610012052
-dimwishlist:item=128782990&perks=839105230,1885400500,3700496672,2610012052
-dimwishlist:item=128782990&perks=1840239774,1885400500,3700496672,2610012052
-dimwishlist:item=128782990&perks=839105230,3230963543,3700496672,2610012052
-dimwishlist:item=128782990&perks=1840239774,3230963543,3700496672,2610012052
 
 // Fang of Ir Yût Adept PvE first-choice roll
 // Arrowhead Brake, Fluted Barrel, High-Caliber Rounds, Armor-Piercing Rounds, Ricochet Rounds, Rewind Rounds, Precision Instrument
@@ -3323,18 +3294,6 @@ dimwishlist:item=3637669759&perks=3666208348,52780822,1749209109,3913600130
 dimwishlist:item=3637669759&perks=2827049491,52780822,1749209109,3913600130
 dimwishlist:item=3637669759&perks=938542991,52780822,1749209109,3913600130
 
-// Dead Man's Tale PvE first-choice roll
-// Fluted Barrel, Flared Magwell, High-Caliber Rounds, Ricochet Rounds, Armor-Pierceing Rounds, Vorpal Weapon, Shoot to Loot, Hand-Laid Stock, Fitted Stock
-//notes:Inspired by @DestinyMBP Podcast vs Enemies episode 78 https://open.spotify.com/episode/5KOQQ9QtvSEhRVb4vjeO3B?si=8c4784e02b87424e with @Saint_Kabr and @CourtProjects. First-choice PvE pick for add clearing Minor Spec enemies in end-game content. Dead Man's Tale, in it's revised form may still be thought of as primarily a PvP weapon, but it can still put in some work in PvE. Start with Fluted Barrel - handling and stability are always good to have. As the mag perk Flared Magwell really is the best choice - with reloading two shots at a time, it can feel quite slow - but if you're happy with reload speed, choose from your preferred combat effect mag. In the trait slot, you could choose Vorpal Weapon for the +20% damage against Majors and Bosses, or Shoot to Loot to safely pick up ammo and orbs of power from cover. As the stock perk, Hand-Laid Stock is a nice boost to Handling, or Fitted Stock takes the recoil to 100 and adds stability, at the cost of a little handling. tags:pve, pve-minor, pve-endgame, pve-god, mkb, controller
-dimwishlist:item=2188764214&perks=1840239774,3230963543,3700496672,990298390
-dimwishlist:item=2188764214&perks=1840239774,1561002382,3700496672,990298390
-dimwishlist:item=2188764214&perks=1840239774,1968497646,3700496672,990298390
-dimwishlist:item=2188764214&perks=1840239774,1885400500,3700496672,990298390
-dimwishlist:item=2188764214&perks=1840239774,3230963543,3700496672,4259401308
-dimwishlist:item=2188764214&perks=1840239774,1561002382,3700496672,4259401308
-dimwishlist:item=2188764214&perks=1840239774,1968497646,3700496672,4259401308
-dimwishlist:item=2188764214&perks=1840239774,1885400500,3700496672,4259401308
-
 // Dead Messenger PvE first-choice roll
 // Hard Launch, High-Velocity Rounds, The Fundamentals, Short-Action Stock, Unrelenting, Demolitionist
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 78 https://open.spotify.com/episode/5KOQQ9QtvSEhRVb4vjeO3B?si=8c4784e02b87424e with @Saint_Kabr and @CourtProjects. First-choice PvE pick for add clearing Minor Spec enemies in end-game content. Dead Messenger still needs a little love as at v7.2.0.5, even if it does come with a fair few extras built-in. With Blast Radius and Stability being pointless, you might as well maximise Velocity with Hard Launch as the barrel perk, and High-Velocity Rounds as the mag perk. Short-Action Stock is the only useful choice as the stock perk, and then as your selectable perk, Unrelenting is good to recover health in a firefight, or Demolitionist should still work even though you only get 10% grenade energy per hit, as with a wave-frame you should catch multiple adds with each shot. tags:pve, pve-minor, pve-endgame, pve-god, mkb, controller
@@ -3582,12 +3541,6 @@ dimwishlist:item=192784503&perks=4067834857,3429800428,201365942,3365897133
 dimwishlist:item=192784503&perks=2801223209,3827198035,201365942,3365897133
 dimwishlist:item=192784503&perks=852209214,3827198035,201365942,3365897133
 dimwishlist:item=192784503&perks=4067834857,3827198035,201365942,3365897133
-dimwishlist:item=192784503&perks=2801223209,3429800428,3700496672,3365897133
-dimwishlist:item=192784503&perks=852209214,3429800428,3700496672,3365897133
-dimwishlist:item=192784503&perks=4067834857,3429800428,3700496672,3365897133
-dimwishlist:item=192784503&perks=2801223209,3827198035,3700496672,3365897133
-dimwishlist:item=192784503&perks=852209214,3827198035,3700496672,3365897133
-dimwishlist:item=192784503&perks=4067834857,3827198035,3700496672,3365897133
 
 // Pre Astyanax IV PvE first-choice roll
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 77 https://open.spotify.com/episode/4RxkTOwLINWvKzUitNoAFy?si=1426d1f760c544b5 with @ImpetusAlways and @Saint_Kabr while @CourtProjects is on holiday. First-choice PvE pick for Solar synergy and add clear of Minor Spec enemies in end-game content. The literal translation means "Before Astyanax". Astyanax “Lord of the City”, in Greek legend, is the Trojans' popular nickname for the son of the city's greatest warrior, Prince Hector of Troy, and his wife Andromache. If you haven't got a well-rolled solar Precision bow, this is your chance - the stats are poor, but there are still decent trait combos to chase. If you do, then you can happily pass this by. As ever with bows, we're looking to reduce the draw time with the bowstring, so Elastic String is the top choice, with Polymer String and Flexible String being decent alternate choices. Then, to recover the lost accuracy with the arrow perk, choose between Fiberglass Arrow Shaft or Straight Fletching. Archer's Tempo is the usual reliable choice as the support perk to speed up draw time. In the second trait column as the signature perk, Incandescent provides the solar synergy and helps with crowd control for minor adds. Recommended MW: Draw Time or Reload Speed, with a damage-boosting Minor or Taken Spec mod. tags:pve, pve-minor, pve-god, pve-endgame, mkb, controller
@@ -3607,12 +3560,6 @@ dimwishlist:item=496556698&perks=4067834857,3429800428,201365942,3365897133
 dimwishlist:item=496556698&perks=2801223209,3827198035,201365942,3365897133
 dimwishlist:item=496556698&perks=852209214,3827198035,201365942,3365897133
 dimwishlist:item=496556698&perks=4067834857,3827198035,201365942,3365897133
-dimwishlist:item=496556698&perks=2801223209,3429800428,3700496672,3365897133
-dimwishlist:item=496556698&perks=852209214,3429800428,3700496672,3365897133
-dimwishlist:item=496556698&perks=4067834857,3429800428,3700496672,3365897133
-dimwishlist:item=496556698&perks=2801223209,3827198035,3700496672,3365897133
-dimwishlist:item=496556698&perks=852209214,3827198035,3700496672,3365897133
-dimwishlist:item=496556698&perks=4067834857,3827198035,3700496672,3365897133
 
 // Pre Astyanax IV Adept PvE first-choice roll
 // Elastic String, Polymer String, Flexible String, Fiberglass Arrow Shaft, Straight Fletching, Archer's Tempo, Shoot to Loot, Incandescent
@@ -3828,18 +3775,6 @@ dimwishlist:item=874623537&perks=1478423395,1380253176,2869569095,2396489472
 //notes:Inspired by @DestinyMBP Podcast vs Enemies episode 76 https://open.spotify.com/episode/4UoXFYD3DbunDEKIGDiriX?si=1957400d9e024ed5 with @Saint_Kabr and @ImpetusAlways. First-choice PvE pick for Minor Spec enemies in end-game content, particularly for Strand subclasses. Shapeable. Kept Confidence drops into a very competitive slot, and against kinetic slot stat monsters like Fatebringer, Austringer and Eyasluna it doesn't fare well. The trait options look a bit more aimed at PvP too. If you're looking to craft a PvE version, round out the stats a little with either Smallbore or Fluted Barrel as the barrel perk, and Tactical Mag in the magazine. In the trait columns, the new to Season 22 Loose Change perk will boost reload to 100 when procced by applying an elemental debuff, can be paired with the extendable 7s of 20% damage boost from Collective Action when you collect an elemental pickup - working particularly well with Strand Tangles thrown at an enemy. Whether you find the Head Rush origin trait useful will depend on how often you crouch and get up again - if you do, the additional handling and reload speed is useful, if not game-changing. Recommended MW: Stability, with a damage-boosting Minor or Taken Spec or Backup Mag mod. tags:pve, pve-minor, pve-god, pve-endgame, mkb, controller
 dimwishlist:item=1875512595&perks=1482024992,106909392,1119449540,3324494224
 dimwishlist:item=1875512595&perks=1840239774,106909392,1119449540,3324494224
-
-// Brya's Love PvE first-choice roll
-// Fluted Barrel, Smnallbore, Polygonal Rifling, Hammer-Forged Rifling, Tactical Mag, Appended Mag, Shoot to Loot, Explosive Payload
-//notes:Inspired by @DestinyMBP Podcast vs Enemies episode 76 https://open.spotify.com/episode/4UoXFYD3DbunDEKIGDiriX?si=1957400d9e024ed5 with @Saint_Kabr and @ImpetusAlways. First-choice PvE pick for Minor Spec enemies in end-game content. Shapeable. Brya's Love - named after Eris's Ghost - is up against Doom of Chelchis as a void precision frame scout rifle so, as you'd expect, doesn't fare well in a straight stat comparison. There are still some useful and unique trait combinations available to craft. For the barrel perk, Fluted Barrel or Smallbore are probably your top two choices - as a precision frame, the recoil direction stat doesn't really matter - or you could opt to go all into Stability with Polygonal Rifling or range with Hammer-Forged Rifling. For the magazine perk, Tactical Mag is the best choice, or possibly Appended mag of one more shot. As your support trait, Shoot to Loot is really useful in end-game activities - both safely collecting ammo bricks and reloading all your weapons at the same time. This pairs well with Explosive Payload as the signature trait which both adds free damage against enemies, and extends the ammo pickup range of Shoot to Loot. Whether you find the Head Rush origin trait useful will depend on how often you crouch and get up again - if you do, the additional handling and reload speed is useful, if not game-changing. Recommended MW: Stability, with a damage-boosting Minor or Taken Spec or Backup Mag mod. tags:pve, pve-minor, pve-god, pve-endgame, mkb, controller
-dimwishlist:item=2779821308&perks=1482024992,106909392,3700496672,3038247973
-dimwishlist:item=2779821308&perks=1840239774,106909392,3700496672,3038247973
-dimwishlist:item=2779821308&perks=1392496348,106909392,3700496672,3038247973
-dimwishlist:item=2779821308&perks=3250034553,106909392,3700496672,3038247973
-dimwishlist:item=2779821308&perks=1482024992,1087426260,3700496672,3038247973
-dimwishlist:item=2779821308&perks=1840239774,1087426260,3700496672,3038247973
-dimwishlist:item=2779821308&perks=1392496348,1087426260,3700496672,3038247973
-dimwishlist:item=2779821308&perks=3250034553,1087426260,3700496672,3038247973
 
 // Brya's Love PvE first-choice roll
 // Fluted Barrel, Smnallbore, Polygonal Rifling, Hammer-Forged Rifling, Tactical Mag, Appended Mag, Loose Change, Destabilizing Rounds
@@ -4818,17 +4753,6 @@ dimwishlist:item=2890082420&perks=1840239774,2680121939,4293542123,3215448563
 dimwishlist:item=2890082420&perks=1392496348,2680121939,4293542123,3215448563
 dimwishlist:item=2890082420&perks=839105230,2680121939,4293542123,3215448563
 dimwishlist:item=2890082420&perks=3661387068,2680121939,4293542123,3215448563
-
-// taken from https://github.com/Adamsdown-Boy/destiny-rolls/blob/main/player-versus-enemies-rolls/ep56-season-of-defiance-foundry-weapons.txt
-
-@title:Season of Defiance Devrim Kay VIII and Foundry weapons
-@description:Season 20 new and reprised weapons with the Field Tested or Foundry origin trait
-
-// Battle Scar PvE first-choice roll
-// Arrowhead Brake, Tactical Mag, Accurized Rounds, Shoot to Loot, Kinetic Tremors
-//notes:Inspired by @DestinyMBP Podcast vs Enemies episode 56 https://open.spotify.com/episode/6hjWp0NaachsNymnN22FDL with @ImpetusAlways, @Saint_Kabr and @CourtProjects. First-choice PvE roll for Minor add-clear in end-game content. Not a lot of current competition for lightweight pulse rifles as at v7.0.0.7, anyway but they add a very useful +20 mobility useful when buildcrafting and +6.25% movement speed. Unfortunately, the stats on the reprised Battle Scar are low across the board - the New Devrim Kay VIII Foundry Field Tested origin perk should help, but it takes a long time to proc the higher tiers five stacks would take 1001 hits to achieve!. You'd really be looking for Arrowhead Brake in the barrel ideally, to help clean up the low recoil direction and, if you prefer stability and reload speed go for Tactical Mag, or for range go for Accurized Rounds. Battle Scar is one of the first kinetic weapons that can roll with Kinetic Tremors as your signature perk in the second trait column - for end-game activities this pairs nicely with Shoot to Loot as, as well as the passive damage boost just for repeated hits you will also pick up ammo from anywhere in the shockwave area and reload all of your guns too. Recommended MW: TBH anything will work - just go with your preference, with a damage-boosting Minor, Taken Spec mod tags:pve, pve-minor, pve-god, pve-endgame, controller, mkb
-dimwishlist:item=2099894368&perks=839105230,106909392,3700496672,3891536761
-dimwishlist:item=2099894368&perks=839105230,3142289711,3700496672,3891536761
 
 // Battle Scar PvE first-choice roll
 // Arrowhead Brake, Tactical Mag, Accurized Rounds, Perpetual Motion, Keep Away, Osmosis
@@ -11797,12 +11721,6 @@ dimwishlist:item=548958835&perks=1392496348,2969185026,2779035018,2610012052
 dimwishlist:item=548958835&perks=3250034553,732557052,2779035018,2610012052
 dimwishlist:item=548958835&perks=1482024992,732557052,2779035018,2610012052
 dimwishlist:item=548958835&perks=1392496348,732557052,2779035018,2610012052
-dimwishlist:item=548958835&perks=3250034553,2969185026,3700496672,2610012052
-dimwishlist:item=548958835&perks=1482024992,2969185026,3700496672,2610012052
-dimwishlist:item=548958835&perks=1392496348,2969185026,3700496672,2610012052
-dimwishlist:item=548958835&perks=3250034553,732557052,3700496672,2610012052
-dimwishlist:item=548958835&perks=1482024992,732557052,3700496672,2610012052
-dimwishlist:item=548958835&perks=1392496348,732557052,3700496672,2610012052
 
 // Wastelander M5 PvP first choice roll
 // Full Choke, Assault Mag, Slideshot, Perpetual Motion, Opening Shot
@@ -12092,27 +12010,11 @@ dimwishlist:item=1107446438&perks=3661387068,3177308360,2946784966,1015611457
 dimwishlist:item=1107446438&perks=839105230,3177308360,2946784966,1015611457
 
 // Servant Leader PvE first choice roll
-// Polygonal Rifling, Chambered Compensator, Arrowhead Brake, Steady Rounds, Tactical Mag, Flared Magwell, Shoot to Loot, Osmosis
-//notes: ???  ???: Inspired by Destiny Massive Breakdowns from Podcast 235. PvE first choice roll for endgame Match Game activities. You'll need to be comfortable with a lot of zoom 2.6x. Recommended MW: Stability. tags:pve, pve-god
-dimwishlist:item=1107446438&perks=1392496348,3177308360,3700496672,1774574192
-dimwishlist:item=1107446438&perks=3661387068,3177308360,3700496672,1774574192
-dimwishlist:item=1107446438&perks=839105230,3177308360,3700496672,1774574192
-dimwishlist:item=1107446438&perks=1392496348,106909392,3700496672,1774574192
-dimwishlist:item=1107446438&perks=3661387068,106909392,3700496672,1774574192
-dimwishlist:item=1107446438&perks=839105230,106909392,3700496672,1774574192
-dimwishlist:item=1107446438&perks=1392496348,3230963543,3700496672,1774574192
-dimwishlist:item=1107446438&perks=3661387068,3230963543,3700496672,1774574192
-dimwishlist:item=1107446438&perks=839105230,3230963543,3700496672,1774574192
-
-// Servant Leader PvE first choice roll
 // Polygonal Rifling, Chambered Compensator, Arrowhead Brake, Steady Rounds, Tactical Mag, Flared Magwell, Fourth Time's The Charm, Shoot To Loot, Subsistence, Frenzy, One For All
 //notes:Inspired by Destiny Massive Breakdowns from Podcast 235. PvE backup roll for general PvE. You'll need to be comfortable with a lot of zoom 2.6x. Recommended MW: Stability. tags:pve, pve-god
 dimwishlist:item=1107446438&perks=1392496348,3177308360,1354429876,4104185692
 dimwishlist:item=1107446438&perks=3661387068,3177308360,1354429876,4104185692
 dimwishlist:item=1107446438&perks=839105230,3177308360,1354429876,4104185692
-dimwishlist:item=1107446438&perks=1392496348,3177308360,3700496672,4104185692
-dimwishlist:item=1107446438&perks=3661387068,3177308360,3700496672,4104185692
-dimwishlist:item=1107446438&perks=839105230,3177308360,3700496672,4104185692
 dimwishlist:item=1107446438&perks=1392496348,3177308360,1820235745,4104185692
 dimwishlist:item=1107446438&perks=3661387068,3177308360,1820235745,4104185692
 dimwishlist:item=1107446438&perks=839105230,3177308360,1820235745,4104185692
@@ -12125,15 +12027,6 @@ dimwishlist:item=1107446438&perks=839105230,106909392,1354429876,4049631843
 dimwishlist:item=1107446438&perks=1392496348,3230963543,1354429876,4049631843
 dimwishlist:item=1107446438&perks=3661387068,3230963543,1354429876,4049631843
 dimwishlist:item=1107446438&perks=839105230,3230963543,1354429876,4049631843
-dimwishlist:item=1107446438&perks=1392496348,3177308360,3700496672,4049631843
-dimwishlist:item=1107446438&perks=3661387068,3177308360,3700496672,4049631843
-dimwishlist:item=1107446438&perks=839105230,3177308360,3700496672,4049631843
-dimwishlist:item=1107446438&perks=1392496348,106909392,3700496672,4049631843
-dimwishlist:item=1107446438&perks=3661387068,106909392,3700496672,4049631843
-dimwishlist:item=1107446438&perks=839105230,106909392,3700496672,4049631843
-dimwishlist:item=1107446438&perks=1392496348,3230963543,3700496672,4049631843
-dimwishlist:item=1107446438&perks=3661387068,3230963543,3700496672,4049631843
-dimwishlist:item=1107446438&perks=839105230,3230963543,3700496672,4049631843
 dimwishlist:item=1107446438&perks=1392496348,3177308360,1820235745,4049631843
 dimwishlist:item=1107446438&perks=3661387068,3177308360,1820235745,4049631843
 dimwishlist:item=1107446438&perks=839105230,3177308360,1820235745,4049631843
@@ -15346,24 +15239,13 @@ dimwishlist:item=1622998472&perks=3250034553,106909392,2946784966,2458213969
 //notes:Inspired by Destiny Massive Breakdowns Podcast 228. PvE first choice roll to synergise with stasis subclasses. Recommended MW: Handling. tags:pve, pve-god
 dimwishlist:item=1622998472&perks=3250034553,3230963543,2450788523,124408337
 dimwishlist:item=1622998472&perks=3250034553,106909392,2450788523,124408337
-dimwishlist:item=1622998472&perks=3250034553,3230963543,3700496672,124408337
-dimwishlist:item=1622998472&perks=3250034553,106909392,3700496672,124408337
 
 // Vulpecula PvE first choice roll
 //notes:Inspired by Destiny Massive Breakdowns Podcast 228. PvE first choice roll - good for seasonal overload/unstoppable mods. Recommended MW: Handling. tags:pve, pve-god
-dimwishlist:item=1622998472&perks=1392496348,3142289711,3700496672,3038247973
-dimwishlist:item=1622998472&perks=4090651448,3142289711,3700496672,3038247973
-dimwishlist:item=1622998472&perks=1482024992,3142289711,3700496672,3038247973
-dimwishlist:item=1622998472&perks=1840239774,3142289711,3700496672,3038247973
 dimwishlist:item=1622998472&perks=1392496348,3142289711,1168162263,3038247973
 dimwishlist:item=1622998472&perks=4090651448,3142289711,1168162263,3038247973
 dimwishlist:item=1622998472&perks=1482024992,3142289711,1168162263,3038247973
 dimwishlist:item=1622998472&perks=1840239774,3142289711,1168162263,3038247973
-
-// Vulpecula PvE first choice roll
-//notes:Inspired by Destiny Massive Breakdowns Podcast 228. PvE first choice roll - good for seasonal overload/unstoppable mods. Recommended MW: Handling. tags:pve, pve-god
-dimwishlist:item=1622998472&perks=3250034553,3230963543,3700496672,3038247973
-dimwishlist:item=1622998472&perks=3250034553,106909392,3700496672,3038247973
 
 // Chrysura Melo PvE first choice roll
 //notes:Inspired by Destiny Massive Breakdowns Podcast 228. PvE first choice roll. Recommended MW: Stability. tags:pve, pve-god
@@ -15752,8 +15634,6 @@ dimwishlist:item=471518543&perks=1840239774,3230963543,3523296417,3824105627
 
 // Retraced Path god-pve
 //notes: Speedrunner's Shopping List: "Avoiding primary swaps/Special single shot add clear/Shooting bricks" good for: all S21 raids and dungeons tags:pve-god
-dimwishlist:item=548958835&perks=1840239774,2749775325,3700496672,3523296417
-dimwishlist:item=548958835&perks=1840239774,2749775325,3700496672,4293542123
 dimwishlist:item=548958835&perks=1840239774,2749775325,1820235745,3523296417
 dimwishlist:item=548958835&perks=1840239774,2749775325,1820235745,4293542123
 dimwishlist:item=548958835&perks=1840239774,2749775325,1048183818,3523296417
@@ -15895,8 +15775,6 @@ dimwishlist:item=2026087437&perks=3525010810,3032599245,3300816228,3523296417
 
 // IKELOS_SMG_v1.0.3 god-pve
 //notes: Speedrunner's Shopping List: General primary good for: all S21 raids and dungeons tags:pve-god
-dimwishlist:item=2149683300&perks=1840239774,1140096971,3700496672,2173046394
-dimwishlist:item=2149683300&perks=1840239774,1140096971,3700496672,3708227201
 dimwishlist:item=2149683300&perks=1840239774,1140096971,4071163871,2173046394
 dimwishlist:item=2149683300&perks=1840239774,1140096971,4071163871,3708227201
 
@@ -15961,12 +15839,6 @@ dimwishlist:item=2821430069&perks=1840239774,791862061,3523296417,3708227201
 dimwishlist:item=2821430069&perks=1840239774,791862061,1556840489,3708227201
 dimwishlist:item=2821430069&perks=1840239774,791862061,4071163871,3708227201
 
-// Path of Least Resistance god-pve
-//notes: Speedrunner's Shopping List: "Avoiding primary swaps/Special single shot add clear/Shooting bricks" good for: all S21 raids and dungeons tags:pve-god
-dimwishlist:item=2827764482&perks=1840239774,2749775325,3700496672,2173046394
-dimwishlist:item=2827764482&perks=1840239774,2749775325,3700496672,2848615171
-dimwishlist:item=2827764482&perks=1840239774,2749775325,3700496672,438098033
-
 // Until Its Return god-pve
 //notes: Speedrunner's Shopping List: Burst single target damage good for: all S21 raids and dungeons tags:pve-god
 dimwishlist:item=2883484461&perks=1300023272,106909392,3643424744,3708227201
@@ -15995,8 +15867,6 @@ dimwishlist:item=2990047042&perks=1840239774,2420895100,3523296417,469285294
 
 // Defiance of Yasmin god-pve
 //notes: Speedrunner's Shopping List: "Shoot to loot kinetic/Augmenting damage" good for: all S21 raids and dungeons tags:pve-god
-dimwishlist:item=3228096719&perks=1840239774,2420895100,3700496672,1821614984
-dimwishlist:item=3228096719&perks=1840239774,2420895100,3700496672,1771339417
 dimwishlist:item=3228096719&perks=1840239774,2420895100,1556840489,1821614984
 dimwishlist:item=3228096719&perks=1840239774,2420895100,1556840489,1771339417
 dimwishlist:item=3228096719&perks=1840239774,2420895100,2621346526,1821614984
@@ -20522,9 +20392,6 @@ dimwishlist:item=2218569744&perks=4090651448,3142289711,3523296417,2848615171
 dimwishlist:item=2218569744&perks=4090651448,3142289711,1354429876,2173046394
 dimwishlist:item=2218569744&perks=4090651448,3142289711,1354429876,3038247973
 dimwishlist:item=2218569744&perks=4090651448,3142289711,1354429876,2848615171
-dimwishlist:item=2218569744&perks=4090651448,3142289711,3700496672,2173046394
-dimwishlist:item=2218569744&perks=4090651448,3142289711,3700496672,3038247973
-dimwishlist:item=2218569744&perks=4090651448,3142289711,3700496672,2848615171
 dimwishlist:item=2218569744&perks=4090651448,106909392,247725512,2173046394
 dimwishlist:item=2218569744&perks=4090651448,106909392,247725512,3038247973
 dimwishlist:item=2218569744&perks=4090651448,106909392,247725512,2848615171
@@ -20534,9 +20401,6 @@ dimwishlist:item=2218569744&perks=4090651448,106909392,3523296417,2848615171
 dimwishlist:item=2218569744&perks=4090651448,106909392,1354429876,2173046394
 dimwishlist:item=2218569744&perks=4090651448,106909392,1354429876,3038247973
 dimwishlist:item=2218569744&perks=4090651448,106909392,1354429876,2848615171
-dimwishlist:item=2218569744&perks=4090651448,106909392,3700496672,2173046394
-dimwishlist:item=2218569744&perks=4090651448,106909392,3700496672,3038247973
-dimwishlist:item=2218569744&perks=4090651448,106909392,3700496672,2848615171
 
 // Brigand's Law PvE
 //notes:Chevy's S18 Super Pog PVE List- MW Reload tags:pve, mkb
@@ -20967,10 +20831,6 @@ dimwishlist:item=1107446438&perks=4090651448,106909392,1354429876,3425386926
 dimwishlist:item=1107446438&perks=4090651448,106909392,1354429876,1015611457
 dimwishlist:item=1107446438&perks=4090651448,106909392,1354429876,1774574192
 dimwishlist:item=1107446438&perks=4090651448,106909392,1354429876,4049631843
-dimwishlist:item=1107446438&perks=4090651448,106909392,3700496672,3425386926
-dimwishlist:item=1107446438&perks=4090651448,106909392,3700496672,1015611457
-dimwishlist:item=1107446438&perks=4090651448,106909392,3700496672,1774574192
-dimwishlist:item=1107446438&perks=4090651448,106909392,3700496672,4049631843
 dimwishlist:item=1107446438&perks=4090651448,106909392,247725512,3425386926
 dimwishlist:item=1107446438&perks=4090651448,106909392,247725512,1015611457
 dimwishlist:item=1107446438&perks=4090651448,106909392,247725512,1774574192
@@ -20979,10 +20839,6 @@ dimwishlist:item=1107446438&perks=1840239774,106909392,1354429876,3425386926
 dimwishlist:item=1107446438&perks=1840239774,106909392,1354429876,1015611457
 dimwishlist:item=1107446438&perks=1840239774,106909392,1354429876,1774574192
 dimwishlist:item=1107446438&perks=1840239774,106909392,1354429876,4049631843
-dimwishlist:item=1107446438&perks=1840239774,106909392,3700496672,3425386926
-dimwishlist:item=1107446438&perks=1840239774,106909392,3700496672,1015611457
-dimwishlist:item=1107446438&perks=1840239774,106909392,3700496672,1774574192
-dimwishlist:item=1107446438&perks=1840239774,106909392,3700496672,4049631843
 dimwishlist:item=1107446438&perks=1840239774,106909392,247725512,3425386926
 dimwishlist:item=1107446438&perks=1840239774,106909392,247725512,1015611457
 dimwishlist:item=1107446438&perks=1840239774,106909392,247725512,1774574192
@@ -21027,10 +20883,6 @@ dimwishlist:item=1476654960&perks=1926090095,106909392,3523296417,1774574192
 
 // Vulpecula MKB,PvE
 //notes: Chevy's S15 Super Pog PvE Loot List. Recommended MW - Reload/Range tags:mkb, pve
-dimwishlist:item=1622998472&perks=1467527085,3142289711,3700496672,124408337
-dimwishlist:item=1622998472&perks=1467527085,3142289711,3700496672,3673922083
-dimwishlist:item=1622998472&perks=1467527085,3142289711,3700496672,438098033
-dimwishlist:item=1622998472&perks=1467527085,3142289711,3700496672,3038247973
 dimwishlist:item=1622998472&perks=1467527085,3142289711,1195158366,124408337
 dimwishlist:item=1622998472&perks=1467527085,3142289711,1195158366,3673922083
 dimwishlist:item=1622998472&perks=1467527085,3142289711,1195158366,438098033
@@ -21039,18 +20891,10 @@ dimwishlist:item=1622998472&perks=1467527085,3142289711,1168162263,124408337
 dimwishlist:item=1622998472&perks=1467527085,3142289711,1168162263,3673922083
 dimwishlist:item=1622998472&perks=1467527085,3142289711,1168162263,438098033
 dimwishlist:item=1622998472&perks=1467527085,3142289711,1168162263,3038247973
-dimwishlist:item=1622998472&perks=1467527085,106909392,3700496672,124408337
-dimwishlist:item=1622998472&perks=1467527085,106909392,3700496672,3673922083
-dimwishlist:item=1622998472&perks=1467527085,106909392,3700496672,438098033
-dimwishlist:item=1622998472&perks=1467527085,106909392,3700496672,3038247973
 dimwishlist:item=1622998472&perks=1467527085,106909392,1195158366,124408337
 dimwishlist:item=1622998472&perks=1467527085,106909392,1195158366,3673922083
 dimwishlist:item=1622998472&perks=1467527085,106909392,1195158366,438098033
 dimwishlist:item=1622998472&perks=1467527085,106909392,1195158366,3038247973
-dimwishlist:item=1622998472&perks=202670084,3142289711,3700496672,124408337
-dimwishlist:item=1622998472&perks=202670084,3142289711,3700496672,3673922083
-dimwishlist:item=1622998472&perks=202670084,3142289711,3700496672,438098033
-dimwishlist:item=1622998472&perks=202670084,3142289711,3700496672,3038247973
 dimwishlist:item=1622998472&perks=202670084,3142289711,1195158366,124408337
 dimwishlist:item=1622998472&perks=202670084,3142289711,1195158366,3673922083
 dimwishlist:item=1622998472&perks=202670084,3142289711,1195158366,438098033
@@ -21059,10 +20903,6 @@ dimwishlist:item=1622998472&perks=202670084,3142289711,1168162263,124408337
 dimwishlist:item=1622998472&perks=202670084,3142289711,1168162263,3673922083
 dimwishlist:item=1622998472&perks=202670084,3142289711,1168162263,438098033
 dimwishlist:item=1622998472&perks=202670084,3142289711,1168162263,3038247973
-dimwishlist:item=1622998472&perks=202670084,106909392,3700496672,124408337
-dimwishlist:item=1622998472&perks=202670084,106909392,3700496672,3673922083
-dimwishlist:item=1622998472&perks=202670084,106909392,3700496672,438098033
-dimwishlist:item=1622998472&perks=202670084,106909392,3700496672,3038247973
 dimwishlist:item=1622998472&perks=202670084,106909392,1195158366,124408337
 dimwishlist:item=1622998472&perks=202670084,106909392,1195158366,3673922083
 dimwishlist:item=1622998472&perks=202670084,106909392,1195158366,438098033
@@ -21212,9 +21052,6 @@ dimwishlist:item=3409645497&perks=1840239774,106909392,2779035018,3425386926
 dimwishlist:item=3472875143&perks=2801223209,3827198035,201365942,2848615171
 dimwishlist:item=3472875143&perks=2801223209,3827198035,201365942,4104185692
 dimwishlist:item=3472875143&perks=2801223209,3827198035,201365942,3673922083
-dimwishlist:item=3472875143&perks=2801223209,3827198035,3700496672,2848615171
-dimwishlist:item=3472875143&perks=2801223209,3827198035,3700496672,4104185692
-dimwishlist:item=3472875143&perks=2801223209,3827198035,3700496672,3673922083
 dimwishlist:item=3472875143&perks=2801223209,3827198035,951095735,2848615171
 dimwishlist:item=3472875143&perks=2801223209,3827198035,951095735,4104185692
 dimwishlist:item=3472875143&perks=2801223209,3827198035,951095735,3673922083
@@ -24351,14 +24188,6 @@ dimwishlist:item=297296830&perks=848860060,2896038713
 dimwishlist:item=297296830&perks=1354429876,2402480669
 dimwishlist:item=297296830&perks=848860060,2402480669
 
-// Pointed Inquiry PvE backup roll
-// Any barrel, Any mag, Shoot To Loot, Shoot To Loot Enhanced, Focused Fury, Focused Fury Enhanced
-//notes:Inspired by DMB Player Versus Enemies Podcast 8. Shapeable through the Mars Relic. PvE backup roll for end-game PvE, although it's not a strong subtype, it does have some interesting perk pairings and might be worth keeping in case of a sandbox change. Barrel and mag depend on your preferences, although improving recoil direction and/or stability can be useful. Focused Fury procs on crit hits from half the bullets in a base magazine, and Shoot To Loot's automatic reload keeps the damage boost going on shooting an ammo brick to pick it up. Recommended MW: Stability or Reload Speed, with a Backup Mag or damage-boosting Minor, Major or Taken Spec mod. tags:pve
-dimwishlist:item=297296830&perks=3700496672,2896038713
-dimwishlist:item=297296830&perks=2840833776,2896038713
-dimwishlist:item=297296830&perks=3700496672,2402480669
-dimwishlist:item=297296830&perks=2840833776,2402480669
-
 // Duty Bound PvE first choice roll
 // Arrohead Brake, Steady Rounds, Tactical Mag, Flared Magwell, Stats For All, One For All
 //notes:Inspired by DMB Player Versus Enemies Podcast 11. PvE first choice roll for end-game content. Not too much to offer over other kinetic adaptive auto-rifles like Scathelocke or The Last Breath. Recoil Direction and stability both need some attention, so Arrowhead Brake and a stability mag perk help. The "All for All" pairing works well to both boost useful stats and damage. Recommended MW: Stability, with a Backup Mag or damage-boosting Minor, Major, or Taken Spec mod. tags:pve
@@ -24450,18 +24279,6 @@ dimwishlist:item=1019000888&perks=106909392,247725512,124408337
 dimwishlist:item=1019000888&perks=3230963543,247725512,124408337
 dimwishlist:item=1019000888&perks=106909392,1428297954,124408337
 dimwishlist:item=1019000888&perks=3230963543,1428297954,124408337
-
-// Perses-D PvE first choice roll
-/ Any barrel, Tactical Mag, Flared Magwell, Shoot to Loot, Headstone, Explosive Rounds, Focused Fury, One for All, Vorpal Weapon
-//notes:Inspired by DMB Player Versus Enemies Podcast 11. PvE first choice roll for end-game content. Choose your barrel depending on your Stability/Handling/Recoil Direction preferences. A mag that provides reload speed, or a bit of extra ammo is useful for uptime in a fight. Shoot to Loot can be very useful for end-game content allowing you to restock ammo from cover and reload all your weapons. Headstone works well with Stasis builds and the origin perk, which does additional damage to stasis crystals for the dragonfly-like AOE damage, Explosive Payload adds damage, flinch and utility against Champions, or non-kill damage boosters increase your effectiveness in combat. Recommended MW: Reload Speed or Handling, with Backup Mag or damage-boosting Minor, Major, or Taken Spec mod. tags:pve
-dimwishlist:item=1019000888&perks=106909392,3700496672,124408337
-dimwishlist:item=1019000888&perks=3230963543,3700496672,124408337
-dimwishlist:item=1019000888&perks=106909392,3700496672,3038247973
-dimwishlist:item=1019000888&perks=3230963543,3700496672,3038247973
-dimwishlist:item=1019000888&perks=106909392,3700496672,2896038713
-dimwishlist:item=1019000888&perks=3230963543,3700496672,2896038713
-dimwishlist:item=1019000888&perks=106909392,3700496672,4049631843
-dimwishlist:item=1019000888&perks=3230963543,3700496672,4049631843
 
 // Ragnhild-D PvE first choice roll
 // Barrel Shroud, Corkscrew Rifling, Assault Mag, Tactical Mag, Auto-Loading Holster, Auto-Loading Holster Enhanced, Perpetual Motion, Perpetual Motion Enhanced, One-Two Punch, One-Two Punch Enhanced
@@ -24609,7 +24426,6 @@ dimwishlist:item=1788603939&perks=1583705720,4049631843
 //notes:Inspired by DMB Player Versus Enemies Podcast 11. PvE first-choice for end-game use. Not the strongest subtype, but worth tucking a roll in case High-Impact Frame ARs ever get some love. Gambit drop, with large perk pools, giving a 1 in 144 chance of getting the two perks you want in the last two columns, before even looking at barrels and mags. Choose barrel and mag depending on your Stability, Handling or Reload Speed preferences. There are really good options to improve weapon performance in the third column, and Headstone works well for Stasis builds, with the foundry intrinsic perk providing extra damage against Stasis crystals for dragonfly-like AOE damage. Recommended MW: Stability, Handling or Reload Speed, with damage-boosting Minor, Major or Taken Spec mod. tags:pve
 dimwishlist:item=1788603939&perks=1583705720,124408337
 dimwishlist:item=1788603939&perks=1354429876,124408337
-dimwishlist:item=1788603939&perks=3700496672,124408337
 dimwishlist:item=1788603939&perks=1428297954,124408337
 dimwishlist:item=1788603939&perks=1570042021,124408337
 dimwishlist:item=1788603939&perks=3300816228,124408337
@@ -24619,7 +24435,6 @@ dimwishlist:item=1788603939&perks=3300816228,124408337
 //notes:Inspired by DMB Player Versus Enemies Podcast 11. PvE first-choice for end-game use. Not the strongest subtype, but worth tucking a roll in case High-Impact Frame ARs ever get some love. Gambit drop, with large perk pools, giving a 1 in 144 chance of getting the two perks you want in the last two columns, before even looking at barrels and mags. Choose barrel and mag depending on your Stability, Handling or Reload Speed preferences. There are really good options to improve weapon performance in the third column, and Frenzy provides a reliable passive damage-boost. Recommended MW: Stability, Handling or Reload Speed, with damage-boosting Minor, Major or Taken Spec mod. tags:pve
 dimwishlist:item=1788603939&perks=1583705720,4104185692
 dimwishlist:item=1788603939&perks=1354429876,4104185692
-dimwishlist:item=1788603939&perks=3700496672,4104185692
 dimwishlist:item=1788603939&perks=1570042021,4104185692
 dimwishlist:item=1788603939&perks=3300816228,4104185692
 
@@ -24628,7 +24443,6 @@ dimwishlist:item=1788603939&perks=3300816228,4104185692
 //notes:Inspired by DMB Player Versus Enemies Podcast 11. PvE first-choice for general use. Not the strongest subtype, but worth tucking a roll in case High-Impact Frame ARs ever get some love. Gambit drop, with large perk pools, giving a 1 in 144 chance of getting the two perks you want in the last two columns, before even looking at barrels and mags. Choose barrel and mag depending on your Stability, Handling or Reload Speed preferences. There are really good options to improve weapon performance in the third column, and Multikill Clip is a good damage boost perk for non end-game activities. Recommended MW: Stability, Handling or Reload Speed, with damage-boosting Minor, Major or Taken Spec mod. tags:pve
 dimwishlist:item=1788603939&perks=1583705720,2458213969
 dimwishlist:item=1788603939&perks=1354429876,2458213969
-dimwishlist:item=1788603939&perks=3700496672,2458213969
 dimwishlist:item=1788603939&perks=1428297954,2458213969
 dimwishlist:item=1788603939&perks=1570042021,2458213969
 dimwishlist:item=1788603939&perks=3300816228,2458213969
@@ -24760,7 +24574,6 @@ dimwishlist:item=1866778462&perks=2621346526,2284787283
 // Any barrel, Armor-Piercing Rounds, Rapid Hit, Shoot To Loot, Vorpal Weapon, Turnmabout
 //notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE first-choice roll for barrier champion mods. Omolon trait gives stability and reload speed in the top half of the mag. Huge perk pool, so you only have a 1 in 144 chance of any last two perks, before you even look at barrels and mags. Dealer's choice of barrels, with Armor-Piercing Rounds and a useful trait to pair with Vorpal Weapon or Turnabout in the final column. Recommended MW: your choice of Stability, Range, Reload Speed and Handling with a Backup Mag or damage-boosting Major or Taken Spec mod. tags:pve
 dimwishlist:item=2888266564&perks=1968497646,247725512,2209918983
-dimwishlist:item=2888266564&perks=1968497646,3700496672,2209918983
 
 // Crisis Inverted PvE backup roll
 // Any barrel, Armor-Piercing Rounds, Stats For  All, Outlaw, Demolitionist, Vorpal Weapon, Turnmabout
@@ -24774,35 +24587,21 @@ dimwishlist:item=2888266564&perks=1968497646,3523296417,2209918983
 //notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE first choice roll for end-game content. Omolon trait gives stability and reload speed in the top half of the mag. Huge perk pool, so you only have a 1 in 144 chance of any last two perks, before you even look at barrels and mags. Dealer's choice of barrel and mag perks, with the always reliable "All For All" combination in the two trait columns. Recommended MW: your choice of Stability, Range, Reload Speed and Handling with a Backup Mag or damage-boosting Minor, Major or Taken Spec mod. tags:pve
 dimwishlist:item=2888266564&perks=1583705720,4049631843
 
-// Crisis Inverted PvE first choice roll
-// Any barrel, Any mag, Shoot To Loot, One For All
-//notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE first choice roll for end-game content. Omolon trait gives stability and reload speed in the top half of the mag. Huge perk pool, so you only have a 1 in 144 chance of any last two perks, before you even look at barrels and mags. Dealer's choice of barrel and mag perks, with the Shoot To Loot to help with safe ammo pickup and One For All as a reliable damage boost. Recommended MW: your choice of Stability, Range, Reload Speed and Handling with a Backup Mag or damage-boosting Minor, Major or Taken Spec mod. tags:pve
-dimwishlist:item=2888266564&perks=3700496672,4049631843
-
-// Crisis Inverted PvE first choice roll
-// Any barrel, Any mag, Demolitionist, Adrenaline Junkie
-//notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE first choice roll for grenade builds. Omolon trait gives stability and reload speed in the top half of the mag. Huge perk pool, so you only have a 1 in 144 chance of any last two perks, before you even look at barrels and mags. Dealer's choice of barrel and mag perks, with the natural symbiosis of Demolitionist and Adrenaline Junkie. Recommended MW: your choice of Stability, Range, Reload Speed and Handling with a Backup Mag or damage-boosting Minor, Major or Taken Spec mod. tags:pve
-dimwishlist:item=2888266564&perks=3700496672,4049631843
-
 // Crisis Inverted PvE backup roll
 // Any barrel, Any Mag, Shoot to Loot, Stats For All, Outlaw, Demolitionist, Rapid Hit, One For All, Vorpal Weapon, Adrenaline Junkie, Turnabout
 //notes:Inspired by DMB Player Versus Enemies Podcast 12. PvE backup roll for general use. Omolon trait gives stability and reload speed in the top half of the mag. Huge perk pool, so you only have a 1 in 144 chance of any last two perks, before you even look at barrels and mags. Recommended MW: your choice of Stability, Range, Reload Speed and Handling with a Backup Mag or damage-boosting Minor, Major or Taken Spec mod. tags:pve
-dimwishlist:item=2888266564&perks=3700496672,4049631843
 dimwishlist:item=2888266564&perks=1583705720,4049631843
 dimwishlist:item=2888266564&perks=1168162263,4049631843
 dimwishlist:item=2888266564&perks=3523296417,4049631843
 dimwishlist:item=2888266564&perks=247725512,4049631843
-dimwishlist:item=2888266564&perks=3700496672,11612903
 dimwishlist:item=2888266564&perks=1583705720,11612903
 dimwishlist:item=2888266564&perks=1168162263,11612903
 dimwishlist:item=2888266564&perks=3523296417,11612903
 dimwishlist:item=2888266564&perks=247725512,11612903
-dimwishlist:item=2888266564&perks=3700496672,11612903
 dimwishlist:item=2888266564&perks=1583705720,11612903
 dimwishlist:item=2888266564&perks=1168162263,11612903
 dimwishlist:item=2888266564&perks=3523296417,11612903
 dimwishlist:item=2888266564&perks=247725512,11612903
-dimwishlist:item=2888266564&perks=3700496672,2209918983
 dimwishlist:item=2888266564&perks=1583705720,2209918983
 dimwishlist:item=2888266564&perks=1168162263,2209918983
 dimwishlist:item=2888266564&perks=3523296417,2209918983
@@ -25512,18 +25311,6 @@ dimwishlist:item=2638190703&perks=3400784728,2896038713
 // Aisha's Embrace PvE backup roll
 // Fluted Barrel, Arrowhead Brake, Corkscrew Rifling, Armor-Piercing Rounds, High-Calibre Rounds, Ricochet Rounds, Flared Magwell, Shoot To Loot, Perpetual Motion, Stats For All, Focused Fury, Turnabout, Vorpal Weapon, Adagio
 //notes:Inspired by DMB Player Versus Enemies Podcast 14. PvE backup roll for general content. The Alacrity trait is surprisingly useful for solo Lost Sectors. Your choice of barrel and mag, and then there are plenty of good PvE traits to choose from. Recommended MW: Handling or Reload Speed, with a Backup Mag mod or damage-boosting Minor, Major or Taken Spec mod. tags:pve
-dimwishlist:item=2638190703&perks=1840239774,1968497646,3700496672,2896038713
-dimwishlist:item=2638190703&perks=839105230,1968497646,3700496672,2896038713
-dimwishlist:item=2638190703&perks=4090651448,1968497646,3700496672,2896038713
-dimwishlist:item=2638190703&perks=1840239774,1561002382,3700496672,2896038713
-dimwishlist:item=2638190703&perks=839105230,1561002382,3700496672,2896038713
-dimwishlist:item=2638190703&perks=4090651448,1561002382,3700496672,2896038713
-dimwishlist:item=2638190703&perks=1840239774,1885400500,3700496672,2896038713
-dimwishlist:item=2638190703&perks=839105230,1885400500,3700496672,2896038713
-dimwishlist:item=2638190703&perks=4090651448,1885400500,3700496672,2896038713
-dimwishlist:item=2638190703&perks=1840239774,3230963543,3700496672,2896038713
-dimwishlist:item=2638190703&perks=839105230,3230963543,3700496672,2896038713
-dimwishlist:item=2638190703&perks=4090651448,3230963543,3700496672,2896038713
 dimwishlist:item=2638190703&perks=1840239774,1968497646,1428297954,2896038713
 dimwishlist:item=2638190703&perks=839105230,1968497646,1428297954,2896038713
 dimwishlist:item=2638190703&perks=4090651448,1968497646,1428297954,2896038713
@@ -25548,18 +25335,6 @@ dimwishlist:item=2638190703&perks=4090651448,1885400500,1583705720,2896038713
 dimwishlist:item=2638190703&perks=1840239774,3230963543,1583705720,2896038713
 dimwishlist:item=2638190703&perks=839105230,3230963543,1583705720,2896038713
 dimwishlist:item=2638190703&perks=4090651448,3230963543,1583705720,2896038713
-dimwishlist:item=2638190703&perks=1840239774,1968497646,3700496672,2209918983
-dimwishlist:item=2638190703&perks=839105230,1968497646,3700496672,2209918983
-dimwishlist:item=2638190703&perks=4090651448,1968497646,3700496672,2209918983
-dimwishlist:item=2638190703&perks=1840239774,1561002382,3700496672,2209918983
-dimwishlist:item=2638190703&perks=839105230,1561002382,3700496672,2209918983
-dimwishlist:item=2638190703&perks=4090651448,1561002382,3700496672,2209918983
-dimwishlist:item=2638190703&perks=1840239774,1885400500,3700496672,2209918983
-dimwishlist:item=2638190703&perks=839105230,1885400500,3700496672,2209918983
-dimwishlist:item=2638190703&perks=4090651448,1885400500,3700496672,2209918983
-dimwishlist:item=2638190703&perks=1840239774,3230963543,3700496672,2209918983
-dimwishlist:item=2638190703&perks=839105230,3230963543,3700496672,2209918983
-dimwishlist:item=2638190703&perks=4090651448,3230963543,3700496672,2209918983
 dimwishlist:item=2638190703&perks=1840239774,1968497646,1428297954,2209918983
 dimwishlist:item=2638190703&perks=839105230,1968497646,1428297954,2209918983
 dimwishlist:item=2638190703&perks=4090651448,1968497646,1428297954,2209918983
@@ -25584,18 +25359,6 @@ dimwishlist:item=2638190703&perks=4090651448,1885400500,1583705720,2209918983
 dimwishlist:item=2638190703&perks=1840239774,3230963543,1583705720,2209918983
 dimwishlist:item=2638190703&perks=839105230,3230963543,1583705720,2209918983
 dimwishlist:item=2638190703&perks=4090651448,3230963543,1583705720,2209918983
-dimwishlist:item=2638190703&perks=1840239774,1968497646,3700496672,3673922083
-dimwishlist:item=2638190703&perks=839105230,1968497646,3700496672,3673922083
-dimwishlist:item=2638190703&perks=4090651448,1968497646,3700496672,3673922083
-dimwishlist:item=2638190703&perks=1840239774,1561002382,3700496672,3673922083
-dimwishlist:item=2638190703&perks=839105230,1561002382,3700496672,3673922083
-dimwishlist:item=2638190703&perks=4090651448,1561002382,3700496672,3673922083
-dimwishlist:item=2638190703&perks=1840239774,1885400500,3700496672,3673922083
-dimwishlist:item=2638190703&perks=839105230,1885400500,3700496672,3673922083
-dimwishlist:item=2638190703&perks=4090651448,1885400500,3700496672,3673922083
-dimwishlist:item=2638190703&perks=1840239774,3230963543,3700496672,3673922083
-dimwishlist:item=2638190703&perks=839105230,3230963543,3700496672,3673922083
-dimwishlist:item=2638190703&perks=4090651448,3230963543,3700496672,3673922083
 dimwishlist:item=2638190703&perks=1840239774,1968497646,1428297954,3673922083
 dimwishlist:item=2638190703&perks=839105230,1968497646,1428297954,3673922083
 dimwishlist:item=2638190703&perks=4090651448,1968497646,1428297954,3673922083
@@ -25645,18 +25408,6 @@ dimwishlist:item=3245493570&perks=3400784728,2896038713
 // Aisha's Embrace Adept PvE backup roll
 // Fluted Barrel, Arrowhead Brake, Corkscrew Rifling, Armor-Piercing Rounds, High-Calibre Rounds, Ricochet Rounds, Flared Magwell, Shoot To Loot, Perpetual Motion, Stats For All, Focused Fury, Turnabout, Vorpal Weapon, Adagio
 //notes:Inspired by DMB Player Versus Enemies Podcast 14. PvE backup roll for general content. The Alacrity trait is surprisingly useful for solo Lost Sectors. Your choice of barrel and mag, and then there are plenty of good PvE traits to choose from. Recommended MW: Handling or Reload Speed, with a Backup Mag mod or damage-boosting Minor, Adept Big Ones or Taken Spec mod. tags:pve
-dimwishlist:item=3245493570&perks=1840239774,1968497646,3700496672,2896038713
-dimwishlist:item=3245493570&perks=839105230,1968497646,3700496672,2896038713
-dimwishlist:item=3245493570&perks=4090651448,1968497646,3700496672,2896038713
-dimwishlist:item=3245493570&perks=1840239774,1561002382,3700496672,2896038713
-dimwishlist:item=3245493570&perks=839105230,1561002382,3700496672,2896038713
-dimwishlist:item=3245493570&perks=4090651448,1561002382,3700496672,2896038713
-dimwishlist:item=3245493570&perks=1840239774,1885400500,3700496672,2896038713
-dimwishlist:item=3245493570&perks=839105230,1885400500,3700496672,2896038713
-dimwishlist:item=3245493570&perks=4090651448,1885400500,3700496672,2896038713
-dimwishlist:item=3245493570&perks=1840239774,3230963543,3700496672,2896038713
-dimwishlist:item=3245493570&perks=839105230,3230963543,3700496672,2896038713
-dimwishlist:item=3245493570&perks=4090651448,3230963543,3700496672,2896038713
 dimwishlist:item=3245493570&perks=1840239774,1968497646,1428297954,2896038713
 dimwishlist:item=3245493570&perks=839105230,1968497646,1428297954,2896038713
 dimwishlist:item=3245493570&perks=4090651448,1968497646,1428297954,2896038713
@@ -25681,18 +25432,6 @@ dimwishlist:item=3245493570&perks=4090651448,1885400500,1583705720,2896038713
 dimwishlist:item=3245493570&perks=1840239774,3230963543,1583705720,2896038713
 dimwishlist:item=3245493570&perks=839105230,3230963543,1583705720,2896038713
 dimwishlist:item=3245493570&perks=4090651448,3230963543,1583705720,2896038713
-dimwishlist:item=3245493570&perks=1840239774,1968497646,3700496672,2209918983
-dimwishlist:item=3245493570&perks=839105230,1968497646,3700496672,2209918983
-dimwishlist:item=3245493570&perks=4090651448,1968497646,3700496672,2209918983
-dimwishlist:item=3245493570&perks=1840239774,1561002382,3700496672,2209918983
-dimwishlist:item=3245493570&perks=839105230,1561002382,3700496672,2209918983
-dimwishlist:item=3245493570&perks=4090651448,1561002382,3700496672,2209918983
-dimwishlist:item=3245493570&perks=1840239774,1885400500,3700496672,2209918983
-dimwishlist:item=3245493570&perks=839105230,1885400500,3700496672,2209918983
-dimwishlist:item=3245493570&perks=4090651448,1885400500,3700496672,2209918983
-dimwishlist:item=3245493570&perks=1840239774,3230963543,3700496672,2209918983
-dimwishlist:item=3245493570&perks=839105230,3230963543,3700496672,2209918983
-dimwishlist:item=3245493570&perks=4090651448,3230963543,3700496672,2209918983
 dimwishlist:item=3245493570&perks=1840239774,1968497646,1428297954,2209918983
 dimwishlist:item=3245493570&perks=839105230,1968497646,1428297954,2209918983
 dimwishlist:item=3245493570&perks=4090651448,1968497646,1428297954,2209918983
@@ -25717,18 +25456,6 @@ dimwishlist:item=3245493570&perks=4090651448,1885400500,1583705720,2209918983
 dimwishlist:item=3245493570&perks=1840239774,3230963543,1583705720,2209918983
 dimwishlist:item=3245493570&perks=839105230,3230963543,1583705720,2209918983
 dimwishlist:item=3245493570&perks=4090651448,3230963543,1583705720,2209918983
-dimwishlist:item=3245493570&perks=1840239774,1968497646,3700496672,3673922083
-dimwishlist:item=3245493570&perks=839105230,1968497646,3700496672,3673922083
-dimwishlist:item=3245493570&perks=4090651448,1968497646,3700496672,3673922083
-dimwishlist:item=3245493570&perks=1840239774,1561002382,3700496672,3673922083
-dimwishlist:item=3245493570&perks=839105230,1561002382,3700496672,3673922083
-dimwishlist:item=3245493570&perks=4090651448,1561002382,3700496672,3673922083
-dimwishlist:item=3245493570&perks=1840239774,1885400500,3700496672,3673922083
-dimwishlist:item=3245493570&perks=839105230,1885400500,3700496672,3673922083
-dimwishlist:item=3245493570&perks=4090651448,1885400500,3700496672,3673922083
-dimwishlist:item=3245493570&perks=1840239774,3230963543,3700496672,3673922083
-dimwishlist:item=3245493570&perks=839105230,3230963543,3700496672,3673922083
-dimwishlist:item=3245493570&perks=4090651448,3230963543,3700496672,3673922083
 dimwishlist:item=3245493570&perks=1840239774,1968497646,1428297954,3673922083
 dimwishlist:item=3245493570&perks=839105230,1968497646,1428297954,3673922083
 dimwishlist:item=3245493570&perks=4090651448,1968497646,1428297954,3673922083
@@ -26487,12 +26214,6 @@ dimwishlist:item=548958835&perks=1392496348,2969185026,2779035018,438098033
 dimwishlist:item=548958835&perks=3250034553,732557052,2779035018,438098033
 dimwishlist:item=548958835&perks=1482024992,732557052,2779035018,438098033
 dimwishlist:item=548958835&perks=1392496348,732557052,2779035018,438098033
-dimwishlist:item=548958835&perks=3250034553,2969185026,3700496672,438098033
-dimwishlist:item=548958835&perks=1482024992,2969185026,3700496672,438098033
-dimwishlist:item=548958835&perks=1392496348,2969185026,3700496672,438098033
-dimwishlist:item=548958835&perks=3250034553,732557052,3700496672,438098033
-dimwishlist:item=548958835&perks=1482024992,732557052,3700496672,438098033
-dimwishlist:item=548958835&perks=1392496348,732557052,3700496672,438098033
 dimwishlist:item=548958835&perks=1392496348,2969185026,3096702027,1683379515
 dimwishlist:item=548958835&perks=1392496348,732557052,3096702027,1683379515
 dimwishlist:item=548958835&perks=3250034553,2969185026,1820235745,1683379515
@@ -26507,12 +26228,6 @@ dimwishlist:item=548958835&perks=1392496348,2969185026,2779035018,1683379515
 dimwishlist:item=548958835&perks=3250034553,732557052,2779035018,1683379515
 dimwishlist:item=548958835&perks=1482024992,732557052,2779035018,1683379515
 dimwishlist:item=548958835&perks=1392496348,732557052,2779035018,1683379515
-dimwishlist:item=548958835&perks=3250034553,2969185026,3700496672,1683379515
-dimwishlist:item=548958835&perks=1482024992,2969185026,3700496672,1683379515
-dimwishlist:item=548958835&perks=1392496348,2969185026,3700496672,1683379515
-dimwishlist:item=548958835&perks=3250034553,732557052,3700496672,1683379515
-dimwishlist:item=548958835&perks=1482024992,732557052,3700496672,1683379515
-dimwishlist:item=548958835&perks=1392496348,732557052,3700496672,1683379515
 dimwishlist:item=548958835&perks=3250034553,2969185026,3096702027,4104185692
 dimwishlist:item=548958835&perks=1482024992,2969185026,3096702027,4104185692
 dimwishlist:item=548958835&perks=1392496348,2969185026,3096702027,4104185692
@@ -26525,12 +26240,6 @@ dimwishlist:item=548958835&perks=1392496348,2969185026,1820235745,4104185692
 dimwishlist:item=548958835&perks=3250034553,732557052,1820235745,4104185692
 dimwishlist:item=548958835&perks=1482024992,732557052,1820235745,4104185692
 dimwishlist:item=548958835&perks=1392496348,732557052,1820235745,4104185692
-dimwishlist:item=548958835&perks=3250034553,2969185026,3700496672,4104185692
-dimwishlist:item=548958835&perks=1482024992,2969185026,3700496672,4104185692
-dimwishlist:item=548958835&perks=1392496348,2969185026,3700496672,4104185692
-dimwishlist:item=548958835&perks=3250034553,732557052,3700496672,4104185692
-dimwishlist:item=548958835&perks=1482024992,732557052,3700496672,4104185692
-dimwishlist:item=548958835&perks=1392496348,732557052,3700496672,4104185692
 dimwishlist:item=548958835&perks=3250034553,2969185026,3096702027,4049631843
 dimwishlist:item=548958835&perks=1482024992,2969185026,3096702027,4049631843
 dimwishlist:item=548958835&perks=1392496348,2969185026,3096702027,4049631843
@@ -26549,12 +26258,6 @@ dimwishlist:item=548958835&perks=1392496348,2969185026,2779035018,4049631843
 dimwishlist:item=548958835&perks=3250034553,732557052,2779035018,4049631843
 dimwishlist:item=548958835&perks=1482024992,732557052,2779035018,4049631843
 dimwishlist:item=548958835&perks=1392496348,732557052,2779035018,4049631843
-dimwishlist:item=548958835&perks=3250034553,2969185026,3700496672,4049631843
-dimwishlist:item=548958835&perks=1482024992,2969185026,3700496672,4049631843
-dimwishlist:item=548958835&perks=1392496348,2969185026,3700496672,4049631843
-dimwishlist:item=548958835&perks=3250034553,732557052,3700496672,4049631843
-dimwishlist:item=548958835&perks=1482024992,732557052,3700496672,4049631843
-dimwishlist:item=548958835&perks=1392496348,732557052,3700496672,4049631843
 dimwishlist:item=548958835&perks=3250034553,2969185026,3096702027,3523296417
 dimwishlist:item=548958835&perks=1482024992,2969185026,3096702027,3523296417
 dimwishlist:item=548958835&perks=1392496348,2969185026,3096702027,3523296417
@@ -26573,12 +26276,6 @@ dimwishlist:item=548958835&perks=1392496348,2969185026,2779035018,3523296417
 dimwishlist:item=548958835&perks=3250034553,732557052,2779035018,3523296417
 dimwishlist:item=548958835&perks=1482024992,732557052,2779035018,3523296417
 dimwishlist:item=548958835&perks=1392496348,732557052,2779035018,3523296417
-dimwishlist:item=548958835&perks=3250034553,2969185026,3700496672,3523296417
-dimwishlist:item=548958835&perks=1482024992,2969185026,3700496672,3523296417
-dimwishlist:item=548958835&perks=1392496348,2969185026,3700496672,3523296417
-dimwishlist:item=548958835&perks=3250034553,732557052,3700496672,3523296417
-dimwishlist:item=548958835&perks=1482024992,732557052,3700496672,3523296417
-dimwishlist:item=548958835&perks=1392496348,732557052,3700496672,3523296417
 
 // Wastelander M5 PvP backup roll
 // Full Choke, Assault Mag, Slideshot, Perpetual Motion, Killing Wind
@@ -30818,10 +30515,6 @@ dimwishlist:item=1866778462&perks=3525010810,3796465595,2869569095,3194351027
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3523296417,3194351027
 dimwishlist:item=1866778462&perks=3525010810,3796465595,2869569095,2284787283
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3523296417,2284787283
-
-// Vulpecula
-//notes:Gleauxx PvE: B-Tier Average. Recommended MW: Reload. tags:pve
-dimwishlist:item=1622998472&perks=106909392,3700496672,3038247973
 
 // Vulpecula
 //notes:Gleauxx PvP: B-Tier Average. Recommended MW: Range. tags:pvp

@@ -130,6 +130,14 @@ fn is_vorpal_weapon(perks: &Vec<String>) -> bool {
     perks.contains(vorpal_weapon_id) || perks.contains(enhanced_vorpal_weapon_id)
 }
 
+fn is_shoot_to_loot(perks: &Vec<String>) -> bool {
+    // 3032599245
+    let shoot_to_loot_id = &"3700496672".to_string();
+    let enhanced_shoot_to_loot_id = &"2840833776".to_string();
+
+    perks.contains(shoot_to_loot_id) || perks.contains(enhanced_shoot_to_loot_id)
+}
+
 #[derive(Clone)]
 pub struct WeaponRoll {
     pub item_id: String,
@@ -149,6 +157,7 @@ impl WeaponRoll {
         || is_redundant_outlaw_combo(&self.perks)
         || is_redundant_grenade_launcher_combo(&self.perks)
         || is_vorpal_weapon(&self.perks)
+        || is_shoot_to_loot(&self.perks)
     }
 
     pub fn new() -> WeaponRoll {
