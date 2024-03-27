@@ -1,1 +1,1 @@
-pub mod weapon_roll_service;
+pub mod deserialize_service;

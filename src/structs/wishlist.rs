@@ -1,16 +1,8 @@
 use super::weapon_roll::WeaponRoll;
-use crate::Rule;
+use crate::{services::deserialize_service::explode, Rule};
 extern crate pest;
 
 use pest::iterators::{Pair, Pairs};
-
-fn explode(string: &str, delimiter: &str) -> Vec<String> {
-    let vec_of_strings: Vec<String> = string
-        .split(delimiter)
-        .map(|value| -> String { value.trim().to_string() })
-        .collect();
-    vec_of_strings
-}
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {
     let (note, tags) = if notes.contains("tags:") {

@@ -1,12 +1,6 @@
 use arbitrary::Arbitrary;
 
-fn explode(string: &str, delimiter: &str) -> Vec<String> {
-    let vec_of_strings: Vec<String> = string
-        .split(delimiter)
-        .map(|value| -> String { value.trim().to_lowercase() })
-        .collect();
-    vec_of_strings
-}
+use crate::services::deserialize_service::explode;
 
 fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let frenzy_id = &"4104185692".to_string();
