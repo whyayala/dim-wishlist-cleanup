@@ -21,11 +21,14 @@ fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -
 }
 
 fn tags_from_notes(notes_string: &str) -> &str {
-    if notes_string.contains("(PvE backup roll)") || notes_string.contains("(PvE backupe roll)") {
+    let lowered_notes_string = notes_string.to_lowercase();
+    if lowered_notes_string.contains("pvp/pve first choice roll") || lowered_notes_string.contains("pve/pvp first choice roll") {
+        "pvp,pvp-god,pve,pve-god"
+    } else if lowered_notes_string.contains("pve backup roll") || lowered_notes_string.contains("pve backupe roll") {
         "pve"
-    } else if notes_string.contains("(PvE first choice roll)") || notes_string.contains("pve-god") || notes_string.contains("god-pve") {
+    } else if lowered_notes_string.contains("pve first choice roll") || lowered_notes_string.contains("pve first-choice roll") || lowered_notes_string.contains("pve-god") || lowered_notes_string.contains("god-pve") {
         "pve,pve-god"
-    } else if notes_string.contains("(PvP first choice roll)") || notes_string.contains("pvp-god") || notes_string.contains("god-pvp") {
+    } else if lowered_notes_string.contains("pvp first choice roll") || lowered_notes_string.contains("pvp first-choice roll") || lowered_notes_string.contains("pvp-god") || lowered_notes_string.contains("god-pvp") {
         "pvp,pvp-god"
     } else {
         ""
