@@ -3,7 +3,7 @@ use pest::iterators::{Pair, Pairs};
 use crate::{structs::{weapon_roll::WeaponRoll, wishlist::Wishlist}, Rule};
 
 fn is_not_great(notes_string: &str) -> bool {
-    notes_string.contains("(not great PvP)") || notes_string.contains("(not great PvE)")
+    notes_string.contains("(not great PvP)") || notes_string.contains("(not great PvE)") || notes_string.contains("(PvP backup roll)")
 }
 
 fn is_controller_specific(tags_string: &str) -> bool {
@@ -14,10 +14,9 @@ fn is_controller_specific(tags_string: &str) -> bool {
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
     pair.as_rule() == Rule::roll
-        && !tags_string.is_empty()
+        && (tags_string.contains("pvp-god") || tags_string.contains("pve-god") || tags_string.contains("pve"))
         && !is_controller_specific(tags_string)
         && !is_not_great(notes_string)
-        && !notes_string.to_lowercase().contains("pandapaxxy")
         && !notes_string.to_lowercase().contains("yeezygt")
 }
 
