@@ -21,13 +21,11 @@ fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -
 }
 
 fn tags_from_notes(notes_string: &str) -> &str {
-    if notes_string.contains("(PvP backup roll)") {
-        "pvp"
-    } else if notes_string.contains("(PvE backup roll)") || notes_string.contains("(PvE backupe roll)") {
+    if notes_string.contains("(PvE backup roll)") || notes_string.contains("(PvE backupe roll)") {
         "pve"
-    } else if notes_string.contains("(PvE first choice roll)") {
+    } else if notes_string.contains("(PvE first choice roll)") || notes_string.contains("pve-god") || notes_string.contains("god-pve") {
         "pve,pve-god"
-    } else if notes_string.contains("(PvP first choice roll)") {
+    } else if notes_string.contains("(PvP first choice roll)") || notes_string.contains("pvp-god") || notes_string.contains("god-pvp") {
         "pvp,pvp-god"
     } else {
         ""
