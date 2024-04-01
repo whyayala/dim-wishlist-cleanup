@@ -14,7 +14,7 @@ fn is_controller_specific(tags_string: &str) -> bool {
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
     pair.as_rule() == Rule::roll
-        && (tags_string.contains("pvp-god") || tags_string.contains("pve-god") || tags_string.contains("pve"))
+        && (tags_string.contains("god") || tags_string.contains("pve"))
         && !is_controller_specific(tags_string)
         && !is_not_great(notes_string)
         && !notes_string.to_lowercase().contains("yeezygt")
