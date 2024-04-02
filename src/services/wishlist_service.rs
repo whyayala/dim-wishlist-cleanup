@@ -17,7 +17,6 @@ fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -
         && (tags_string.to_lowercase().contains("god") || tags_string.to_lowercase().contains("pve"))
         && !is_controller_specific(tags_string)
         && !is_not_great(notes_string)
-        && !notes_string.to_lowercase().contains("yeezygt")
 }
 
 fn tags_from_notes(notes_string: &str) -> &str {
