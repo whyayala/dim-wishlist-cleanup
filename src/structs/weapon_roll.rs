@@ -2,6 +2,40 @@ use arbitrary::Arbitrary;
 
 use crate::services::deserialize_service::explode;
 
+fn is_bad_loose_change_combo(perks: &Vec<String>) -> bool {
+    let loose_change_id = &"1119449540".to_string();
+    let enhanced_loose_change_id = &"561986700".to_string();
+
+    let permeability_id = &"2428997981".to_string();
+    let enhanced_permeability_id = &"64332393".to_string();
+    let voltshot_id = &"2173046394".to_string();
+    let enhanced_voltshot_id = &"1720528630".to_string();
+    let destabilizing_rounds_id = &"2048641572".to_string();
+    let enhanced_destabilizing_rounds_id = &"1926441324".to_string();
+    let chill_clip_id = &"2978966579".to_string();
+    let enhanced_chill_clip_id = &"344235611".to_string();
+    let incandescent_id = &"4293542123".to_string();
+    let enhanced_incandescent_id = &"2675184851".to_string();
+    let slice_id = &"923806249".to_string();
+    let enhanced_slice_id = &"3422796781".to_string();
+
+    (perks.contains(loose_change_id) || perks.contains(enhanced_loose_change_id))
+        && !(
+            perks.contains(permeability_id)
+            || perks.contains(enhanced_permeability_id)
+            || perks.contains(voltshot_id)
+            || perks.contains(enhanced_voltshot_id)
+            || perks.contains(destabilizing_rounds_id)
+            || perks.contains(enhanced_destabilizing_rounds_id)
+            || perks.contains(chill_clip_id)
+            || perks.contains(enhanced_chill_clip_id)
+            || perks.contains(incandescent_id)
+            || perks.contains(enhanced_incandescent_id)
+            || perks.contains(slice_id)
+            || perks.contains(enhanced_slice_id)
+        )
+}
+
 fn is_redundant_frenzy_combo(perks: &Vec<String>) -> bool {
     let frenzy_id = &"4104185692".to_string();
     let enhanced_frenzy_id = &"3007133316".to_string();
@@ -154,6 +188,7 @@ impl WeaponRoll {
         || is_redundant_grenade_launcher_combo(&self.perks)
         || is_vorpal_weapon(&self.perks)
         || is_shoot_to_loot(&self.perks)
+        || is_bad_loose_change_combo(&self.perks)
     }
 
     pub fn new() -> WeaponRoll {
