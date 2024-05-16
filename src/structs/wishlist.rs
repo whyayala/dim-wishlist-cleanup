@@ -33,7 +33,7 @@ impl Wishlist {
         let tag_array = Self::get_possible_tags();
         let cleaned_text = text
             .to_lowercase()
-            .replace([')', '|', '+', '\n'], "")
+            .replace([')', '|', '+', '\n', ' '], "")
             .replace("god-pve", "pve-god")
             .replace("god-pvp", "pvp-god")
             .replace("pve=endgame", "pve-endgame")

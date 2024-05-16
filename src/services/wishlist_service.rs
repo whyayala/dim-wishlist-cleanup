@@ -14,7 +14,7 @@ fn is_controller_specific(tags_string: &str) -> bool {
 
 fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
     pair.as_rule() == Rule::roll
-        && tags_string.to_lowercase().contains("god")
+        && (tags_string.to_lowercase().contains("god") || tags_string.to_lowercase().contains("endgame"))
         && !is_controller_specific(tags_string)
         && !is_not_great(notes_string)
 }
@@ -27,8 +27,6 @@ fn tags_from_notes(notes_string: &str) -> &str {
         "pve,pve-god"
     } else if lowered_notes_string.contains("pvp first choice roll") || lowered_notes_string.contains("pvp first-choice roll") || lowered_notes_string.contains("pvp-god") || lowered_notes_string.contains("god-pvp") {
         "pvp,pvp-god"
-    } else if lowered_notes_string.contains("pve backup roll") || lowered_notes_string.contains("pve backupe roll") {
-        "pve"
     } else {
         ""
     }
