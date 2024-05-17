@@ -1,0 +1,655 @@
+title:Endgame PvE Weapon List
+description:Curated wishlist focusing on endgame content, including:
+→ Contest Mode
+→ Grandmaster Nightfalls
+→ Master Raids & Dungeons
+→ Shield & Champion-heavy content
+
+// A Fine Memorial
+//notes: In my opinion this is the best arc MG in the game for add. clear. Subsistence + One for All gives Machine Guns great damage and mag uptime.
+dimwishlist:item=3325778512&perks=839105230,1968497646,1820235745,4049631843
+dimwishlist:item=3325778512&perks=,,1820235745,4049631843
+dimwishlist:item=3325778512&perks=839105230,1968497646,777589559,4049631843
+dimwishlist:item=3325778512&perks=,,777589559,4049631843
+
+// Accrued Redemption
+//notes: Kinetic Bow for Champion stuns. Precision frame so feels better than Fel Taradiddle, however defer to your preference.
+dimwishlist:item=4095896073&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=4095896073&perks=,,201365942,3365897133
+
+// Age-Old Bond
+//notes: Workhorse Void auto. Repulsor Brace and Dragonfly in the left column are uncommon, and solid perks to complement your Void build and Golden Tricorn.
+dimwishlist:item=424291879&perks=839105230,3230963543,2848615171,2610012052
+dimwishlist:item=424291879&perks=,,2848615171,2610012052
+dimwishlist:item=424291879&perks=839105230,3230963543,2848615171,3324494224
+dimwishlist:item=424291879&perks=,,2848615171,3324494224
+dimwishlist:item=424291879&perks=839105230,3230963543,776531651,2610012052
+dimwishlist:item=424291879&perks=,,776531651,2610012052
+dimwishlist:item=424291879&perks=839105230,3230963543,776531651,3324494224
+dimwishlist:item=424291879&perks=,,776531651,3324494224
+
+// Ammit AR2
+//notes: Solar Auto Rifle for Champion stuns and Solar shields. The only letdown is the weapon type. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. Armor-Piercing Rounds enables 1x overpenetration, which helps with activating perks.
+dimwishlist:item=2119346509&perks=839105230,1968497646,1583705720,4049631843
+dimwishlist:item=2119346509&perks=,,1583705720,4049631843
+
+// Apex Predator
+//notes: Excellent as a swapping weapon with Reconstruction; two in the mag to start damage with Izanagi -> Radiant Dance Machines is a lot of DPM. Mastering Slideways resetsis great fun, whether using multiple slideways weapons or Izanagi; although not meta.
+dimwishlist:item=1851777734&perks=3525010810,3796465595,1523832109,3078487919
+dimwishlist:item=1851777734&perks=,,1523832109,3078487919
+dimwishlist:item=1851777734&perks=3525010810,3796465595,2039302152,3078487919
+dimwishlist:item=1851777734&perks=,,2039302152,3078487919
+
+// Bequest
+//notes: Best legendary sword in the game outside of air animation reset shenanigans.
+dimwishlist:item=3366545721&perks=3666208348,269888150,1749209109,3708227201
+dimwishlist:item=3366545721&perks=,,1749209109,3708227201
+
+// Blast Furnace
+//notes: Probably the highest damage perk combination we've seen on a Legandary Primary since Kindled Orchid in Season 5. Chews through Red bars in GMs compared to other pulses.
+dimwishlist:item=2372514508&perks=839105230,3230963543,3891536761,4049631843
+dimwishlist:item=2372514508&perks=,,3891536761,4049631843
+dimwishlist:item=2533990645&perks=839105230,3230963543,3891536761,4049631843
+dimwishlist:item=2533990645&perks=,,3891536761,4049631843
+
+// Briar's Contempt
+//notes: Useful for Lucent Hive or Tormentor fights, so long as you can get Surrounded to activate (Ecthar, Simmummah, Nezarec). Remember to run 2 other Harmonic Resonance weapons for the 10% boost. Decent DPS with Surrounded & Harmonic Resonance.
+dimwishlist:item=1491665733&perks=839105230,2680121939,2578928832,3708227201
+dimwishlist:item=1491665733&perks=,,2578928832,3708227201
+dimwishlist:item=1491665733&perks=839105230,2680121939,1523832109,3708227201
+dimwishlist:item=1491665733&perks=,,1523832109,3708227201
+
+// CALUS Mini-Tool
+//notes: Solar SMG for your Solar 3.0 builds. Great for extending Restoration and Radiant. Threat Detector + Surrounded are great if you can live - excellent for farming spawn doors. Incandescent kills spread scorch, killing scorched targets creates a Sunspot on Titan.
+dimwishlist:item=2490988246&perks=1840239774,3230963543,3108830275,3708227201
+dimwishlist:item=2490988246&perks=,,3108830275,3708227201
+dimwishlist:item=2490988246&perks=1840239774,3230963543,4071163871,3708227201
+dimwishlist:item=2490988246&perks=,,4071163871,3708227201
+
+// Cataclysmic
+//notes: Outdated today but still does great total damage with Fourth Time's the Charm, with the benefit of having an easier to execute 100% crit ratio than Retrofit, with less total damage.
+dimwishlist:item=999767358&perks=1840239774,2680121939,1354429876,3078487919
+dimwishlist:item=999767358&perks=,,1354429876,3078487919
+
+// Cataphract GL3 (Adept)
+//notes: A great grenade launcher, however expect the trend of a trials release to be followed up with a better or craftable version to continue. Exceptional DPS.
+dimwishlist:item=874623537&perks=981914802,3301904089,968510818,3078487919
+dimwishlist:item=874623537&perks=,,968510818,3078487919
+dimwishlist:item=874623537&perks=981914802,3301904089,968510818,3751912585
+dimwishlist:item=874623537&perks=,,968510818,3751912585
+dimwishlist:item=874623537&perks=981914802,3301904089,3300816228,3078487919
+dimwishlist:item=874623537&perks=,,3300816228,3078487919
+dimwishlist:item=874623537&perks=981914802,3301904089,3300816228,3751912585
+dimwishlist:item=874623537&perks=,,3300816228,3751912585
+
+// Cold Comfort
+//notes: Exceptional, especially with Ballidorse. Highest non-niche burst in the game, unfortunately somewhat painful to farm. Worth it anyway. Envious Assassin + Restoration Ritual lets you shoot a comical amount of rockets without reloading, all with the Bait and Switch damage buff.
+dimwishlist:item=839786290&perks=3525010810,3796465595,968510818,3078487919
+dimwishlist:item=839786290&perks=,,968510818,3078487919
+dimwishlist:item=839786290&perks=3525010810,3796465595,968510818,1439600632
+dimwishlist:item=839786290&perks=,,968510818,1439600632
+
+// Come to Pass
+//notes: Arc Auto Rifle for Champion stuns and Arc shields. The only letdown is the weapon type. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies.
+dimwishlist:item=927567426&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=927567426&perks=,,1583705720,4049631843
+
+// Corrective Measure (Timelost)
+//notes: The best add. clear weapon in the game, hands down. On a Gyrfalcon's hunter you can solo clear Master Raid encounter rooms full of adds, while your team does whatever they want.
+dimwishlist:item=3796510434&perks=839105230,2420895100,1820235745,4049631843
+dimwishlist:item=3796510434&perks=,,1820235745,4049631843
+dimwishlist:item=3796510434&perks=839105230,2420895100,1820235745,11612903
+dimwishlist:item=3796510434&perks=,,1820235745,11612903
+dimwishlist:item=3796510434&perks=839105230,2420895100,3523296417,4049631843
+dimwishlist:item=3796510434&perks=,,3523296417,4049631843
+dimwishlist:item=3796510434&perks=839105230,2420895100,3523296417,11612903
+dimwishlist:item=3796510434&perks=,,3523296417,11612903
+
+// Crisis Inverted
+//notes: Most on-hit traits on an Arc 140, with nice utility perks in the left column. One for All is a great perk in high level content, just remember to quickly tag 3 enemies.
+dimwishlist:item=2888266564&perks=1840239774,1968497646,3523296417,4049631843
+dimwishlist:item=2888266564&perks=,,3523296417,4049631843
+dimwishlist:item=2888266564&perks=1840239774,1968497646,1583705720,4049631843
+dimwishlist:item=2888266564&perks=,,1583705720,4049631843
+
+// Crux Termination IV
+//notes: Clown Cartridge is a good default DPS pick - it requires no thought. Surrounded is the one of the highest damage traits on a rocket. Also comes with Slideways for some interesting damage potential. World drops are a pain to farm - a good alternative is The Hothead.
+dimwishlist:item=1719687748&perks=981914802,3796465595,2039302152,3708227201
+dimwishlist:item=1719687748&perks=,,2039302152,3708227201
+dimwishlist:item=1719687748&perks=981914802,3796465595,2039302152,3194351027
+dimwishlist:item=1719687748&perks=,,2039302152,3194351027
+dimwishlist:item=1719687748&perks=981914802,3796465595,2284787283,3708227201
+dimwishlist:item=1719687748&perks=,,2284787283,3708227201
+dimwishlist:item=1719687748&perks=981914802,3796465595,2284787283,3194351027
+dimwishlist:item=1719687748&perks=,,2284787283,3194351027
+
+// Deliverance
+//notes: Surrounded is a very high damage modifier. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.).
+dimwishlist:item=768621510&perks=839105230,689005463,1799762209,3708227201
+dimwishlist:item=768621510&perks=,,1799762209,3708227201
+
+// Dimensional Hypotrochoid
+//notes: If you need more burst add. clear but your Forbearance won't reload fast enough, try this.
+dimwishlist:item=1311684613&perks=3525010810,2822142346,968510818,2396489472
+dimwishlist:item=1311684613&perks=,,968510818,2396489472
+dimwishlist:item=1311684613&perks=3525010810,2822142346,777589559,2396489472
+dimwishlist:item=1311684613&perks=,,777589559,2396489472
+
+// Distant Tumulus
+//notes: Excellent DPS for a legendary special. Lacking in total damage.
+dimwishlist:item=2807687156&perks=839105230,106909392,2284787283,1771339417
+dimwishlist:item=2807687156&perks=,,2284787283,1771339417
+
+// Doom of Chelchis
+//notes: Great Volatile workhorse scout, especially with Gyrfalcon. Explosive Rounds and One for All have great synergy.
+dimwishlist:item=1937552980&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=1937552980&perks=,,3038247973,4049631843
+
+// Duty Bound (Adept)
+//notes: Kinetic Auto Rifle. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies.
+dimwishlist:item=1135050595&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=1135050595&perks=,,1583705720,4049631843
+
+// Edge Transit
+//notes: This is the follow-up to Cataphract we've been expecting. Best GL available. Exceptional DPS.
+dimwishlist:item=568611923&perks=981914802,3301904089,968510818,3078487919
+dimwishlist:item=568611923&perks=,,968510818,3078487919
+dimwishlist:item=568611923&perks=981914802,3301904089,3751912585,3078487919
+dimwishlist:item=568611923&perks=,,3751912585,3078487919
+dimwishlist:item=2228325504&perks=981914802,3301904089,968510818,3078487919
+dimwishlist:item=2228325504&perks=,,968510818,3078487919
+dimwishlist:item=2228325504&perks=981914802,3301904089,3751912585,3078487919
+dimwishlist:item=2228325504&perks=,,3751912585,3078487919
+
+// Empty Vessel
+//notes: Energy slot blinding Grenade Launcher.
+dimwishlist:item=4255586669&perks=3525010810,3032599245,3300816228,960810156
+dimwishlist:item=4255586669&perks=,,3300816228,960810156
+dimwishlist:item=4255586669&perks=3525010810,3032599245,3300816228,4049631843
+dimwishlist:item=4255586669&perks=,,3300816228,4049631843
+dimwishlist:item=4255586669&perks=3525010810,3032599245,1556840489,960810156
+dimwishlist:item=4255586669&perks=,,1556840489,960810156
+dimwishlist:item=4255586669&perks=3525010810,3032599245,1556840489,4049631843
+dimwishlist:item=4255586669&perks=,,1556840489,4049631843
+
+// Eternal Blazon
+//notes: Workhorse Arc Scout Rifle, although unfortunately downright impossible to obtain without going insane. If you have it, great, if not, just craft a Tarnished Mettle. Armor-piercing Rounds helps to proc One for All.
+dimwishlist:item=3514096004&perks=1840239774,1968497646,247725512,4049631843
+dimwishlist:item=3514096004&perks=,,247725512,4049631843
+
+// Explosive Personality
+//notes: Solar wave GL. Good weapon but hard to argue for this over Forbearance (outside of something like solo Nezerac for your solar buffs).
+dimwishlist:item=4096943616&perks=3525010810,2822142346,3300816228,4049631843
+dimwishlist:item=4096943616&perks=,,3300816228,4049631843
+dimwishlist:item=4096943616&perks=3525010810,2822142346,3300816228,4104185692
+dimwishlist:item=4096943616&perks=,,3300816228,4104185692
+dimwishlist:item=4096943616&perks=3525010810,2822142346,1583705720,4049631843
+dimwishlist:item=4096943616&perks=,,1583705720,4049631843
+dimwishlist:item=4096943616&perks=3525010810,2822142346,1583705720,4104185692
+dimwishlist:item=4096943616&perks=,,1583705720,4104185692
+
+// Fioritura-59
+//notes: An interesting weapon. Sidearms do a lot of damage base, so even without a damage perk, Fioritura does a lot of work (if you can get past the feeling of using a sidearm).
+dimwishlist:item=2566006935&perks=202670084,1561002382,691659142,2610012052
+dimwishlist:item=2566006935&perks=,,691659142,2610012052
+dimwishlist:item=2566006935&perks=202670084,1561002382,691659142,776531651
+dimwishlist:item=2566006935&perks=,,691659142,776531651
+dimwishlist:item=2566006935&perks=202670084,1561002382,4071163871,2610012052
+dimwishlist:item=2566006935&perks=,,4071163871,2610012052
+dimwishlist:item=2566006935&perks=202670084,1561002382,4071163871,776531651
+dimwishlist:item=2566006935&perks=,,4071163871,776531651
+
+// Fixed Odds
+//notes: Workhorse Solar MG - useful for Ember of Empyrean keeping Radiant (Anti-barrier) and Restoration up.
+dimwishlist:item=2194955522&perks=839105230,2420895100,777589559,557221067
+dimwishlist:item=2194955522&perks=,,777589559,557221067
+dimwishlist:item=2194955522&perks=839105230,2420895100,777589559,4293542123
+dimwishlist:item=2194955522&perks=,,777589559,4293542123
+
+// Forbearance
+//notes: One of the best add. clear specials in the game. Ambitious Assassin on a wave frame Grenade Launcher is great, and Chain Reaction clears rooms.
+dimwishlist:item=613334176&perks=3525010810,2822142346,2010801679,2396489472
+dimwishlist:item=613334176&perks=,,2010801679,2396489472
+dimwishlist:item=613334176&perks=3525010810,2822142346,3108830275,2396489472
+dimwishlist:item=613334176&perks=,,3108830275,2396489472
+dimwishlist:item=568611921&perks=3525010810,2822142346,2010801679,2396489472
+dimwishlist:item=568611921&perks=,,2010801679,2396489472
+dimwishlist:item=568611921&perks=3525010810,2822142346,3108830275,2396489472
+dimwishlist:item=568611921&perks=,,3108830275,2396489472
+dimwishlist:item=2480074702&perks=3525010810,2822142346,2010801679,2396489472
+dimwishlist:item=2480074702&perks=,,2010801679,2396489472
+dimwishlist:item=2480074702&perks=3525010810,2822142346,3108830275,2396489472
+dimwishlist:item=2480074702&perks=,,3108830275,2396489472
+
+// Fugue-55
+//notes: Good as a Bait and Switch proccing special to min-max damage rotations due to the instant activation of Firing Line. Pretty niche.
+dimwishlist:item=2233545123&perks=839105230,2420895100,1354429876,1771339417
+dimwishlist:item=2233545123&perks=,,1354429876,1771339417
+dimwishlist:item=2233545123&perks=839105230,2420895100,1354429876,1546637391
+dimwishlist:item=2233545123&perks=,,1354429876,1546637391
+dimwishlist:item=2233545123&perks=839105230,2420895100,3300816228,1771339417
+dimwishlist:item=2233545123&perks=,,3300816228,1771339417
+dimwishlist:item=2233545123&perks=839105230,2420895100,3300816228,1546637391
+dimwishlist:item=2233545123&perks=,,3300816228,1546637391
+
+// Goldtusk
+//notes: Not as good as people make it sound, but if you can master the air cancel combo you can have some fun with a niche damage strat.
+dimwishlist:item=3371413057&perks=3666208348,269888150,1749209109,3913600130
+dimwishlist:item=3371413057&perks=,,1749209109,3913600130
+
+// Harsh Language
+//notes: Void wave GL. Good weapon but hard to argue for this over Forbearance.
+dimwishlist:item=1606497639&perks=3525010810,2822142346,968510818,11612903
+dimwishlist:item=1606497639&perks=,,968510818,11612903
+dimwishlist:item=1606497639&perks=3525010810,2822142346,968510818,2610012052
+dimwishlist:item=1606497639&perks=,,968510818,2610012052
+dimwishlist:item=1606497639&perks=3525010810,2822142346,3592538738,11612903
+dimwishlist:item=1606497639&perks=,,3592538738,11612903
+dimwishlist:item=1606497639&perks=3525010810,2822142346,3592538738,2610012052
+dimwishlist:item=1606497639&perks=,,3592538738,2610012052
+
+// Heritage
+//notes: Made for double-slug damage. Also great for killing the occasional healthy target with recombination.
+dimwishlist:item=4248569242&perks=1840239774,791862061,1523832109,469285294
+dimwishlist:item=4248569242&perks=,,1523832109,469285294
+
+// Hollow Denial
+//notes: Great pick for double special Void 3.0 builds. Killing Tally isn't a great perk, especially if you swap weapons often, but it's the best Hollow Denial gets.
+dimwishlist:item=2323544076&perks=1840239774,2749775325,1556840489,557221067
+dimwishlist:item=2323544076&perks=,,1556840489,557221067
+dimwishlist:item=2323544076&perks=1840239774,2749775325,1556840489,776531651
+dimwishlist:item=2323544076&perks=,,1556840489,776531651
+
+// Hung Jury SR4
+//notes: Decent Kinetic slot alternative to Perses-D, with OFA and the +10% Kinetic boost.
+dimwishlist:item=3832743906&perks=1840239774,3230963543,3891536761,4049631843
+dimwishlist:item=3832743906&perks=,,3891536761,4049631843
+dimwishlist:item=3832743906&perks=1840239774,3230963543,3891536761,3038247973
+dimwishlist:item=3832743906&perks=,,3891536761,3038247973
+dimwishlist:item=3832743906&perks=1840239774,3230963543,3700496672,4049631843
+dimwishlist:item=3832743906&perks=,,3700496672,4049631843
+dimwishlist:item=3832743906&perks=1840239774,3230963543,3700496672,3038247973
+dimwishlist:item=3832743906&perks=,,3700496672,3038247973
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3891536761,4049631843
+dimwishlist:item=1453235079&perks=,,3891536761,4049631843
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3891536761,3038247973
+dimwishlist:item=1453235079&perks=,,3891536761,3038247973
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3700496672,4049631843
+dimwishlist:item=1453235079&perks=,,3700496672,4049631843
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3700496672,3038247973
+dimwishlist:item=1453235079&perks=,,3700496672,3038247973
+dimwishlist:item=205225492&perks=1840239774,3230963543,3891536761,4049631843
+dimwishlist:item=205225492&perks=,,3891536761,4049631843
+dimwishlist:item=205225492&perks=1840239774,3230963543,3891536761,3038247973
+dimwishlist:item=205225492&perks=,,3891536761,3038247973
+dimwishlist:item=205225492&perks=1840239774,3230963543,3700496672,4049631843
+dimwishlist:item=205225492&perks=,,3700496672,4049631843
+dimwishlist:item=205225492&perks=1840239774,3230963543,3700496672,3038247973
+dimwishlist:item=205225492&perks=,,3700496672,3038247973
+
+// Ignition Code
+//notes: Excellent blinding Grenade Launcher, but now unobtainable outside Dares. Great for Divinity + 2x Izanagi GM speedruns, or some slideways nonsense with Apex.
+dimwishlist:item=304659313&perks=3525010810,3032599245,3161816588,4104185692
+dimwishlist:item=304659313&perks=,,3161816588,4104185692
+
+// IKELOS_HC_V1.0.3
+//notes: This may surprise you. Enhanced Subsistence with a mag increase will load four (4) rounds per kill. Stats for All & One for All is great in harder content. Great with Gyrfalcons. The over-penetration with Seraph Rounds helps One for All & Volatile.
+dimwishlist:item=1731355324&perks=1840239774,1140096971,1583705720,4049631843
+dimwishlist:item=1731355324&perks=,,1583705720,4049631843
+dimwishlist:item=1731355324&perks=1840239774,1140096971,1820235745,4049631843
+dimwishlist:item=1731355324&perks=,,1820235745,4049631843
+
+// IKELOS_SG_V1.0.3
+//notes: Another non-crit option. Cascade has higher DPS but considerably lower Total. Could also use One-Two Punch with Strand Melee builds.
+dimwishlist:item=1168625549&perks=1300023272,106909392,4071163871,3708227201
+dimwishlist:item=1168625549&perks=,,4071163871,3708227201
+dimwishlist:item=1168625549&perks=1300023272,106909392,4071163871,2679249093
+dimwishlist:item=1168625549&perks=,,4071163871,2679249093
+dimwishlist:item=1168625549&perks=1300023272,106909392,1631667848,3708227201
+dimwishlist:item=1168625549&perks=,,1631667848,3708227201
+dimwishlist:item=1168625549&perks=1300023272,106909392,1631667848,2679249093
+dimwishlist:item=1168625549&perks=,,1631667848,2679249093
+
+// IKELOS_SMG_v1.0.3
+//notes: Arc SMG for your Arc 3.0 builds. Threat Detector + Surrounded are great if you can live - excellent for farming spawn doors.
+dimwishlist:item=2149683300&perks=1840239774,3230963543,4071163871,3708227201
+dimwishlist:item=2149683300&perks=,,4071163871,3708227201
+
+// IKELOS_SR_V1.0.3
+//notes: Decent for ammo economy and solo content due to the ease of Focused Furys' use & uptime. Good as a pair with Apex Predator for Solar Surge also, although Distant Tumulus (or a Solar Slug) would be better.
+dimwishlist:item=2302346155&perks=839105230,106909392,1354429876,2896038713
+dimwishlist:item=2302346155&perks=,,1354429876,2896038713
+
+// Insidious
+//notes: Excellent synergy with Dragonfly and One for All. Big damage with decent AoE on a weapon great for Arc builds. Hard to ask for more.
+dimwishlist:item=3428521585&perks=839105230,3230963543,2848615171,4049631843
+dimwishlist:item=3428521585&perks=,,2848615171,4049631843
+dimwishlist:item=3428521585&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=3428521585&perks=,,1583705720,4049631843
+
+// Irukandji
+//notes: Excellent sustain and DPS for a special weapon. Could only be better as a Kinetic.
+dimwishlist:item=2673925403&perks=839105230,106909392,1354429876,1771339417
+dimwishlist:item=2673925403&perks=,,1354429876,1771339417
+dimwishlist:item=2673925403&perks=839105230,106909392,1354429876,2896038713
+dimwishlist:item=2673925403&perks=,,1354429876,2896038713
+
+// Iterative Loop
+//notes: Was useful for applying Jolt via Voltshot to a boss before damage. Not so much anymore - will likely be removed from this list.
+dimwishlist:item=1289796511&perks=1840239774,2680121939,671806388,2173046394
+dimwishlist:item=1289796511&perks=,,671806388,2173046394
+dimwishlist:item=1289796511&perks=1840239774,2680121939,1556840489,2173046394
+dimwishlist:item=1289796511&perks=,,1556840489,2173046394
+
+// Koraxis's Distress
+//notes: Useful for Lucent Hive or Tormentor fights, so long as you can get Surrounded to activate (Ecthar, Simmummah, Nezarec). Remember to run 2 other Harmonic Resonance weapons for the 10% boost. Decent DPS with Surrounded & Harmonic Resonance.
+dimwishlist:item=2972949637&perks=981914802,3301904089,968510818,3708227201
+dimwishlist:item=2972949637&perks=,,968510818,3708227201
+dimwishlist:item=2972949637&perks=981914802,3301904089,1523832109,3708227201
+dimwishlist:item=2972949637&perks=,,1523832109,3708227201
+
+// Krait
+//notes: Stasis Auto Rifle. Would be better as a Kinetic, although Veist Stinger helps. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies.
+dimwishlist:item=2852052802&perks=839105230,1968497646,1583705720,4049631843
+dimwishlist:item=2852052802&perks=,,1583705720,4049631843
+dimwishlist:item=2852052802&perks=839105230,1968497646,1820235745,4049631843
+dimwishlist:item=2852052802&perks=,,1820235745,4049631843
+
+// Midha's Reckoning
+//notes: Surrounded is a very high damage modifier. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.).
+dimwishlist:item=3969066556&perks=839105230,689005463,1799762209,3708227201
+dimwishlist:item=3969066556&perks=,,1799762209,3708227201
+
+// Midnight Coup
+//notes: Exceptional traits. Near 100% uptime of your damage perks makes this a great pick for an energy special weapon user.
+dimwishlist:item=2499720827&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=2499720827&perks=,,3038247973,4049631843
+dimwishlist:item=2763843898&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=2763843898&perks=,,3038247973,4049631843
+
+// Nessa's Oblation
+//notes: Made for double-slug damage.
+dimwishlist:item=135029084&perks=1840239774,791862061,1523832109,1546637391
+dimwishlist:item=135029084&perks=,,1523832109,1546637391
+dimwishlist:item=135029084&perks=1840239774,791862061,968510818,1546637391
+dimwishlist:item=135029084&perks=,,968510818,1546637391
+
+// New Pacific Epitaph
+//notes: Useful if you need a Kinetic Slot wave GL.
+dimwishlist:item=1125217994&perks=3525010810,2822142346,1556840489,3201496230
+dimwishlist:item=1125217994&perks=,,1556840489,3201496230
+dimwishlist:item=1125217994&perks=3525010810,2822142346,1556840489,3324494224
+dimwishlist:item=1125217994&perks=,,1556840489,3324494224
+dimwishlist:item=1125217994&perks=3525010810,2822142346,3523296417,3201496230
+dimwishlist:item=1125217994&perks=,,3523296417,3201496230
+dimwishlist:item=1125217994&perks=3525010810,2822142346,3523296417,3324494224
+dimwishlist:item=1125217994&perks=,,3523296417,3324494224
+
+// Null Composure
+//notes: Great for Void shielded major heavy content (Master Vog entrance), alright for major heavy content too - as fas as fusions go. Only use if you need Void.
+dimwishlist:item=1644680957&perks=1840239774,2969185026,2779035018,1427256713
+dimwishlist:item=1644680957&perks=,,2779035018,1427256713
+
+// Ogma PR6
+//notes: Great Solar pulse. The synergy between Stats & One for All needs no explaination.
+dimwishlist:item=2342054803&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=2342054803&perks=,,1583705720,4049631843
+dimwishlist:item=2342054803&perks=839105230,3230963543,3108830275,4049631843
+dimwishlist:item=2342054803&perks=,,3108830275,4049631843
+
+// One Small Step
+//notes: Best Kinetic One-Two Punch shotgun. Highest reserves, great ammo and reload perks.
+dimwishlist:item=1016668089&perks=1300023272,106909392,1556840489,2679249093
+dimwishlist:item=1016668089&perks=,,1556840489,2679249093
+dimwishlist:item=1016668089&perks=1300023272,106909392,3300816228,2679249093
+dimwishlist:item=1016668089&perks=,,3300816228,2679249093
+
+// Path of Least Resistance
+//notes: Useful if you need to swap to a special weapon mid fight, and also need Shoot to Loot.
+dimwishlist:item=2827764482&perks=1840239774,2749775325,1820235745,4049631843
+dimwishlist:item=2827764482&perks=,,1820235745,4049631843
+dimwishlist:item=2827764482&perks=1840239774,2749775325,3700496672,4049631843
+dimwishlist:item=2827764482&perks=,,3700496672,4049631843
+
+// Perses-D
+//notes: When you need a Kinetic slot Scout Rifle, the Perses-D perk pool makes it difficult to use anything else. Let down by the Stasis element. A good Shoot to Loot weapon too.
+dimwishlist:item=1019000888&perks=1840239774,3230963543,1583705720,4049631843
+dimwishlist:item=1019000888&perks=,,1583705720,4049631843
+dimwishlist:item=1019000888&perks=1840239774,3230963543,1583705720,3038247973
+dimwishlist:item=1019000888&perks=,,1583705720,3038247973
+dimwishlist:item=1019000888&perks=1840239774,3230963543,247725512,4049631843
+dimwishlist:item=1019000888&perks=,,247725512,4049631843
+dimwishlist:item=1019000888&perks=1840239774,3230963543,247725512,3038247973
+dimwishlist:item=1019000888&perks=,,247725512,3038247973
+
+// Posterity
+//notes: Biggest glow up since the HC buff. Feels great now - I'd recommend trying 180s out. Frenzy helps with Voltshot reloads.
+dimwishlist:item=3281285075&perks=1840239774,3230963543,2173046394,4104185692
+dimwishlist:item=3281285075&perks=,,2173046394,4104185692
+dimwishlist:item=3281285075&perks=1840239774,3230963543,2173046394,3201496230
+dimwishlist:item=3281285075&perks=,,2173046394,3201496230
+
+// Pre Astyanax IV
+//notes: Solar bow for Champion stuns and Solar shields.
+dimwishlist:item=192784503&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=192784503&perks=,,201365942,3365897133
+dimwishlist:item=192784503&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=192784503&perks=,,201365942,2652708987
+
+// Prolonged Engagement
+//notes: Decent SMG. Regular Subsistence reloads 17% mag, so not much is lost compared to a craftable alternative. One for All's huge damage bonus allows this to barely compete with Kinetic SMGs. Armor-Piercing over-penetration helps with One for All activation.
+dimwishlist:item=2349907931&perks=1840239774,1968497646,1820235745,4049631843
+dimwishlist:item=2349907931&perks=,,1820235745,4049631843
+
+// Redback-5si
+//notes: Sidearms do a lot of damage base, so even without a damage perk, Redback does a lot of work (if you can get past the feeling of using a sidearm).
+dimwishlist:item=1687353095&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=1687353095&perks=,,1583705720,4049631843
+dimwishlist:item=1687353095&perks=839105230,3230963543,1820235745,4049631843
+dimwishlist:item=1687353095&perks=,,1820235745,4049631843
+
+// Retraced Path
+//notes: Great pick for double special Solar 3.0 builds.
+dimwishlist:item=548958835&perks=1840239774,2749775325,1820235745,4049631843
+dimwishlist:item=548958835&perks=,,1820235745,4049631843
+dimwishlist:item=548958835&perks=1840239774,2749775325,1820235745,4293542123
+dimwishlist:item=548958835&perks=,,1820235745,4293542123
+dimwishlist:item=548958835&perks=1840239774,2749775325,3700496672,4049631843
+dimwishlist:item=548958835&perks=,,3700496672,4049631843
+dimwishlist:item=548958835&perks=1840239774,2749775325,3700496672,4293542123
+dimwishlist:item=548958835&perks=,,3700496672,4293542123
+
+// Retrofit Escapade
+//notes: Not the best DPS by any means, but servicable as an incredibly high total-damage weapon, with the added benefit of being able to clear adds too.
+dimwishlist:item=3103325054&perks=839105230,2420895100,1354429876,365154968
+dimwishlist:item=3103325054&perks=,,1354429876,365154968
+dimwishlist:item=3103325054&perks=839105230,2420895100,1354429876,4049631843
+dimwishlist:item=3103325054&perks=,,1354429876,4049631843
+
+// Riptide
+//notes: Excellent Champion counter weapon. Slow will instantly stun an Overload, Freeze will prevent a Barrier from shielding, Shatter will stun an Unstoppable.
+dimwishlist:item=2715240478&perks=1840239774,689005463,3300816228,2978966579
+dimwishlist:item=2715240478&perks=,,3300816228,2978966579
+dimwishlist:item=2715240478&perks=1840239774,689005463,1556840489,2978966579
+dimwishlist:item=2715240478&perks=,,1556840489,2978966579
+
+// Scatter Signal
+//notes: Kinetic slot rapid fire fusion. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.).
+dimwishlist:item=2558925366&perks=839105230,689005463,3643424744,2594592626
+dimwishlist:item=2558925366&perks=,,3643424744,2594592626
+
+// Subjunctive
+//notes: Workhorse Arc SMG for your Arc 3.0 builds. Great alternative to the Surrounded IKELOS SMG with synergising perks. 
+dimwishlist:item=1447836603&perks=1840239774,3230963543,1583705720,4049631843
+dimwishlist:item=1447836603&perks=,,1583705720,4049631843
+
+// Submission
+//notes: Nice feeling Kinetic SMG. Enh. sub isn't as good on SMGs, but the extra damage from Kinetic type weapons allows this Frenzy SMG to compete with Prolonged Engagement.
+dimwishlist:item=3886416794&perks=1840239774,3230963543,1820235745,4104185692
+dimwishlist:item=3886416794&perks=,,1820235745,4104185692
+
+// Succession
+//notes: Great for deleting that one Major target that spawns every so often (e.g. Acquisition encounter); essentially a legendary rarity Izanagi for this purpose.
+dimwishlist:item=2990047042&perks=1840239774,106909392,1523832109,469285294
+dimwishlist:item=2990047042&perks=,,1523832109,469285294
+dimwishlist:item=2990047042&perks=1840239774,106909392,1556840489,469285294
+dimwishlist:item=2990047042&perks=,,1556840489,469285294
+dimwishlist:item=3612338554&perks=1840239774,106909392,1523832109,469285294
+dimwishlist:item=3612338554&perks=,,1523832109,469285294
+dimwishlist:item=3612338554&perks=1840239774,106909392,1556840489,469285294
+dimwishlist:item=3612338554&perks=,,1556840489,469285294
+dimwishlist:item=570866107&perks=1840239774,106909392,1523832109,469285294
+dimwishlist:item=570866107&perks=,,1523832109,469285294
+dimwishlist:item=570866107&perks=1840239774,106909392,1556840489,469285294
+dimwishlist:item=570866107&perks=,,1556840489,469285294
+
+// Taipan-4FR
+//notes: Cataclysmic Lite™. Probably the most accessible crafted weapon. Precision Linears are good for total damage, but are currently lagging behind Retrofit Escapade.
+dimwishlist:item=1911060537&perks=1840239774,2680121939,3400784728,1771339417
+dimwishlist:item=1911060537&perks=,,3400784728,1771339417
+dimwishlist:item=1911060537&perks=1840239774,2680121939,3400784728,2896038713
+dimwishlist:item=1911060537&perks=,,3400784728,2896038713
+
+// Tarnished Mettle
+//notes: Useful for grabbing ammo with Shoot to Loot while using an energy slot primary. Only craftable Shoot to Loot + Explosive Rounds scout.
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3700496672,3038247973
+dimwishlist:item=2218569744&perks=,,3700496672,3038247973
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3700496672,2173046394
+dimwishlist:item=2218569744&perks=,,3700496672,2173046394
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3523296417,3038247973
+dimwishlist:item=2218569744&perks=,,3523296417,3038247973
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3523296417,2173046394
+dimwishlist:item=2218569744&perks=,,3523296417,2173046394
+
+// Techeun Force
+//notes: Great pick for non-crit damage (Wyverns, Primarily shielded majors, etc.). Rewind Rounds on a fusion allows this to be fired almost indefinitely without reloading.
+dimwishlist:item=3591141932&perks=839105230,1483536627,1523832109,2594592626
+dimwishlist:item=3591141932&perks=,,1523832109,2594592626
+dimwishlist:item=3591141932&perks=839105230,1483536627,2578928832,2594592626
+dimwishlist:item=3591141932&perks=,,2578928832,2594592626
+
+// The Eremite
+//notes: Great pick for non-crit damage. Can load all of the reserves into the mag; which would also be alright for add. clear with Reservior Burst (If fusions were ever necessary for add. clear).
+dimwishlist:item=3347946548&perks=839105230,2680121939,968510818,2594592626
+dimwishlist:item=3347946548&perks=,,968510818,2594592626
+dimwishlist:item=3347946548&perks=839105230,2680121939,968510818,1427256713
+dimwishlist:item=3347946548&perks=,,968510818,1427256713
+
+// The Keening
+//notes: Sidearms do a lot of damage base, so even without a damage perk, The Keening does a lot of work (if you can get past the feeling of using a sidearm).
+dimwishlist:item=409551876&perks=202670084,3230963543,1820235745,4049631843
+dimwishlist:item=409551876&perks=,,1820235745,4049631843
+dimwishlist:item=409551876&perks=202670084,3230963543,1820235745,3708227201
+dimwishlist:item=409551876&perks=,,1820235745,3708227201
+dimwishlist:item=409551876&perks=202670084,3230963543,4071163871,4049631843
+dimwishlist:item=409551876&perks=,,4071163871,4049631843
+dimwishlist:item=409551876&perks=202670084,3230963543,4071163871,3708227201
+dimwishlist:item=409551876&perks=,,4071163871,3708227201
+
+// The Militia's Birthright (Adept)
+//notes: Excellent blinding Grenade Launcher. Great for Divinity + 2x Izanagi GM speedruns. Fun to use with Slidways weapons (Apex Predator).
+dimwishlist:item=4162642204&perks=3525010810,3032599245,2039302152,3300816228
+dimwishlist:item=4162642204&perks=,,2039302152,3300816228
+dimwishlist:item=4162642204&perks=3525010810,3032599245,2039302152,4104185692
+dimwishlist:item=4162642204&perks=,,2039302152,4104185692
+
+// The Mountaintop
+//notes: Very useful mobility tool, and great no crit major clear. 
+dimwishlist:item=568611922&perks=981914802,3492396210,3300816228,469285294
+dimwishlist:item=568611922&perks=,,3300816228,469285294
+dimwishlist:item=4043921923&perks=981914802,3492396210,3300816228,469285294
+dimwishlist:item=4043921923&perks=,,3300816228,469285294
+
+// The Other Half
+//notes: Needs no introduction. Used for movement and falling into holes in The Abyss in Crota's End.
+dimwishlist:item=3257091167&perks=436053704,3625355092,2077819806,3708227201
+dimwishlist:item=3257091167&perks=,,2077819806,3708227201
+dimwishlist:item=3257091167&perks=436053704,3625355092,2077819806,4104185692
+dimwishlist:item=3257091167&perks=,,2077819806,4104185692
+
+// The Supremacy
+//notes: Excellent DPS but no ammo generating perk means low total damage. 
+dimwishlist:item=2884596447&perks=839105230,1087426260,2578928832,3891536761
+dimwishlist:item=2884596447&perks=,,2578928832,3891536761
+
+// The Title
+//notes: Workhorse Void SMG for your Void 3.0 builds, exceptional with Controlled Demolition on Titan, or Gyrfalcon on Hunter. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. Armor-Piercing Rounds enables 1x overpenetration, which helps with activating perks.
+dimwishlist:item=294129361&perks=1840239774,1968497646,1583705720,4049631843
+dimwishlist:item=294129361&perks=,,1583705720,4049631843
+
+// Tripwire Canary
+//notes: Arc bow for Champion stuns and Arc shields. Solid replacement for the difficult to obtain Wolftone Draw precision frame. 
+dimwishlist:item=3849444474&perks=2801223209,3429800428,2848615171,4104185692
+dimwishlist:item=3849444474&perks=,,2848615171,4104185692
+dimwishlist:item=3849444474&perks=2801223209,3429800428,2848615171,3365897133
+dimwishlist:item=3849444474&perks=,,2848615171,3365897133
+dimwishlist:item=3849444474&perks=2801223209,3429800428,201365942,4104185692
+dimwishlist:item=3849444474&perks=,,201365942,4104185692
+dimwishlist:item=3849444474&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=3849444474&perks=,,201365942,3365897133
+
+// Under Your Skin
+//notes: Void bow for Champion stuns and Solar shields. Works well with Volatile Rounds.
+dimwishlist:item=232928045&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=232928045&perks=,,201365942,3365897133
+dimwishlist:item=232928045&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=232928045&perks=,,201365942,2652708987
+
+// Unforgiven
+//notes: Good workhorse Void SMG - unfortunately Demolitionist doesn't grant energy when Volatile kills your target. Good if you don't have The Title, although slow to reload with a small mag.
+dimwishlist:item=3000847393&perks=1840239774,3230963543,3523296417,2610012052
+dimwishlist:item=3000847393&perks=,,3523296417,2610012052
+dimwishlist:item=3000847393&perks=1840239774,3230963543,3523296417,11612903
+dimwishlist:item=3000847393&perks=,,3523296417,11612903
+
+// Until Its Return
+//notes: Another non-crit option. Cascade has higher DPS but considerably lower Total.
+dimwishlist:item=2883484461&perks=1300023272,106909392,3300816228,3708227201
+dimwishlist:item=2883484461&perks=,,3300816228,3708227201
+dimwishlist:item=2883484461&perks=1300023272,106909392,4071163871,3708227201
+dimwishlist:item=2883484461&perks=,,4071163871,3708227201
+
+// Unwavering Duty (Adept)
+//notes: Not as good as a One for All Machine Gun in my opinion, but still excellent. Great for extending Restoration and Radiant.
+dimwishlist:item=3444632029&perks=839105230,2420895100,1820235745,557221067
+dimwishlist:item=3444632029&perks=,,1820235745,557221067
+
+// Veles-X
+//notes: Left column Repulsor Brace makes and Golden Tricorn makes this an excellent pick on an ability heavy void build. The only letdown is the weapon type.
+dimwishlist:item=2276328320&perks=2467967826,3230963543,776531651,2610012052
+dimwishlist:item=2276328320&perks=,,776531651,2610012052
+
+// Vision of Confluence (Timelost)
+//notes: Workhorse Solar Scout Rifle with an uncommon left column trait - good for keeping long cooldown Solar abilities up in activities where you can't benefit from Ember of Benevolence.
+dimwishlist:item=690668916&perks=1840239774,1561002382,3592538738,4104185692
+dimwishlist:item=690668916&perks=,,3592538738,4104185692
+
+// Wilderflight
+//notes: Best pick for an energy GL paired with Izanagi for damage. Good a activating Bait and Switch, although fairly niche.
+dimwishlist:item=2306182339&perks=3525010810,3301904089,3300816228,4104185692
+dimwishlist:item=2306182339&perks=,,3300816228,4104185692
+dimwishlist:item=2306182339&perks=3525010810,3301904089,3300816228,1546637391
+dimwishlist:item=2306182339&perks=,,3300816228,1546637391
+
+// Wolftone Draw
+//notes: Arc bow for Champion stuns and Arc shields.
+dimwishlist:item=3472875143&perks=2801223209,3429800428,201365942,4104185692
+dimwishlist:item=3472875143&perks=,,201365942,4104185692
+
+// Word of Crota
+//notes: Nice void 180 - pairs great with a Gyrfalcon's or Contraverse build. Devour + Demo gets you a grenade refund in 5-7 kills. Armor-Piercing Rounds can apply Volatile to 2 enemies per shot.
+dimwishlist:item=120706239&perks=1840239774,3230963543,3523296417,4104185692
+dimwishlist:item=120706239&perks=,,3523296417,4104185692
+dimwishlist:item=120706239&perks=1840239774,3230963543,3523296417,555281244
+dimwishlist:item=120706239&perks=,,3523296417,555281244
+dimwishlist:item=120706239&perks=1840239774,3230963543,2848615171,4104185692
+dimwishlist:item=120706239&perks=,,2848615171,4104185692
+dimwishlist:item=120706239&perks=1840239774,3230963543,2848615171,555281244
+dimwishlist:item=120706239&perks=,,2848615171,555281244
+
+// Zaouli's Bane
+//notes: Exceptional traits. Great for Solar 3.0 builds - very high damage per shot with Explosive Rounds and One for All. One for All is a great perk in high level content, just remember to quickly tag 3 enemies - Explosive Rounds helps with this.
+dimwishlist:item=431721920&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=431721920&perks=,,3038247973,4049631843
+dimwishlist:item=431721920&perks=1840239774,3230963543,3038247973,4293542123
+dimwishlist:item=431721920&perks=,,3038247973,4293542123
