@@ -2,34 +2,16 @@ use pest::iterators::{Pair, Pairs};
 
 use crate::{structs::{weapon_roll::WeaponRoll, wishlist::Wishlist}, Rule};
 
-fn is_not_great(notes_string: &str) -> bool {
-    notes_string.contains("(not great PvP)") || notes_string.contains("(not great PvE)") || notes_string.contains("(PvP backup roll)")
+fn is_good_for_mnk(tags_string: &str) -> bool {
+    !tags_string.to_lowercase().contains("controller") 
+        || tags_string.to_lowercase().contains("mkb") 
+        || tags_string.to_lowercase().contains("m+kb")
 }
 
-fn is_controller_specific(tags_string: &str) -> bool {
-    tags_string.to_lowercase().contains("controller")
-        && !tags_string.to_lowercase().contains("mkb")
-        && !tags_string.to_lowercase().contains("m+kb")
-}
-
-fn is_desirable_roll(tags_string: &str, notes_string: &str, pair: &Pair<Rule>) -> bool {
+fn is_desirable_roll(tags_string: &str, pair: &Pair<Rule>) -> bool {
     pair.as_rule() == Rule::roll
         && (tags_string.to_lowercase().contains("god") || tags_string.to_lowercase().contains("endgame"))
-        && !is_controller_specific(tags_string)
-        && !is_not_great(notes_string)
-}
-
-fn tags_from_notes(notes_string: &str) -> &str {
-    let lowered_notes_string = notes_string.to_lowercase();
-    if lowered_notes_string.contains("pvp/pve first choice roll") || lowered_notes_string.contains("pve/pvp first choice roll") {
-        "pvp,pvp-god,pve,pve-god"
-    } else if lowered_notes_string.contains("pve first choice roll") || lowered_notes_string.contains("pve first-choice roll") || lowered_notes_string.contains("pve-god") || lowered_notes_string.contains("god-pve") {
-        "pve,pve-god"
-    } else if lowered_notes_string.contains("pvp first choice roll") || lowered_notes_string.contains("pvp first-choice roll") || lowered_notes_string.contains("pvp-god") || lowered_notes_string.contains("god-pvp") {
-        "pvp,pvp-god"
-    } else {
-        ""
-    }
+        && is_good_for_mnk(tags_string)
 }
 
 fn split_weapon_notes(notes: &str) -> (&str, &str) {
@@ -38,12 +20,7 @@ fn split_weapon_notes(notes: &str) -> (&str, &str) {
     } else {
         notes.rsplit_once("Tags: ").unwrap_or(("", ""))
     };
-
-    if tags.is_empty() {
-        (notes, tags_from_notes(notes))
-    } else {
-        (note, tags)
-    }
+    (note, tags)
 }
 
 pub fn get_wishlist(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
@@ -64,7 +41,7 @@ pub fn get_wishlist(weapon_note_and_rolls: Pairs<Rule>) -> Wishlist {
                 new_wishlist_accumulator.add_notes_from_text(notes_string);
                 new_wishlist_accumulator.add_tags_from_text(tags_string);
                 new_wishlist_accumulator
-            } else if is_desirable_roll(tags_string, notes_string, &element) {
+            } else if is_desirable_roll(tags_string, &element) {
                 let mut new_wishlist_accumulator = Wishlist {
                     ..wishlist_accumulator
                 };
