@@ -1,0 +1,770 @@
+title:Subhaven Picks
+description:A list of weapon's from Subhaven's Endgame Excel sheet. Found at https://docs.google.com/spreadsheets/d/1xdIOR1LTkjKM-eZ8r-r2StiWdMWeja2uEZA1yfsG90c/edit?gid=2137039658#gid=2137039658
+
+// B-tier Auto Rifle - Come to Pass - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: tags:god-pve,pve
+dimwishlist:item=927567426&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=927567426&perks=,,1583705720,4049631843
+
+
+// B-tier Auto Rifle - Ammit AR2 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Solar Auto Rifle for Champion stuns and Solar shields. The only letdown is the weapon type. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. Armor-Piercing Rounds enables 1x overpenetration, which helps with activating perks. tags:god-pve,pve
+dimwishlist:item=2119346509&perks=839105230,1968497646,1583705720,4049631843
+dimwishlist:item=2119346509&perks=,,1583705720,4049631843
+
+
+// B-tier Auto Rifle - Age-Old Bond - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Void auto. Repulsor Brace and Dragonfly in the left column are uncommon, and solid perks to complement your Void build and Golden Tricorn. tags:god-pve,pve
+dimwishlist:item=424291879&perks=839105230,3230963543,776531651,2610012052
+dimwishlist:item=424291879&perks=,,776531651,2610012052
+dimwishlist:item=424291879&perks=839105230,3230963543,776531651,3324494224
+dimwishlist:item=424291879&perks=,,776531651,3324494224
+dimwishlist:item=424291879&perks=839105230,3230963543,2848615171,2610012052
+dimwishlist:item=424291879&perks=,,2848615171,2610012052
+dimwishlist:item=424291879&perks=839105230,3230963543,2848615171,3324494224
+dimwishlist:item=424291879&perks=,,2848615171,3324494224
+
+
+// C-tier Auto Rifle - Duty Bound - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Kinetic Auto Rifle. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. tags:god-pve,pve
+dimwishlist:item=435216110&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=435216110&perks=,,1583705720,4049631843
+
+
+// C-tier Auto Rifle - Duty Bound (Adept) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Kinetic Auto Rifle. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. tags:god-pve,pve
+dimwishlist:item=1135050595&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=1135050595&perks=,,1583705720,4049631843
+
+
+// C-tier Auto Rifle - Krait - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Stasis Auto Rifle. Would be better as a Kinetic, although Veist Stinger helps. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. tags:god-pve,pve
+dimwishlist:item=2852052802&perks=839105230,1968497646,1583705720,4049631843
+dimwishlist:item=2852052802&perks=,,1583705720,4049631843
+dimwishlist:item=2852052802&perks=839105230,1968497646,1820235745,4049631843
+dimwishlist:item=2852052802&perks=,,1820235745,4049631843
+
+
+// A-tier Bow - Wolftone Draw - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Arc bow for Champion stuns and Arc shields. tags:god-pve,pve
+dimwishlist:item=3472875143&perks=2801223209,3429800428,201365942,4104185692
+dimwishlist:item=3472875143&perks=,,201365942,4104185692
+
+
+// B-tier Bow - Tripwire Canary - Accuracy Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Arc bow for Champion stuns and Arc shields. Solid replacement for the difficult to obtain Wolftone Draw precision frame.  tags:god-pve,pve
+dimwishlist:item=3849444474&perks=2801223209,3429800428,2848615171,3365897133
+dimwishlist:item=3849444474&perks=,,2848615171,3365897133
+dimwishlist:item=3849444474&perks=2801223209,3429800428,2848615171,4104185692
+dimwishlist:item=3849444474&perks=,,2848615171,4104185692
+dimwishlist:item=3849444474&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=3849444474&perks=,,201365942,3365897133
+dimwishlist:item=3849444474&perks=2801223209,3429800428,201365942,4104185692
+dimwishlist:item=3849444474&perks=,,201365942,4104185692
+
+
+// A-tier Bow - Pre Astyanax IV - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Solar bow for Champion stuns and Solar shields. tags:god-pve,pve
+dimwishlist:item=2932922810&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=2932922810&perks=,,201365942,2652708987
+dimwishlist:item=2932922810&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=2932922810&perks=,,201365942,3365897133
+
+
+// A-tier Bow - Pre Astyanax IV - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Solar bow for Champion stuns and Solar shields. tags:god-pve,pve
+dimwishlist:item=192784503&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=192784503&perks=,,201365942,2652708987
+dimwishlist:item=192784503&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=192784503&perks=,,201365942,3365897133
+
+
+// A-tier Bow - Pre Astyanax IV (Adept) - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Solar bow for Champion stuns and Solar shields. tags:god-pve,pve
+dimwishlist:item=496556698&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=496556698&perks=,,201365942,2652708987
+dimwishlist:item=496556698&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=496556698&perks=,,201365942,3365897133
+
+
+// A-tier Bow - Pre Astyanax IV (Adept) - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Solar bow for Champion stuns and Solar shields. tags:god-pve,pve
+dimwishlist:item=2063217087&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=2063217087&perks=,,201365942,2652708987
+dimwishlist:item=2063217087&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=2063217087&perks=,,201365942,3365897133
+
+
+// A-tier Bow - Under Your Skin - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Void bow for Champion stuns and Solar shields. Works well with Volatile Rounds. tags:god-pve,pve
+dimwishlist:item=232928045&perks=2801223209,3429800428,201365942,3365897133
+dimwishlist:item=232928045&perks=,,201365942,3365897133
+dimwishlist:item=232928045&perks=2801223209,3429800428,201365942,2652708987
+dimwishlist:item=232928045&perks=,,201365942,2652708987
+
+
+// B-tier Bow - Accrued Redemption - Draw Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Kinetic Bow for Champion stuns. Precision frame so feels better than Fel Taradiddle, however defer to your preference. tags:god-pve,pve
+dimwishlist:item=4095896073&perks=2801223209,3827198035,201365942,3365897133
+dimwishlist:item=4095896073&perks=,,201365942,3365897133
+dimwishlist:item=4095896073&perks=2801223209,16392701,201365942,3365897133
+dimwishlist:item=4095896073&perks=,,201365942,3365897133
+
+
+// S-tier Hand Cannon - Midnight Coup - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Exceptional traits. Near 100% uptime of your damage perks makes this a great pick for an energy special weapon user. tags:god-pve,pve
+dimwishlist:item=2763843898&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=2763843898&perks=,,3038247973,4049631843
+
+
+// S-tier Hand Cannon - Midnight Coup (Foil) Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Exceptional traits. Near 100% uptime of your damage perks makes this a great pick for an energy special weapon user. tags:god-pve,pve
+dimwishlist:item=2499720827&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=2499720827&perks=,,3038247973,4049631843
+
+
+// S-tier Hand Cannon - Zaouli's Bane - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Exceptional traits. Great for Solar 3.0 builds - very high damage per shot with Explosive Rounds and One for All. One for All is a great perk in high level content, just remember to quickly tag 3 enemies - Explosive Rounds helps with this. tags:god-pve,pve
+dimwishlist:item=431721920&perks=1840239774,3230963543,3038247973,4293542123
+dimwishlist:item=431721920&perks=,,3038247973,4293542123
+dimwishlist:item=431721920&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=431721920&perks=,,3038247973,4049631843
+
+
+// S-tier Hand Cannon - Zaouli's Bane (Harrowed) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Exceptional traits. Great for Solar 3.0 builds - very high damage per shot with Explosive Rounds and One for All. One for All is a great perk in high level content, just remember to quickly tag 3 enemies - Explosive Rounds helps with this. tags:god-pve,pve
+dimwishlist:item=291092617&perks=1840239774,3230963543,3038247973,4293542123
+dimwishlist:item=291092617&perks=,,3038247973,4293542123
+dimwishlist:item=291092617&perks=1840239774,3230963543,3038247973,4049631843
+dimwishlist:item=291092617&perks=,,3038247973,4049631843
+
+
+// B-tier Hand Cannon - Word of Crota - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Nice void 180 - pairs great with a Gyrfalcon's or Contraverse build. Devour + Demo gets you a grenade refund in 5-7 kills. Armor-Piercing Rounds can apply Volatile to 2 enemies per shot. tags:god-pve,pve
+dimwishlist:item=120706239&perks=1840239774,3230963543,2848615171,4104185692
+dimwishlist:item=120706239&perks=,,2848615171,4104185692
+dimwishlist:item=120706239&perks=1840239774,3230963543,2848615171,555281244
+dimwishlist:item=120706239&perks=,,2848615171,555281244
+dimwishlist:item=120706239&perks=1840239774,3230963543,3523296417,4104185692
+dimwishlist:item=120706239&perks=,,3523296417,4104185692
+dimwishlist:item=120706239&perks=1840239774,3230963543,3523296417,555281244
+dimwishlist:item=120706239&perks=,,3523296417,555281244
+
+
+// B-tier Hand Cannon - Word of Crota (Adept) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Nice void 180 - pairs great with a Gyrfalcon's or Contraverse build. Devour + Demo gets you a grenade refund in 5-7 kills. tags:god-pve,pve
+dimwishlist:item=3926103986&perks=1840239774,3230963543,2848615171,4104185692
+dimwishlist:item=3926103986&perks=,,2848615171,4104185692
+dimwishlist:item=3926103986&perks=1840239774,3230963543,2848615171,555281244
+dimwishlist:item=3926103986&perks=,,2848615171,555281244
+dimwishlist:item=3926103986&perks=1840239774,3230963543,3523296417,4104185692
+dimwishlist:item=3926103986&perks=,,3523296417,4104185692
+dimwishlist:item=3926103986&perks=1840239774,3230963543,3523296417,555281244
+dimwishlist:item=3926103986&perks=,,3523296417,555281244
+
+
+// A-tier Hand Cannon - Crisis Inverted - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Most on-hit traits on an Arc 140, with nice utility perks in the left column. One for All is a great perk in high level content, just remember to quickly tag 3 enemies. tags:god-pve,pve
+dimwishlist:item=2888266564&perks=1840239774,1968497646,1583705720,4049631843
+dimwishlist:item=2888266564&perks=,,1583705720,4049631843
+dimwishlist:item=2888266564&perks=1840239774,1968497646,3523296417,4049631843
+dimwishlist:item=2888266564&perks=,,3523296417,4049631843
+
+
+// A-tier Hand Cannon - IKELOS_HC_v1.0.3 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: This may surprise you. Enhanced Subsistence with a mag increase will load four (4) rounds per kill. Stats for All & One for All is great in harder content. Great with Gyrfalcons. The over-penetration with Seraph Rounds helps One for All & Volatile. tags:god-pve,pve
+dimwishlist:item=1731355324&perks=1840239774,1140096971,1583705720,4049631843
+dimwishlist:item=1731355324&perks=,,1583705720,4049631843
+dimwishlist:item=1731355324&perks=1840239774,1140096971,1820235745,4049631843
+dimwishlist:item=1731355324&perks=,,1820235745,4049631843
+
+
+// B-tier Hand Cannon - Posterity - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Biggest glow up since the HC buff. Feels great now - I'd recommend trying 180s out. Frenzy helps with Voltshot reloads. tags:god-pve,pve
+dimwishlist:item=3281285075&perks=1840239774,3230963543,2173046394,3201496230
+dimwishlist:item=3281285075&perks=,,2173046394,3201496230
+dimwishlist:item=3281285075&perks=1840239774,3230963543,2173046394,4104185692
+dimwishlist:item=3281285075&perks=,,2173046394,4104185692
+
+
+// Utility-tier Hand Cannon - Vulpecula - Reload Masterwork + Backup Mag (pve,mnk,controller)
+//notes: Useful for grabbing ammo with Shoot to Loot while using kinetic slot primary. tags:pve,mnk,controller
+dimwishlist:item=1622998472&perks=1840239774,3230963543,3700496672,3038247973
+dimwishlist:item=1622998472&perks=,,3700496672,3038247973
+
+
+// A-tier Pulse Rifle - Blast Furnace - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Probably the highest damage perk combination we've seen on a Legandary Primary since Kindled Orchid in Season 5. Chews through Red bars in GMs compared to other pulses. tags:god-pve,pve
+dimwishlist:item=2372514508&perks=839105230,3230963543,3891536761,4049631843
+dimwishlist:item=2372514508&perks=,,3891536761,4049631843
+
+
+// A-tier Pulse Rifle - Blast Furnace (Foil) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Probably the highest damage perk combination we've seen on a Legandary Primary since Kindled Orchid in Season 5. Chews through Red bars in GMs compared to other pulses. tags:god-pve,pve
+dimwishlist:item=2533990645&perks=839105230,3230963543,3891536761,4049631843
+dimwishlist:item=2533990645&perks=,,3891536761,4049631843
+
+
+// A-tier Pulse Rifle - Insidious - Reload Masterwork + Back Up Mag (god-pve,pve)
+//notes: Excellent synergy with Dragonfly and One for All. Big damage with decent AoE on a weapon great for Arc builds. Hard to ask for more. tags:god-pve,pve
+dimwishlist:item=3428521585&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=3428521585&perks=,,1583705720,4049631843
+dimwishlist:item=3428521585&perks=839105230,3230963543,2848615171,4049631843
+dimwishlist:item=3428521585&perks=,,2848615171,4049631843
+
+
+// A-tier Pulse Rifle - Insidious (Adept) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Excellent synergy with Dragonfly and One for All. Big damage with decent AoE on a weapon great for Arc builds. Hard to ask for more. tags:god-pve,pve
+dimwishlist:item=786352912&perks=839105230,3230963543,2848615171,4049631843
+dimwishlist:item=786352912&perks=,,2848615171,4049631843
+dimwishlist:item=786352912&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=786352912&perks=,,1583705720,4049631843
+
+
+// A-tier Pulse Rifle - Ogma PR6 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Great Solar pulse. The synergy between Stats & One for All needs no explaination. tags:god-pve,pve
+dimwishlist:item=2342054803&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=2342054803&perks=,,3108830275,4049631843
+
+
+// B-tier Pulse Rifle - Elsie's Rifle - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Decent offering for an ability heavy build. Not great, but serviceable. tags:god-pve,pve
+dimwishlist:item=2372514509&perks=839105230,1968497646,3418782618,2109543898
+dimwishlist:item=2372514509&perks=,1968497646,3418782618,2109543898
+dimwishlist:item=2372514509&perks=,,3418782618,2109543898
+
+
+// B-tier Pulse Rifle - Elsie's Rifle (Foil) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Decent offering for an ability heavy build. Not great, but serviceable. tags:god-pve,pve
+dimwishlist:item=3851176026&perks=839105230,1968497646,3418782618,2109543898
+dimwishlist:item=3851176026&perks=,1968497646,3418782618,2109543898
+dimwishlist:item=3851176026&perks=,,3418782618,2109543898
+
+
+// Nessa's Oblation - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Made for double-slug damage. tags:god-pve,pve
+dimwishlist:item=135029084&perks=1840239774,791862061,1523832109,1546637391
+dimwishlist:item=135029084&perks=1840239774,791862061,968510818,1546637391
+
+
+// Hung Jury SR4 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Decent Kinetic slot alternative to Perses-D, with OFA and the +10% Kinetic boost. tags:god-pve,pve
+dimwishlist:item=205225492&perks=1840239774,3230963543,3891536761,4049631843
+dimwishlist:item=205225492&perks=1840239774,3230963543,3891536761,3038247973
+dimwishlist:item=205225492&perks=1840239774,3230963543,3700496672,4049631843
+dimwishlist:item=205225492&perks=1840239774,3230963543,3700496672,3038247973
+
+
+// The Title - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Void SMG for your Void 3.0 builds, exceptional with Controlled Demolition on Titan, or Gyrfalcon on Hunter. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. Armor-Piercing Rounds enables 1x overpenetration, which helps with activating perks. tags:god-pve,pve
+dimwishlist:item=294129361&perks=1840239774,1968497646,1583705720,4049631843
+
+
+// Ignition Code - Handling Masterwork + Quick Access Sling (pve)
+//notes: Excellent blinding Grenade Launcher, but now unobtainable outside Dares. Great for Divinity + 2x Izanagi GM speedruns, or some slideways nonsense with Apex. tags:pve
+dimwishlist:item=304659313&perks=3525010810,3032599245,3161816588,4104185692
+
+
+// The Keening - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Sidearms do a lot of damage base, so even without a damage perk, The Keening does a lot of work (if you can get past the feeling of using a sidearm). tags:god-pve,pve
+dimwishlist:item=409551876&perks=202670084,3230963543,1820235745,3708227201
+dimwishlist:item=409551876&perks=202670084,3230963543,1820235745,4049631843
+dimwishlist:item=409551876&perks=202670084,3230963543,4071163871,3708227201
+dimwishlist:item=409551876&perks=202670084,3230963543,4071163871,4049631843
+
+
+// Corrective Measure - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: The best add. clear weapon in the game, hands down. On a Gyrfalcon's hunter you can solo clear Master Raid encounter rooms full of adds, while your team does whatever they want. tags:god-pve,pve
+dimwishlist:item=471518543&perks=839105230,106909392,1820235745,4049631843
+dimwishlist:item=471518543&perks=839105230,106909392,1820235745,11612903
+dimwishlist:item=471518543&perks=839105230,106909392,3523296417,4049631843
+dimwishlist:item=471518543&perks=839105230,106909392,3523296417,11612903
+
+
+// Koraxis's Distress (Adept) - Velocity Masterwork + Backup Mag (pve)
+//notes: Useful for Lucent Hive or Tormentor fights, so long as you can get Surrounded to activate (Ecthar, Simmummah, Nezarec). Remember to run 2 other Harmonic Resonance weapons for the 10% boost. Decent DPS with Surrounded & Harmonic Resonance. tags:pve
+dimwishlist:item=495442100&perks=981914802,332133599,968510818,3708227201
+dimwishlist:item=495442100&perks=981914802,332133599,1523832109,3708227201
+
+
+// Nessa's Oblation (Adept) - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Made for double-slug damage. tags:god-pve,pve
+dimwishlist:item=522366885&perks=1840239774,791862061,1523832109,1546637391
+dimwishlist:item=522366885&perks=1840239774,791862061,968510818,1546637391
+
+
+// Retraced Path - Reload Masterwork + Backup Mag (pve)
+//notes: Great pick for double special Solar 3.0 builds. tags:pve
+dimwishlist:item=548958835&perks=1840239774,2749775325,1820235745,4049631843
+dimwishlist:item=548958835&perks=1840239774,2749775325,1820235745,4293542123
+dimwishlist:item=548958835&perks=1840239774,2749775325,3700496672,4049631843
+dimwishlist:item=548958835&perks=1840239774,2749775325,3700496672,4293542123
+
+
+// Forbearance - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: One of the best add. clear specials in the game. Ambitious Assassin on a wave frame Grenade Launcher is great, and Chain Reaction clears rooms. tags:god-pve,pve
+dimwishlist:item=568611921&perks=3525010810,2822142346,3108830275,2396489472
+dimwishlist:item=568611921&perks=3525010810,2822142346,2010801679,2396489472
+
+
+// The Mountaintop - Handling Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Very useful mobility tool, and great no crit major clear.  tags:god-pve,pve
+dimwishlist:item=568611922&perks=981914802,3492396210,3300816228,469285294
+
+
+// Edge Transit - Velocity Masterwork + Backup Mag (god-pve,pve)
+//notes: This is the follow-up to Cataphract we've been expecting. Best GL available. Exceptional DPS. tags:god-pve,pve
+dimwishlist:item=568611923&perks=981914802,332133599,968510818,3078487919
+dimwishlist:item=568611923&perks=981914802,332133599,3751912585,3078487919
+
+
+// Succession - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Great for deleting that one Major target that spawns every so often (e.g. Acquisition encounter); essentially a legendary rarity Izanagi for this purpose. tags:god-pve,pve
+dimwishlist:item=570866107&perks=1840239774,2420895100,1556840489,469285294
+dimwishlist:item=570866107&perks=1840239774,2420895100,1523832109,469285294
+
+
+// Forbearance - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: One of the best add. clear specials in the game. Ambitious Assassin on a wave frame Grenade Launcher is great, and Chain Reaction clears rooms. tags:god-pve,pve
+dimwishlist:item=613334176&perks=3525010810,2822142346,2010801679,2396489472
+dimwishlist:item=613334176&perks=3525010810,2822142346,3108830275,2396489472
+
+
+// Vision of Confluence (Timelost) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Solar Scout Rifle with an uncommon left column trait - good for keeping long cooldown Solar abilities up in activities where you can't benefit from Ember of Benevolence. tags:god-pve,pve
+dimwishlist:item=690668916&perks=1840239774,1561002382,3592538738,4104185692
+
+
+// Deliverance - Charge Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Surrounded is a very high damage modifier. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.). tags:god-pve,pve
+dimwishlist:item=768621510&perks=839105230,689005463,1799762209,3708227201
+
+
+// Cold Comfort - Handling Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Exceptional, especially with Ballidorse. Highest non-niche burst in the game, unfortunately somewhat painful to farm. Worth it anyway. Envious Assassin + Restoration Ritual lets you shoot a comical amount of rockets without reloading, all with the Bait and Switch damage buff. tags:god-pve,pve
+dimwishlist:item=839786290&perks=3525010810,3796465595,968510818,1439600632
+dimwishlist:item=839786290&perks=3525010810,3796465595,968510818,3078487919
+
+
+// Cataphract GL3 (Adept) - Velocity Masterwork + Backup Mag (god-pve,pve)
+//notes: A great grenade launcher, however expect the trend of a trials release to be followed up with a better or craftable version to continue. Exceptional DPS. tags:god-pve,pve
+dimwishlist:item=874623537&perks=981914802,3301904089,968510818,3078487919
+dimwishlist:item=874623537&perks=981914802,3301904089,968510818,3751912585
+dimwishlist:item=874623537&perks=981914802,3301904089,3300816228,3078487919
+dimwishlist:item=874623537&perks=981914802,3301904089,3300816228,3751912585
+
+
+// Cataclysmic - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Outdated today but still does great total damage with Fourth Time's the Charm, with the benefit of having an easier to execute 100% crit ratio than Retrofit, with less total damage. tags:god-pve,pve
+dimwishlist:item=999767358&perks=1840239774,2680121939,1354429876,3078487919
+
+
+// One Small Step - Reload Masterwork + Quick Access Sling (pve)
+//notes: Best Kinetic One-Two Punch shotgun. Highest reserves, great ammo and reload perks. tags:pve
+dimwishlist:item=1016668089&perks=1300023272,106909392,3300816228,2679249093
+dimwishlist:item=1016668089&perks=1300023272,106909392,1556840489,2679249093
+
+
+// Perses-D - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: When you need a Kinetic slot Scout Rifle, the Perses-D perk pool makes it difficult to use anything else. Let down by the Stasis element. A good Shoot to Loot weapon too. tags:god-pve,pve
+dimwishlist:item=1019000888&perks=1840239774,3230963543,1583705720,4049631843
+dimwishlist:item=1019000888&perks=1840239774,3230963543,1583705720,3038247973
+dimwishlist:item=1019000888&perks=1840239774,3230963543,247725512,4049631843
+dimwishlist:item=1019000888&perks=1840239774,3230963543,247725512,3038247973
+
+
+// New Pacific Epitaph - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Useful if you need a Kinetic Slot wave GL. tags:god-pve,pve
+dimwishlist:item=1125217994&perks=3525010810,2822142346,3523296417,3324494224
+dimwishlist:item=1125217994&perks=3525010810,2822142346,3523296417,3201496230
+dimwishlist:item=1125217994&perks=3525010810,2822142346,1556840489,3324494224
+dimwishlist:item=1125217994&perks=3525010810,2822142346,1556840489,3201496230
+
+
+// IKELOS_SG_v1.0.3 - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Another non-crit option. Cascade has higher DPS but considerably lower Total. Could also use One-Two Punch with Strand Melee builds. tags:god-pve,pve
+dimwishlist:item=1168625549&perks=1300023272,106909392,1631667848,2679249093
+dimwishlist:item=1168625549&perks=1300023272,106909392,1631667848,3708227201
+dimwishlist:item=1168625549&perks=1300023272,106909392,4071163871,2679249093
+dimwishlist:item=1168625549&perks=1300023272,106909392,4071163871,3708227201
+
+
+// Doom of Chelchis (Harrowed) - Volatile (god-pve,pve)
+//notes: Great Volatile workhorse scout, especially with Gyrfalcon. Explosive Rounds and One for All have great synergy. tags:god-pve,pve
+dimwishlist:item=1184692845&perks=1840239774,3230963543,3038247973,4049631843
+
+
+// Dimensional Hypotrochoid - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: If you need more burst add. clear but your Forbearance won't reload fast enough, try this. tags:god-pve,pve
+dimwishlist:item=1311684613&perks=3525010810,2822142346,2869569095,2396489472
+dimwishlist:item=1311684613&perks=3525010810,2822142346,968510818,2396489472
+
+
+// Subjunctive - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Arc SMG for your Arc 3.0 builds. Great alternative to the Surrounded IKELOS SMG with synergising perks.  tags:god-pve,pve
+dimwishlist:item=1447836603&perks=1840239774,3230963543,1583705720,4049631843
+
+
+// Hung Jury SR4 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Decent Kinetic slot alternative to Perses-D, with OFA and the +10% Kinetic boost. tags:god-pve,pve
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3891536761,4049631843
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3891536761,3038247973
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3700496672,4049631843
+dimwishlist:item=1453235079&perks=1840239774,3230963543,3700496672,3038247973
+
+
+// Briar's Contempt - Charge Time Masterwork + Backup Mag (pve)
+//notes: Useful for Lucent Hive or Tormentor fights, so long as you can get Surrounded to activate (Ecthar, Simmummah, Nezarec). Remember to run 2 other Harmonic Resonance weapons for the 10% boost. Decent DPS with Surrounded & Harmonic Resonance. tags:pve
+dimwishlist:item=1491665733&perks=839105230,689005463,3418782618,3708227201
+dimwishlist:item=1491665733&perks=839105230,689005463,1523832109,3708227201
+
+
+// Harsh Language - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Void wave GL. Good weapon but hard to argue for this over Forbearance. tags:god-pve,pve
+dimwishlist:item=1606497639&perks=3525010810,2822142346,968510818,11612903
+dimwishlist:item=1606497639&perks=3525010810,2822142346,968510818,2610012052
+dimwishlist:item=1606497639&perks=3525010810,2822142346,3592538738,11612903
+dimwishlist:item=1606497639&perks=3525010810,2822142346,3592538738,2610012052
+
+
+// Null Composure - Curated + Quick Access Sling (god-pve,pve)
+//notes: Great for Void shielded major heavy content (Master Vog entrance), alright for major heavy content too - as fas as fusions go. Only use if you need Void. tags:god-pve,pve
+dimwishlist:item=1644680957&perks=2779035018,1427256713
+
+
+// Redback-5si - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Sidearms do a lot of damage base, so even without a damage perk, Redback does a lot of work (if you can get past the feeling of using a sidearm). tags:god-pve,pve
+dimwishlist:item=1687353095&perks=839105230,3230963543,1583705720,4049631843
+dimwishlist:item=1687353095&perks=839105230,3230963543,1820235745,4049631843
+
+
+// Crux Termination IV - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Clown Cartridge is a good default DPS pick - it requires no thought. Surrounded is the one of the highest damage traits on a rocket. Also comes with Slideways for some interesting damage potential. World drops are a pain to farm - a good alternative is The Hothead. tags:god-pve,pve
+dimwishlist:item=1719687748&perks=981914802,3796465595,3161816588,3708227201
+dimwishlist:item=1719687748&perks=981914802,3796465595,3161816588,3194351027
+dimwishlist:item=1719687748&perks=981914802,3796465595,2284787283,3708227201
+dimwishlist:item=1719687748&perks=981914802,3796465595,2284787283,3194351027
+
+
+// Apex Predator - Handling Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Excellent as a swapping weapon with Reconstruction; two in the mag to start damage with Izanagi -> Radiant Dance Machines is a lot of DPM. Mastering Slideways resetsis great fun, whether using multiple slideways weapons or Izanagi; although not meta. tags:god-pve,pve
+dimwishlist:item=1851777734&perks=3525010810,3796465595,1523832109,3078487919
+dimwishlist:item=1851777734&perks=3525010810,3796465595,2039302152,3078487919
+
+
+// The Militia's Birthright - Handling Masterwork + Quick Access Sling (pve)
+//notes: Excellent blinding Grenade Launcher. Great for Divinity + 2x Izanagi GM speedruns. Fun to use with Slidways weapons (Apex Predator). tags:pve
+dimwishlist:item=1854753405&perks=3525010810,3032599245,2039302152,4104185692
+dimwishlist:item=1854753405&perks=3525010810,3032599245,2039302152,3300816228
+
+
+// Taipan-4fr - Charge Time Masterwork + Backup Mag (god-pve,pve)
+//notes: Cataclysmic Lite™. Probably the most accessible crafted weapon. Precision Linears are good for total damage, but are currently lagging behind Retrofit Escapade. tags:god-pve,pve
+dimwishlist:item=1911060537&perks=1840239774,1483536627,3400784728,2896038713
+dimwishlist:item=1911060537&perks=1840239774,1483536627,3400784728,1771339417
+
+
+// Doom of Chelchis - Volatile (god-pve,pve)
+//notes: Great Volatile workhorse scout, especially with Gyrfalcon. Explosive Rounds and One for All have great synergy. tags:god-pve,pve
+dimwishlist:item=1937552980&perks=1840239774,3230963543,3038247973,4049631843
+
+
+// Submission (Adept) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Nice feeling Kinetic SMG. Enh. sub isn't as good on SMGs, but the extra damage from Kinetic type weapons allows this Frenzy SMG to compete with Prolonged Engagement. tags:god-pve,pve
+dimwishlist:item=1941816543&perks=1840239774,3230963543,1820235745,4104185692
+
+
+// Ammit AR2 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Solar Auto Rifle for Champion stuns and Solar shields. The only letdown is the weapon type. Stats for All + One for All is a great perk combo in high level content, just remember to quickly tag 3 enemies. Armor-Piercing Rounds enables 1x overpenetration, which helps with activating perks. tags:god-pve,pve
+dimwishlist:item=2119346509&perks=839105230,1968497646,1583705720,4049631843
+
+
+// IKELOS_SMG_v1.0.3 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Arc SMG for your Arc 3.0 builds. Threat Detector + Surrounded are great if you can live - excellent for farming spawn doors. tags:god-pve,pve
+dimwishlist:item=2149683300&perks=1840239774,3230963543,4071163871,3708227201
+
+
+// Fixed Odds - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Solar MG - useful for Ember of Empyrean keeping Radiant (Anti-barrier) and Restoration up. tags:god-pve,pve
+dimwishlist:item=2194955522&perks=839105230,2420895100,2869569095,4293542123
+dimwishlist:item=2194955522&perks=839105230,2420895100,2869569095,557221067
+
+
+// Tarnished Mettle - Reload Masterwork + Backup Mag (pve)
+//notes: Useful for grabbing ammo with Shoot to Loot while using an energy slot primary. Only craftable Shoot to Loot + Explosive Rounds scout. tags:pve
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3523296417,2173046394
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3523296417,3038247973
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3700496672,2173046394
+dimwishlist:item=2218569744&perks=1840239774,3230963543,3700496672,3038247973
+
+
+// Edge Transit - Velocity Masterwork + Backup Mag (god-pve,pve)
+//notes: This is the follow-up to Cataphract we've been expecting. Best GL available. Exceptional DPS. tags:god-pve,pve
+dimwishlist:item=2228325504&perks=981914802,332133599,968510818,3078487919
+dimwishlist:item=2228325504&perks=981914802,332133599,3751912585,3078487919
+
+
+// Fugue-55 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Good as a Bait and Switch proccing special to min-max damage rotations due to the instant activation of Firing Line. Pretty niche. tags:god-pve,pve
+dimwishlist:item=2233545123&perks=839105230,1087426260,1354429876,1771339417
+dimwishlist:item=2233545123&perks=839105230,1087426260,1354429876,1546637391
+dimwishlist:item=2233545123&perks=839105230,1087426260,3300816228,1771339417
+dimwishlist:item=2233545123&perks=839105230,1087426260,3300816228,1546637391
+
+
+// IKELOS_SR_v1.0.3 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Decent for ammo economy and solo content due to the ease of Focused Furys' use & uptime. Good as a pair with Apex Predator for Solar Surge also, although Distant Tumulus (or a Solar Slug) would be better. tags:god-pve,pve
+dimwishlist:item=2302346155&perks=839105230,1140096971,1354429876,2896038713
+
+
+// Wilderflight - Handling Masterwork + Quick Access Sling (pve)
+//notes: Best pick for an energy GL paired with Izanagi for damage. Good a activating Bait and Switch, although fairly niche. tags:pve
+dimwishlist:item=2306182339&perks=3525010810,3301904089,3300816228,1546637391
+dimwishlist:item=2306182339&perks=3525010810,3301904089,3300816228,4104185692
+
+
+// Hollow Denial - Reload Masterwork + Backup Mag (pve)
+//notes: Great pick for double special Void 3.0 builds. Killing Tally isn't a great perk, especially if you swap weapons often, but it's the best Hollow Denial gets. tags:pve
+dimwishlist:item=2323544076&perks=1840239774,2749775325,1556840489,776531651
+dimwishlist:item=2323544076&perks=1840239774,2749775325,1556840489,557221067
+
+
+// Prolonged Engagement - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Decent SMG. Regular Subsistence reloads 17% mag, so not much is lost compared to a craftable alternative. One for All's huge damage bonus allows this to barely compete with Kinetic SMGs. Armor-Piercing over-penetration helps with One for All activation. tags:god-pve,pve
+dimwishlist:item=2349907931&perks=1840239774,1968497646,1820235745,4049631843
+
+
+// Forbearance - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: One of the best add. clear specials in the game. Ambitious Assassin on a wave frame Grenade Launcher is great, and Chain Reaction clears rooms. tags:god-pve,pve
+dimwishlist:item=2480074702&perks=3525010810,2822142346,3108830275,2396489472
+dimwishlist:item=2480074702&perks=3525010810,2822142346,2010801679,2396489472
+
+
+// CALUS Mini-Tool - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Solar SMG for your Solar 3.0 builds. Great for extending Restoration and Radiant. Threat Detector + Surrounded are great if you can live - excellent for farming spawn doors. Incandescent kills spread scorch, killing scorched targets creates a Sunspot on Titan. tags:god-pve,pve
+dimwishlist:item=2490988246&perks=1840239774,3230963543,3108830275,3708227201
+dimwishlist:item=2490988246&perks=1840239774,3230963543,3108830275,4293542123
+dimwishlist:item=2490988246&perks=1840239774,3230963543,4071163871,3708227201
+dimwishlist:item=2490988246&perks=1840239774,3230963543,4071163871,4293542123
+
+
+// Scatter Signal - Charge Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Kinetic slot rapid fire fusion. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.). tags:god-pve,pve
+dimwishlist:item=2558925366&perks=839105230,689005463,3643424744,2594592626
+
+
+// Fioritura-59 - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: An interesting weapon. Sidearms do a lot of damage base, so even without a damage perk, Fioritura does a lot of work (if you can get past the feeling of using a sidearm). tags:god-pve,pve
+dimwishlist:item=2566006935&perks=202670084,1561002382,4071163871,776531651
+dimwishlist:item=2566006935&perks=202670084,1561002382,4071163871,2610012052
+dimwishlist:item=2566006935&perks=202670084,1561002382,691659142,776531651
+dimwishlist:item=2566006935&perks=202670084,1561002382,691659142,2610012052
+
+
+// Irukandji - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Excellent sustain and DPS for a special weapon. Could only be better as a Kinetic. tags:god-pve,pve
+dimwishlist:item=2673925403&perks=839105230,3230963543,1354429876,1771339417
+dimwishlist:item=2673925403&perks=839105230,3230963543,1354429876,2896038713
+
+
+// Riptide - Charge Time Masterwork + Quick Access Sling (pve)
+//notes: Excellent Champion counter weapon. Slow will instantly stun an Overload, Freeze will prevent a Barrier from shielding, Shatter will stun an Unstoppable. tags:pve
+dimwishlist:item=2715240478&perks=1840239774,689005463,3300816228,2978966579
+dimwishlist:item=2715240478&perks=1840239774,689005463,1556840489,2978966579
+
+
+// Cataphract GL3 - Velocity Masterwork + Backup Mag (god-pve,pve)
+//notes: A great grenade launcher, however expect the trend of a trials release to be followed up with a better or craftable version to continue. Exceptional DPS. tags:god-pve,pve
+dimwishlist:item=2738601016&perks=981914802,3301904089,3300816228,3751912585
+dimwishlist:item=2738601016&perks=981914802,3301904089,3300816228,3078487919
+dimwishlist:item=2738601016&perks=981914802,3301904089,968510818,3751912585
+dimwishlist:item=2738601016&perks=981914802,3301904089,968510818,3078487919
+
+
+// Distant Tumulus - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Excellent DPS for a legendary special. Lacking in total damage. tags:god-pve,pve
+dimwishlist:item=2807687156&perks=839105230,3230963543,2284787283,1771339417
+
+
+// Path of Least Resistance - Reload Masterwork + Backup Mag (pve)
+//notes: Useful if you need to swap to a special weapon mid fight, and also need Shoot to Loot. tags:pve
+dimwishlist:item=2827764482&perks=1840239774,2749775325,1820235745,4049631843
+dimwishlist:item=2827764482&perks=1840239774,2749775325,3700496672,4049631843
+
+
+// Until Its Return - Handling Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Another non-crit option. Cascade has higher DPS but considerably lower Total. tags:god-pve,pve
+dimwishlist:item=2883484461&perks=1300023272,106909392,3300816228,3708227201
+dimwishlist:item=2883484461&perks=1300023272,106909392,3300816228,3751912585
+dimwishlist:item=2883484461&perks=1300023272,106909392,4071163871,3708227201
+dimwishlist:item=2883484461&perks=1300023272,106909392,4071163871,3751912585
+
+
+// The Supremacy - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Excellent DPS but no ammo generating perk means low total damage.  tags:god-pve,pve
+dimwishlist:item=2884596447&perks=839105230,1968497646,3418782618,3891536761
+
+
+// Cataclysmic (Adept) - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Outdated today but still does great total damage with Fourth Time's the Charm, with the benefit of having an easier to execute 100% crit ratio than Retrofit, with less total damage. tags:god-pve,pve
+dimwishlist:item=2886339027&perks=1840239774,2680121939,1354429876,3078487919
+
+
+// Briar's Contempt (Adept) - Charge Time Masterwork + Backup Mag (pve)
+//notes: Useful for Lucent Hive or Tormentor fights, so long as you can get Surrounded to activate (Ecthar, Simmummah, Nezarec). Remember to run 2 other Harmonic Resonance weapons for the 10% boost. Decent DPS with Surrounded & Harmonic Resonance. tags:pve
+dimwishlist:item=2890082420&perks=839105230,689005463,3418782618,3708227201
+dimwishlist:item=2890082420&perks=839105230,689005463,1523832109,3708227201
+
+
+// Deliverance (Adept) - Charge Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Surrounded is a very high damage modifier. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.). tags:god-pve,pve
+dimwishlist:item=2943293195&perks=839105230,689005463,1799762209,3708227201
+
+
+// Koraxis's Distress - Velocity Masterwork + Backup Mag (pve)
+//notes: Useful for Lucent Hive or Tormentor fights, so long as you can get Surrounded to activate (Ecthar, Simmummah, Nezarec). Remember to run 2 other Harmonic Resonance weapons for the 10% boost. Decent DPS with Surrounded & Harmonic Resonance. tags:pve
+dimwishlist:item=2972949637&perks=981914802,332133599,968510818,3708227201
+dimwishlist:item=2972949637&perks=981914802,332133599,1523832109,3708227201
+
+
+// Succession - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Great for deleting that one Major target that spawns every so often (e.g. Acquisition encounter); essentially a legendary rarity Izanagi for this purpose. tags:god-pve,pve
+dimwishlist:item=2990047042&perks=1840239774,2420895100,1523832109,469285294
+dimwishlist:item=2990047042&perks=1840239774,2420895100,1556840489,469285294
+
+
+// Unforgiven - Reload Masterwork + Backup Mag (pve,god-pve)
+//notes: Good workhorse Void SMG - unfortunately Demolitionist doesn't grant energy when Volatile kills your target. Good if you don't have The Title, although slow to reload with a small mag. tags:pve,god-pve
+dimwishlist:item=3000847393&perks=1840239774,3230963543,3523296417,11612903
+dimwishlist:item=3000847393&perks=1840239774,3230963543,3523296417,2610012052
+
+
+// Retrofit Escapade - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Not the best DPS by any means, but servicable as an incredibly high total-damage weapon, with the added benefit of being able to clear adds too. tags:god-pve,pve
+dimwishlist:item=3103325054&perks=839105230,2420895100,1354429876,4049631843
+dimwishlist:item=3103325054&perks=839105230,2420895100,1354429876,365154968
+
+
+// Vision of Confluence - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Solar Scout Rifle with an uncommon left column trait - good for keeping long cooldown Solar abilities up in activities where you can't benefit from Ember of Benevolence. tags:god-pve,pve
+dimwishlist:item=3186018373&perks=1840239774,1561002382,3592538738,4104185692
+
+
+// The Other Half - Impact Masterwork + Backup Mag (pve)
+//notes: Needs no introduction. Used for movement and falling into holes in The Abyss in Crota's End. tags:pve
+dimwishlist:item=3257091167&perks=436053704,3625355092,2077819806,3708227201
+dimwishlist:item=3257091167&perks=436053704,3625355092,2077819806,4104185692
+
+
+// A Fine Memorial - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: In my opinion this is the best arc MG in the game for add. clear. Subsistence + One for All gives Machine Guns great damage and mag uptime. tags:god-pve,pve
+dimwishlist:item=3325778512&perks=839105230,1087426260,2869569095,4049631843
+dimwishlist:item=3325778512&perks=839105230,1087426260,1820235745,4049631843
+
+
+// The Eremite - Charge Time Masterwork + Backup Mag (god-pve,pve)
+//notes: Great pick for non-crit damage. Can load all of the reserves into the mag; which would also be alright for add. clear with Reservior Burst (If fusions were ever necessary for add. clear). tags:god-pve,pve
+dimwishlist:item=3347946548&perks=839105230,689005463,968510818,2594592626
+dimwishlist:item=3347946548&perks=839105230,689005463,968510818,1427256713
+
+
+// Bequest - Impact Masterwork + Backup Mag (god-pve,pve)
+//notes: Best legendary sword in the game outside of air animation reset shenanigans. tags:god-pve,pve
+dimwishlist:item=3366545721&perks=3666208348,269888150,1749209109,3708227201
+
+
+// Indebted Kindness - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Great choice for swapping to a double special loadout while keeping add. clear. Good ammo econ & damage output. tags:god-pve,pve
+dimwishlist:item=3381450498&perks=3525010810,1380253176,1556840489,2173046394
+dimwishlist:item=3381450498&perks=3525010810,1380253176,1556840489,3993379141
+
+
+// Eternal Blazon - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Workhorse Arc Scout Rifle, although unfortunately downright impossible to obtain without going insane. If you have it, great, if not, just craft a Tarnished Mettle. Armor-piercing Rounds helps to proc One for All. tags:god-pve,pve
+dimwishlist:item=3514096004&perks=1968497646,247725512,4049631843
+
+
+// Techeun Force - Charge Time Masterwork + Backup Mag (god-pve,pve)
+//notes: Great pick for non-crit damage (Wyverns, Primarily shielded majors, etc.). Rewind Rounds on a fusion allows this to be fired almost indefinitely without reloading. tags:god-pve,pve
+dimwishlist:item=3591141932&perks=839105230,689005463,1523832109,2594592626
+dimwishlist:item=3591141932&perks=839105230,689005463,3418782618,2594592626
+
+
+// Succession - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Great for deleting that one Major target that spawns every so often (e.g. Acquisition encounter); essentially a legendary rarity Izanagi for this purpose. tags:god-pve,pve
+dimwishlist:item=3612338554&perks=1840239774,2420895100,1556840489,469285294
+dimwishlist:item=3612338554&perks=1840239774,2420895100,1523832109,469285294
+
+
+// Corrective Measure (Timelost) - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: The best add. clear weapon in the game, hands down. On a Gyrfalcon's hunter you can solo clear Master Raid encounter rooms full of adds, while your team does whatever they want. tags:god-pve,pve
+dimwishlist:item=3796510434&perks=839105230,106909392,1820235745,4049631843
+dimwishlist:item=3796510434&perks=839105230,106909392,1820235745,11612903
+dimwishlist:item=3796510434&perks=839105230,106909392,3523296417,4049631843
+dimwishlist:item=3796510434&perks=839105230,106909392,3523296417,11612903
+
+
+// Submission - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: Nice feeling Kinetic SMG. Enh. sub isn't as good on SMGs, but the extra damage from Kinetic type weapons allows this Frenzy SMG to compete with Prolonged Engagement. tags:god-pve,pve
+dimwishlist:item=3886416794&perks=1840239774,3230963543,1820235745,4104185692
+
+
+// Midha's Reckoning (Harrowed) - Charge Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Surrounded is a very high damage modifier. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.). tags:god-pve,pve
+dimwishlist:item=3904516037&perks=839105230,689005463,1799762209,3708227201
+
+
+// The Call - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Great choice for swapping to a double special loadout while keeping add. clear. Good ammo econ & damage output. tags:god-pve,pve
+dimwishlist:item=3947966653&perks=3525010810,106909392,1820235745,4049631843
+dimwishlist:item=3947966653&perks=3525010810,106909392,1556840489,4049631843
+
+
+// Midha's Reckoning - Charge Time Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Surrounded is a very high damage modifier. Fusions are great on targets that are difficult or impossible to crit (Wyverns, Primarily shielded majors, etc.). tags:god-pve,pve
+dimwishlist:item=3969066556&perks=839105230,689005463,1799762209,3708227201
+
+
+// Forbearance (Adept) - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: One of the best add. clear specials in the game. Ambitious Assassin on a wave frame Grenade Launcher is great, and Chain Reaction clears rooms. tags:god-pve,pve
+dimwishlist:item=4038592169&perks=3525010810,2822142346,2010801679,2396489472
+dimwishlist:item=4038592169&perks=3525010810,2822142346,3108830275,2396489472
+
+
+// The Mountaintop - Handling Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Very useful mobility tool, and great no crit major clear.  tags:god-pve,pve
+dimwishlist:item=4043921923&perks=981914802,3492396210,3300816228,469285294
+
+
+// Explosive Personality - Reload Masterwork + Quick Access Sling (god-pve,pve)
+//notes: Solar wave GL. Good weapon but hard to argue for this over Forbearance (outside of something like solo Nezerac for your solar buffs). tags:god-pve,pve
+dimwishlist:item=4096943616&perks=3525010810,2822142346,1583705720,4049631843
+dimwishlist:item=4096943616&perks=3525010810,2822142346,1583705720,4104185692
+dimwishlist:item=4096943616&perks=3525010810,2822142346,3300816228,4049631843
+dimwishlist:item=4096943616&perks=3525010810,2822142346,3300816228,4104185692
+
+
+// The Militia's Birthright (Adept) - Handling Masterwork + Quick Access Sling (pve)
+//notes: Excellent blinding Grenade Launcher. Great for Divinity + 2x Izanagi GM speedruns. Fun to use with Slidways weapons (Apex Predator). tags:pve
+dimwishlist:item=4162642204&perks=3525010810,3032599245,2039302152,3300816228
+dimwishlist:item=4162642204&perks=3525010810,3032599245,2039302152,4104185692
+
+
+// Avalanche - Reload Masterwork + Backup Mag (god-pve,pve)
+//notes: In my opinion this is the best solar MG in the game for add. clear. Subsistence + One for All gives Machine Guns great damage and mag uptime. Great for extending Solar buffs with Empyrean. tags:god-pve,pve
+dimwishlist:item=4220529694&perks=839105230,106909392,1820235745,4049631843
+
+
+// Heritage - Handling Masterwork + Backup Mag (god-pve,pve)
+//notes: Made for double-slug damage. Also great for killing the occasional healthy target with recombination. tags:god-pve,pve
+dimwishlist:item=4248569242&perks=1840239774,791862061,1523832109,469285294
+
+
+// Empty Vessel - Handling Masterwork + Quick Access Sling (pve)
+//notes: Energy slot blinding Grenade Launcher. tags:pve
+dimwishlist:item=4255586669&perks=3525010810,3032599245,3300816228,960810156
+dimwishlist:item=4255586669&perks=3525010810,3032599245,3300816228,4049631843
+dimwishlist:item=4255586669&perks=3525010810,3032599245,1556840489,960810156
+dimwishlist:item=4255586669&perks=3525010810,3032599245,1556840489,4049631843
+
+
